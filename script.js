@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // CẤU HÌNH HỆ THỐNG
     // ==========================================
     const CONFIG = {
-        thoiGianLamBaiPhut: 15, 
-        soLuongCauHoi: 15,
+        thoiGianLamBaiPhut: 20, 
+        soLuongCauHoi: 20,
         danhSachFileJson: [
             './boCauHoi json/CTCC.B1.ChayHoaChat.json',
             './boCauHoi json/KTCN.III.SCC.json',
@@ -26,14 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
         cauKhichLe: [
-            "Cố lên, Đồng chí đang làm rất tốt! 💪",
+            "Cố lên, bạn đang làm rất tốt! 💪",
             "Sắp hoàn thành rồi, kiên trì nhé! ✨",
             "Tuyệt vời! Tiếp tục phát huy nào! 🚀",
             "Bình tĩnh và tự tin nhé! 🍀",
             "Mọi nỗ lực sẽ được đền đáp! 🌟",
-            "Đồng chí đang đi đúng hướng rồi đấy! 🎯",
-            "Tập trung cao độ nào! 🔥",
-            "Đồng chí thông minh hơn Đồng chí nghĩ đấy! 🧠"
+            "Đừng bỏ cuộc, thành công đang đợi! 🏆"
         ]
     };
 
@@ -42,8 +40,21 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentQuestions = []; 
     let timerInterval;
 
+    // KHÔI PHỤC DÒNG THÔNG BÁO CỦA BẠN
     const noteSpan = document.querySelector('.btn-note');
-    if (noteSpan) noteSpan.textContent = `(Bộ đề gồm ${CONFIG.soLuongCauHoi} câu hỏi. Đồng chí có ${CONFIG.thoiGianLamBaiPhut} phút để làm bài. Hết thười gian hệ thống sẽ tự động nộp bài.)`;
+    if (noteSpan) {
+        noteSpan.textContent = `(Bộ đề gồm ${CONFIG.soLuongCauHoi} câu hỏi. Đồng chí có ${CONFIG.thoiGianLamBaiPhut} phút để làm bài. Hết thời gian hệ thống sẽ tự động nộp bài.)`;
+    }
+
+    // Khởi tạo vùng hiển thị thống kê và khích lệ
+    const statsDiv = document.createElement('div');
+    statsDiv.id = 'live-stats';
+    statsDiv.style.cssText = "margin-top:10px; padding:10px; background:rgba(255,255,255,0.2); border-radius:5px; font-size:0.85em; border-top: 1px solid rgba(255,255,255,0.3);";
+    statsDiv.innerHTML = `
+        <div id="stat-progress">Đã trả lời: 0/${CONFIG.soLuongCauHoi}</div>
+        <div id="encouragement-msg" style="margin-top:5px; font-style:italic; color:#fff; font-weight: normal;">Chúc đồng chí thi tốt!</div>
+    `;
+    timerContainer.appendChild(statsDiv);
 
     async function loadAllData() {
         try {
@@ -62,22 +73,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return array;
     }
 
-    const statsDiv = document.createElement('div');
-    statsDiv.id = 'live-stats';
-    statsDiv.style.cssText = "margin-top:10px; padding:10px; background:rgba(255,255,255,0.2); border-radius:5px; font-size:0.85em;";
-    statsDiv.innerHTML = `
-        <div id="stat-progress">Đã trả lời: 0/${CONFIG.soLuongCauHoi}</div>
-        <div id="encouragement-msg" style="margin-top:5px; font-style:italic; color:#fff; font-weight:normal;">Chúc Đồng chí thi tốt!</div>
-    `;
-    timerContainer.appendChild(statsDiv);
-
     function updateLiveStats() {
         const answered = document.querySelectorAll('input[type="radio"]:checked').length;
         document.getElementById('stat-progress').textContent = `Đã trả lời: ${answered}/${currentQuestions.length}`;
         
-        const msgDiv = document.getElementById('encouragement-msg');
+        // Hiển thị câu khích lệ ngẫu nhiên
+        const msgElement = document.getElementById('encouragement-msg');
         const randomMsg = CONFIG.cauKhichLe[Math.floor(Math.random() * CONFIG.cauKhichLe.length)];
-        msgDiv.textContent = randomMsg;
+        msgElement.textContent = randomMsg;
     }
 
     function generateQuestions() {
@@ -88,16 +91,17 @@ document.addEventListener('DOMContentLoaded', function() {
             const qDiv = document.createElement('div');
             qDiv.className = 'question';
             qDiv.id = `q-block-${q.ID}`;
-            qDiv.style.cssText = "margin-bottom:25px; padding:15px; background:#f9f9f9; border-radius:8px; border: 1px solid #ddd;";
+            // TRẠNG THÁI LÚC LÀM BÀI: Màu bình thường
+            qDiv.style.cssText = "margin-bottom:25px; padding:15px; background:#f9f9f9; border-radius:8px; border: 1px solid #ddd; transition: all 0.3s ease;";
             qDiv.innerHTML = `
-                <p style="font-weight: bold; font-size: 1.1em;">Câu ${index + 1}: ${q.cauHoi}</p>
+                <p style="font-weight: bold;">Câu ${index + 1}: ${q.cauHoi}</p>
                 <ul class="choices" id="choices-${q.ID}" style="list-style: none; padding: 0;">
                     ${q.luaChon.map((choice, i) => `
                         <li id="li-${q.ID}-${i + 1}" 
                             onclick="handleSelect('${q.ID}', ${i + 1})"
-                            style="padding:12px; margin:8px 0; border:1px solid #ccc; border-radius:6px; cursor:pointer; background:#fff; transition: background 0.2s;">
-                            <label style="display:flex; align-items:center; cursor:pointer; width:100%; margin:0;">
-                                <input type="radio" name="radio-${q.ID}" value="${i + 1}" style="margin-right:12px; transform: scale(1.2);" onclick="event.stopPropagation(); handleSelect('${q.ID}', ${i + 1});">
+                            style="padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px; cursor:pointer; background:#fff;">
+                            <label style="display:flex; align-items:center; cursor:pointer; width:100%;">
+                                <input type="radio" name="radio-${q.ID}" value="${i + 1}" style="margin-right:10px;" onclick="event.stopPropagation(); handleSelect('${q.ID}', ${i + 1});">
                                 <span>${choice}</span>
                             </label>
                         </li>
@@ -112,27 +116,25 @@ document.addEventListener('DOMContentLoaded', function() {
     window.handleSelect = function(questionID, choiceIndex) {
         const choicesUl = document.getElementById(`choices-${questionID}`);
         if (choicesUl.classList.contains('finalized')) return;
-
         const radio = document.querySelector(`input[name="radio-${questionID}"][value="${choiceIndex}"]`);
         if (radio) radio.checked = true;
-
-        choicesUl.querySelectorAll('li').forEach(li => {
-            li.style.background = "#fff";
-            li.style.borderColor = "#ccc";
-        });
-
+        choicesUl.querySelectorAll('li').forEach(li => li.style.background = "#fff");
         const selectedLi = document.getElementById(`li-${questionID}-${choiceIndex}`);
         selectedLi.style.background = "#e3f2fd";
-        selectedLi.style.borderColor = "#2196f3";
-
         updateLiveStats();
     };
 
     startBtn.addEventListener('click', function() {
         const name = document.getElementById('name').value.trim();
         const phone = document.getElementById('phone').value.trim();
+        const position = document.getElementById('position').value.trim();
         const donvi = document.getElementById('donvi').value;
-        if (!name || !phone || !donvi) { alert("Vui lòng nhập đủ thông tin!"); return; }
+
+        if (!name || !phone || !donvi || !position) { 
+            alert("Vui lòng nhập đầy đủ thông tin!"); 
+            return; 
+        }
+        
         nhapThongtinDiv.style.display = 'none';
         boDeRandomDiv.style.display = 'block';
         timerContainer.style.display = 'block';
@@ -151,11 +153,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitBtn.addEventListener('click', function() {
         const answeredCount = document.querySelectorAll('input[type="radio"]:checked').length;
-        confirmationText.innerHTML = `Đồng chí đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Đồng chí có chắc chắn muốn nộp bài?`;
+        confirmationText.innerHTML = `Đồng chí đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Bạn có chắc chắn muốn nộp bài?`;
         confirmationMessageDiv.style.display = 'block';
         boDeRandomDiv.style.display = 'none';
-        // Đảm bảo nút làm bài tiếp luôn hiển thị khi mở hộp thoại xác nhận thủ công
         resumeBtn.style.display = 'inline-block';
+        confirmSubmitBtn.disabled = false;
+        confirmSubmitBtn.textContent = "Xác nhận nộp bài";
     });
 
     resumeBtn.addEventListener('click', () => { 
@@ -163,75 +166,59 @@ document.addEventListener('DOMContentLoaded', function() {
         boDeRandomDiv.style.display = 'block'; 
     });
 
-    confirmSubmitBtn.addEventListener('click', () => submitQuiz());
-
-    function applyFinalColors() {
-        let correctCount = 0;
-        let detailsArray = [];
-        let answeredCount = 0;
-
-        currentQuestions.forEach(q => {
-            const selected = document.querySelector(`input[name="radio-${q.ID}"]:checked`);
-            const val = selected ? parseInt(selected.value) : 0;
-            const choicesUl = document.getElementById(`choices-${q.ID}`);
-            const qBlock = document.getElementById(`q-block-${q.ID}`);
-            
-            choicesUl.classList.add('finalized');
-            choicesUl.style.pointerEvents = 'none';
-
-            choicesUl.querySelectorAll('li').forEach(li => li.style.background = "#fff");
-
-            if (val === 0) {
-                qBlock.style.background = "#fff9c4"; 
-            } else {
-                answeredCount++;
-                const selectedLi = document.getElementById(`li-${q.ID}-${val}`);
-                const correctLi = document.getElementById(`li-${q.ID}-${q.dapan}`);
-
-                if (val === q.dapan) {
-                    correctCount++;
-                    selectedLi.style.background = "#c8e6c9";
-                    selectedLi.style.borderColor = "#2e7d32";
-                } else {
-                    selectedLi.style.background = "#ffcdd2";
-                    selectedLi.style.borderColor = "#c62828";
-                    
-                    if (correctLi) {
-                        correctLi.style.background = "#c8e6c9";
-                        correctLi.style.borderColor = "#2e7d32";
-                        correctLi.style.fontWeight = "bold";
-                    }
-                }
-            }
-            detailsArray.push(q.ID, val, q.dapan);
-        });
-
-        return { correctCount, answeredCount, detailsArray };
-    }
-
     async function submitQuiz(isAuto = false) {
         clearInterval(timerInterval);
         confirmationMessageDiv.style.display = 'block';
         boDeRandomDiv.style.display = 'none';
         
-        // VÔ HIỆU HÓA CÁC NÚT ĐIỀU KHIỂN KHI ĐANG NỘP
         confirmSubmitBtn.disabled = true;
-        resumeBtn.style.display = 'none'; // Ẩn nút "Làm bài tiếp"
+        confirmSubmitBtn.textContent = "Đang gửi...";
+        resumeBtn.style.display = 'none'; 
         
         confirmationText.innerHTML = isAuto ? "HẾT GIỜ! Hệ thống đang nộp bài..." : "Đang xử lý nộp bài...";
 
-        const resultsData = applyFinalColors();
+        let correctCount = 0;
+        let detailsArray = [];
+        currentQuestions.forEach(q => {
+            const selected = document.querySelector(`input[name="radio-${q.ID}"]:checked`);
+            const val = selected ? parseInt(selected.value) : 0;
+            if (val === q.dapan) correctCount++;
+            detailsArray.push(q.ID, val, q.dapan);
+            
+            const choicesUl = document.getElementById(`choices-${q.ID}`);
+            choicesUl.classList.add('finalized');
+            const correctLi = document.getElementById(`li-${q.ID}-${q.dapan}`);
+            const qBlock = document.getElementById(`q-block-${q.ID}`);
+            
+            // TRẠNG THÁI SAU KHI NỘP BÀI:
+            if (val === 0) {
+                // NẾU CHƯA TRẢ LỜI: Hiện màu vàng cảnh báo
+                qBlock.style.background = "#fff9c4";
+                qBlock.style.borderColor = "#fbc02d";
+            } else {
+                qBlock.style.background = "#f9f9f9"; 
+                qBlock.style.borderColor = "#ddd";
+            }
+
+            if (correctLi) correctLi.style.background = "#c8e6c9";
+            if (val !== 0 && val !== q.dapan) {
+                const wrongLi = document.getElementById(`li-${q.ID}-${val}`);
+                if (wrongLi) wrongLi.style.background = "#ffcdd2";
+            }
+        });
+
         const total = currentQuestions.length;
-        const grade = ((resultsData.correctCount / total) * 10).toFixed(2);
+        const grade = ((correctCount / total) * 10).toFixed(2);
 
         const data = {
             name: document.getElementById('name').value,
             phone: "'" + document.getElementById('phone').value,
+            position: document.getElementById('position').value,
             donvi: document.getElementById('donvi').value,
-            correct_answers: resultsData.correctCount,
-            score: `${resultsData.correctCount}/${total}`,
+            correct_answers: correctCount,
+            score: `${correctCount}/${total}`,
             grade: grade,
-            details_array: JSON.stringify(resultsData.detailsArray)
+            details_array: JSON.stringify(detailsArray)
         };
 
         try {
@@ -247,13 +234,13 @@ document.addEventListener('DOMContentLoaded', function() {
             timerContainer.style.display = 'none';
 
             thankYouMessageDiv.innerHTML = `
-                <div style="background: #fff; padding: 25px; border-radius: 12px; margin-top: 30px; border: 4px solid #2e7d32; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                <div style="background: #fff; padding: 25px; border-radius: 12px; margin-top: 30px; border: 4px solid #2e7d32; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
                     <h2 style="color: #2e7d32; text-align: center; margin-top:0;">KẾT QUẢ BÀI LÀM</h2>
                     <p><strong>Thí sinh:</strong> ${data.name}</p>
-                    <p><strong>SĐT:</strong> ${document.getElementById('phone').value}</p>
+                    <p><strong>Chức vụ:</strong> ${data.position}</p>
                     <p><strong>Đơn vị:</strong> ${data.donvi}</p>
                     <hr>
-                    <p><strong>Số câu đúng:</strong> <span style="color: green; font-weight: bold; font-size: 1.2em;">${resultsData.correctCount}</span> / ${total}</p>
+                    <p><strong>Số câu đúng:</strong> <span style="color: green; font-weight: bold; font-size: 1.2em;">${correctCount}</span> / ${total}</p>
                     <p><strong>Điểm số:</strong> <span style="font-size: 2.5em; color: #d32f2f; font-weight: bold;">${grade}</span></p>
                     <div style="text-align: center; margin-top: 20px;">
                         <button onclick="location.reload()" style="padding: 12px 30px; cursor: pointer; background: #2e7d32; color: white; border: none; border-radius: 5px; font-weight: bold;">Thoát & Làm bài mới</button>
@@ -261,15 +248,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `;
             thankYouMessageDiv.style.display = 'block';
-            
-            setTimeout(() => {
-                thankYouMessageDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 500);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
 
         } catch (e) { 
             alert("Lỗi kết nối khi nộp bài!"); 
             confirmSubmitBtn.disabled = false;
-            resumeBtn.style.display = 'inline-block'; // Hiện lại nếu lỗi để người dùng xử lý
+            confirmSubmitBtn.textContent = "Thử nộp lại";
+            resumeBtn.style.display = 'inline-block';
         }
     }
+
+    confirmSubmitBtn.addEventListener('click', () => submitQuiz());
 });
