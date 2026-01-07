@@ -16,16 +16,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // CẤU HÌNH HỆ THỐNG
     // ==========================================
     const CONFIG = {
-        thoiGianLamBaiPhut: 10, 
-        soLuongCauHoi: 10,
+        thoiGianLamBaiPhut: 15, 
+        soLuongCauHoi: 15,
         danhSachFileJson: [
-            './boCauHoi json/thongTu372025.json',
-            './boCauHoi json/kyThuatCaNhan.json',
+            './boCauHoi json/CTCC.B1.ChayHoaChat.json',
             './boCauHoi json/KTCN.III.SCC.json',
-            './boCauHoi json/CTCC.B1.ChayHoaChat.json'
+            './boCauHoi json/kyThuatCaNhan.json',
+            './boCauHoi json/thongTu372025.json'
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
-        // Các câu khích lệ ngẫu nhiên
         cauKhichLe: [
             "Cố lên, bạn đang làm rất tốt! 💪",
             "Sắp hoàn thành rồi, kiên trì nhé! ✨",
@@ -44,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let timerInterval;
 
     const noteSpan = document.querySelector('.btn-note');
-    if (noteSpan) noteSpan.textContent = `(Bộ đề gồm ${CONFIG.soLuongCauHoi} câu. Đồng chí có ${CONFIG.thoiGianLamBaiPhut} phút để làm bài. Hết thời gian hệ thống sẽ tự động nộp bài.)`;
+    if (noteSpan) noteSpan.textContent = `(Bạn có ${CONFIG.thoiGianLamBaiPhut} phút để làm bài)`;
 
     async function loadAllData() {
         try {
@@ -63,13 +62,12 @@ document.addEventListener('DOMContentLoaded', function() {
         return array;
     }
 
-    // Tạo khu vực thống kê và khích lệ
     const statsDiv = document.createElement('div');
     statsDiv.id = 'live-stats';
     statsDiv.style.cssText = "margin-top:10px; padding:10px; background:rgba(255,255,255,0.2); border-radius:5px; font-size:0.85em;";
     statsDiv.innerHTML = `
         <div id="stat-progress">Đã trả lời: 0/${CONFIG.soLuongCauHoi}</div>
-        <div id="encouragement-msg" style="margin-top:5px; font-style:italic; color:#fff; font-weight:normal;">Chúc Đồng chí thi tốt!</div>
+        <div id="encouragement-msg" style="margin-top:5px; font-style:italic; color:#fff; font-weight:normal;">Chúc bạn thi tốt!</div>
     `;
     timerContainer.appendChild(statsDiv);
 
@@ -77,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const answered = document.querySelectorAll('input[type="radio"]:checked').length;
         document.getElementById('stat-progress').textContent = `Đã trả lời: ${answered}/${currentQuestions.length}`;
         
-        // Cập nhật câu khích lệ ngẫu nhiên khi có thay đổi
         const msgDiv = document.getElementById('encouragement-msg');
         const randomMsg = CONFIG.cauKhichLe[Math.floor(Math.random() * CONFIG.cauKhichLe.length)];
         msgDiv.textContent = randomMsg;
@@ -124,7 +121,6 @@ document.addEventListener('DOMContentLoaded', function() {
             li.style.borderColor = "#ccc";
         });
 
-        // Màu xanh dương khi ĐANG CHỌN
         const selectedLi = document.getElementById(`li-${questionID}-${choiceIndex}`);
         selectedLi.style.background = "#e3f2fd";
         selectedLi.style.borderColor = "#2196f3";
@@ -155,9 +151,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitBtn.addEventListener('click', function() {
         const answeredCount = document.querySelectorAll('input[type="radio"]:checked').length;
-        confirmationText.innerHTML = `Đồng chí đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Đồng chí có chắc chắn muốn nộp bài?`;
+        confirmationText.innerHTML = `Bạn đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Bạn có chắc chắn muốn nộp bài?`;
         confirmationMessageDiv.style.display = 'block';
         boDeRandomDiv.style.display = 'none';
+        // Đảm bảo nút làm bài tiếp luôn hiển thị khi mở hộp thoại xác nhận thủ công
+        resumeBtn.style.display = 'inline-block';
     });
 
     resumeBtn.addEventListener('click', () => { 
@@ -184,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
             choicesUl.querySelectorAll('li').forEach(li => li.style.background = "#fff");
 
             if (val === 0) {
-                qBlock.style.background = "#fff9c4"; // Chưa làm: nền vàng
+                qBlock.style.background = "#fff9c4"; 
             } else {
                 answeredCount++;
                 const selectedLi = document.getElementById(`li-${q.ID}-${val}`);
@@ -192,15 +190,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 if (val === q.dapan) {
                     correctCount++;
-                    // Nộp bài xong - CHỌN ĐÚNG -> BG XANH LÁ
                     selectedLi.style.background = "#c8e6c9";
                     selectedLi.style.borderColor = "#2e7d32";
                 } else {
-                    // Nộp bài xong - CHỌN SAI -> BG ĐỎ
                     selectedLi.style.background = "#ffcdd2";
                     selectedLi.style.borderColor = "#c62828";
                     
-                    // HIỆN ĐÁP ÁN ĐÚNG THỰC SỰ -> BG XANH LÁ
                     if (correctLi) {
                         correctLi.style.background = "#c8e6c9";
                         correctLi.style.borderColor = "#2e7d32";
@@ -218,8 +213,12 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInterval(timerInterval);
         confirmationMessageDiv.style.display = 'block';
         boDeRandomDiv.style.display = 'none';
-        confirmationText.innerHTML = isAuto ? "HẾT GIỜ! Hệ thống đang nộp bài..." : "Đang xử lý nộp bài...";
+        
+        // VÔ HIỆU HÓA CÁC NÚT ĐIỀU KHIỂN KHI ĐANG NỘP
         confirmSubmitBtn.disabled = true;
+        resumeBtn.style.display = 'none'; // Ẩn nút "Làm bài tiếp"
+        
+        confirmationText.innerHTML = isAuto ? "HẾT GIỜ! Hệ thống đang nộp bài..." : "Đang xử lý nộp bài...";
 
         const resultsData = applyFinalColors();
         const total = currentQuestions.length;
@@ -270,6 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (e) { 
             alert("Lỗi kết nối khi nộp bài!"); 
             confirmSubmitBtn.disabled = false;
+            resumeBtn.style.display = 'inline-block'; // Hiện lại nếu lỗi để người dùng xử lý
         }
     }
 });
