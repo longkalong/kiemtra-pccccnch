@@ -1,0 +1,210 @@
+[
+  {
+    "ID": "KTCNSCC0001",
+    "cauHoi": "Theo từ điển Tiếng Việt, 'Sơ cấp cứu' được hiểu là gì?",
+    "luaChon": [
+      "A. là những việc làm, cứu chữa ở ngay giai đoạn đầu của người sơ cứu với người bị nạn để khỏi nguy kịch đến tính mạng.",
+      "B. là những hỗ trợ và can thiệp ngay lúc ban đầu của người cấp cứu đối với người bị nạn khi gặp phải tai nạn, sự cố trước khi có sự can thiệp của lực lượng y tế chuyên nghiệp.",
+      "C. cứu chữa gấp để khỏi nguy kịch đến tính mạng.",
+      "D. là cấp cứu bước đầu."
+    ],
+    "dapan": 1
+  },
+    {
+    "ID": "KTCNSCC0002",
+    "cauHoi": "Trong công tác PCCC và CNCH, sơ cấp cứu được hiểu là gì?",
+    "luaChon": [
+        "A. là những việc làm, cứu chữa ở ngay giai đoạn đầu của người sơ cứu với người bị nạn để khỏi nguy kịch đến tính mạng.",
+        "B. là những hỗ trợ và can thiệp ngay lúc ban đầu của người cấp cứu đối với người bị nạn khi gặp phải tai nạn, sự cố trước khi có sự can thiệp của lực lượng y tế chuyên nghiệp.",
+        "C. cứu chữa gấp để khỏi nguy kịch đến tính mạng.",
+        "D. là những hỗ trợ và can thiệp ngay lúc ban đầu của chiến sĩ PCCC và CNCH đối với người bị nạn tại hiện trường tai nạn, sự cố trước khi có sự can thiệp của lực lượng y tế chuyên nghiệp."
+    ],
+    "dapan": 4
+    },
+{
+    "ID": "KTCNSCC0003",
+    "cauHoi": "Trong công tác PCCC&CNCH, người bị nạn được hiểu là gì?",
+    "luaChon": [
+      "A. là người gặp tai nạn",
+      "B. là những người bị bất cứ một chấn thương, sự cố bất thường nào đó đe dọa trực tiếp đến tâm lý, sức khỏe và tính mạng, bởi các sự cố cháy, nổ, sụp đổ công trình, tai nạn giao thông, tai nạn lao động…",
+      "C. là người gặp sự cố, rủi ro bất thường xảy ra, gây thiệt hại cho người",
+      "D. là gặp sự cố, rủi ro bất thường xảy ra, gây thiệt hại cho người, người gặp chấn thương bất thường ngoài mong muốn, ngẫu nhiên và bất ngờ không biết trước dẫn đến bị thương hoặc chết người."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "KTCNSCC0004",
+    "cauHoi": "Mục đích của sơ cấp cứu là: ",
+    "luaChon": [
+      "A. duy trì sự sống của người bị nạn",
+      "B. Sơ cấp cứu kịp thời sẽ làm cho các chức năng sống bảo tồn, các chức năng sinh hoạt sẽ được phục hồi.",
+      "C. Bảo đảm tính mạng cho người bị nạn khi gặp phải tai nạn, sự cố. Duy trì sự sống, ngăn ngừa tình trạng xấu đi của người bị nạn trong khi chờ sự can thiệp của chuyên môn y tế. Thúc đẩy quá trình hồi phục cho người bị nạn.",
+      "D. sẽ có cơ hội sống sót nếu sơ cứu kịp thời và đúng cách, hoặc ít ra cũng để lại di chứng ít nhất hoặc nhẹ nhất có thể. Sơ cấp cứu kịp thời sẽ làm cho các chức năng sống bảo tồn, các chức năng sinh hoạt sẽ được phục hồi."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "KTCNSCC0005",
+    "cauHoi": "Nguyên tắc quan trọng nhất trong sơ cấp cứu là gì?",
+    "luaChon": [
+      "A. Thăm khám, gọi, hỏi, kiểm tra tổng thể người bị nạn. Ưu tiên kiểm tra hô hấp, tuần hoàn, nếu cần thì phải tiến hành hô hấp nhân tạo và ép tim ngoài lồng ngực cho người bị nạn.",
+      "B. Đảm bảo an toàn cho người sơ cứu và nạn nhân trước khi tiến hành bất kỳ hành động nào.",
+      "C. Cố gắng nhờ người khác cùng giúp, nhớ nói lại tình trạng người bị nạn trong khi thao tác.",
+      "D. Đảm bảo nhanh chóng, kịp thời, xử trí đúng kỹ thuật trong quá trình sơ cấp cứu người bị nạn."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "KTCNSCC0006",
+    "cauHoi": "Khi ép tim ngoài lồng ngực (CPR), tần số ép tim bao nhiêu lần/phút là phù hợp?",
+    "luaChon": [
+      "A. 60 - 80 lần/phút",
+      "B. 80 - 100 lần/phút",
+      "C. 100 - 120 lần/phút",
+      "D. 120 - 140 lần/phút"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "KTCNSCC0007",
+    "cauHoi": "Khi ép tim ngoài lồng ngực (CPR), ép tim bao nhiêu lần thì thổi ngạt 2 lần?",
+    "luaChon": [
+      "A. 15 lần ép tim thì thổi ngạt 2 lần",
+      "B. 30 lần ép tim thì thổi ngạt 2 lần",
+      "C. 45 lần ép tim thì thổi ngạt 2 lần",
+      "D. 60 lần ép tim thì thổi ngạt 2 lần"
+    ],
+    "dapan": 2
+  },
+    {
+    "ID": "KTCNSCC0008",
+    "cauHoi": "Khi ép tim ngoài lồng ngực (CPR), ép tim sâu bao nhiêu?",
+    "luaChon": [
+      "A. 4 - 5 cm",
+      "B. 5 - 6 cm",
+      "C. 6 - 7 cm",
+      "D. 7 - 8 cm"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "KTCNSCC0009  ",
+    "cauHoi": "Khi ép tim ngoài lồng ngực (CPR), ép tim sâu bao nhiêu?",
+    "luaChon": [
+      "A. Đảm bảo an toàn môi trường xung quanh → Kiểm tra phản ứng → Gọi cấp cứu 115 → Kiểm tra hô hấp → Kiểm tra tuần hoàn → Ép tim ngoài lồng ngực kết hợp hô hấp nhân tạo",
+      "B. Kiểm tra hô hấp → Kiểm tra tuần hoàn → Gọi cấp cứu 115 → Ép tim ngoài lồng ngực → Hô hấp nhân tạo → Đảm bảo an toàn môi trường xung quanh",
+      "C. Gọi cấp cứu 115 → Kiểm tra phản ứng → Kiểm tra hô hấp → Kiểm tra tuần hoàn → Hô hấp nhân tạo → Ép tim ngoài lồng ngực",
+      "D. Kiểm tra phản ứng → Đảm bảo an toàn môi trường xung quanh → Hô hấp nhân tạo → Kiểm tra tuần hoàn → Ép tim ngoài lồng ngực → Gọi cấp cứu 115"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "KTCNSCC0010  ",
+    "cauHoi": "Garo cầm máu là gì?",
+    "luaChon": [
+      "A. Là phương pháp cầm máu bằng cách thắt một dải băng quanh chi ở phía trên vết thương để ngăn chặn dòng máu chảy đến vết thương.",
+      "B. Là phương pháp cầm máu bằng cách dùng băng ép trực tiếp lên vết thương để ngăn chặn dòng máu chảy ra ngoài.",
+      "C. là biện pháp cầm máu tạm thời bằng cách sử dụng dây cao su hoặc dây vải xoắn chặt vào đoạn chi với mục đích làm ngừng sự lưu thông máu từ phía trên xuống phía dưới của chi.",
+      "D. Là phương pháp cầm máu bằng cách dùng băng thun ép trực tiếp lên vết thương để ngăn chặn dòng máu chảy ra ngoài."
+    ],
+    "dapan": 3
+  },
+	{
+			"ID": "KTCN0012",
+			"cauHoi": "Trong sơ cứu, bước nào KHÔNG đúng khi tiến hành garo cầm máu?",
+			"luaChon": [
+				"A. Buộc garo phía trên vết thương, giữa vết thương và tim.", 
+				"B. Ghi lại thời gian bắt đầu garo để theo dõi.", "C. Đặt garo trực tiếp lên khớp xương để cố định chắc chắn.", 
+				"D. Nới lỏng garo mỗi 30–60 phút và ép động mạch khi nới."
+			],
+			"dapan": 3
+	},
+  {
+    "ID": "KTCN0013",
+    "cauHoi": "Khi sơ cấp cứu người bị nạn, nhưng điều nào sau đây KHÔNG đúng?",
+    "luaChon": [
+      "A. Không di chuyển nạn nhân nếu nghi ngờ có chấn thương cột sống hoặc đầu.",
+      "B. Không cố lấy dị vật ra khỏi vết thương (ví dụ mảnh kính, kim loại) – hãy băng ép xung quanh.",
+      "C. Luôn giữ bình tĩnh, trấn an nạn nhân nếu họ còn tỉnh.",
+      "D. Nếu máu thấm qua, đặt lớp gạc mới lên trên, bỏ lớp cũ"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "KTCN0014",
+    "cauHoi": "Sau bao lâu sẽ nới garo một lần khi sơ cứu người bị nạn?",
+    "luaChon": [
+      "A. 30 - 60 phút",
+      "B. 1 - 2 giờ",
+      "C. 2 - 3 giờ",
+      "D. 3 - 4 giờ"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "KTCN0014",
+    "cauHoi": "Thời gian nới garo 1 lần là bao lâu?",
+    "luaChon": [
+      "A. 2-3 phút",
+      "B. 3-4 phút",
+      "C. 4-5 phút",
+      "D. 5-6 phút"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "KTCN0015",
+    "cauHoi": "Trường hợp dưới đây cần tiến hành nới garo",
+    "luaChon": [
+      "A. Garo quá 1 giờ mà không nới",
+      "B. Garô trong trường hợp rắn độc cắn",
+      "C. Khi đoạn chi ở dưới garô có dấu hiệu hoại tử",
+      "D. Khi chi đã bị cắt cụt tự nhiên"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "KTCN0016",
+    "cauHoi": "Khi bị bỏng, việc gì sau đây cần được làm?",
+    "luaChon": [
+      "A. Dùng đá, nước đá lạnh để chườm, ngâm phần bị bỏng.",
+      "B. đắp các loại thuốc mỡ, lá cây… vào vùng bỏng.",
+      "C. Làm chợt loét vết bỏng, bóc bỏ vòm nốt bỏng.",
+      "D. Rửa, ngâm phần bị bỏng dưới vòi nước hoặc trong chậu nước mát."
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "KTCN0017",
+    "cauHoi": "Để phòng chống sốc bỏng, việc nào sau đây KHÔNG nên làm?",
+    "luaChon": [
+      "A. Đặt người bị nạn ở tư thế nằm.",
+      "B. Đặt người bị nạn ở tư thế ngồi.",
+      "C. Cho người bị nạn uống nước vì người bị nạn rất khát, nhất là khi phải chuyển người bị nạn đi xa.",
+      "D. Động viên an ủi người bị nạn."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "KTCN0018",
+    "cauHoi": "Khi bị bỏng điện, việc gì sau đây cần được làm?",
+    "luaChon": [
+      "A. Dùng tay trần hoặc vật kim loại để gạt dây điện.",
+      "B. Chạm vào nạn nhân khi chưa chắc chắn nguồn điện đã được ngắt.",
+      "C. Đưa nạn nhân ra khỏi nguồn điện bằng vật cách điện như gỗ, nhựa.",
+      "D. Cho nạn nhân ăn uống ngay sau khi bị điện giật."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "KTCN0019",
+    "cauHoi": "KHi gặp nạn nhân bị tai nạn, đang trong xe ô tô, việc gì sau đây KHÔNG nên làm?",
+    "luaChon": [
+      "A. Di chuyển nạn nhân ra khỏi xe.",
+      "B. Gọi 115 để được trợ giúp y tế khẩn cấp.",
+      "C. Sử dụng bìa cứng, ván gỗ để làm nẹp cố định cột sống cổ cho nạn nhân.",
+      "D. Xác định tình trạng nạn nhân (các chấn thương, mất máu, mức độ ý thức, hô hấp, tuần hoàn)."
+    ],
+    "dapan": 1
+  }
+]

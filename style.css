@@ -1,0 +1,40 @@
+#nhapThongtin {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+.choices li {
+    margin-bottom: 5px;
+}
+
+#headerTrangChu {
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0.3em solid #000;
+    border-radius: 3px;
+}
+#tieuDe{
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+
+#name, #phone, #donVi, #position, #donvi {
+    width: 100%;
+    padding: 8px;
+    margin: 0px 0 0px 0;
+    box-sizing: border-box;
+}
+
+#tieuDe_boDeRandom {
+    text-align: center;
+    margin: 20px 0;
+}

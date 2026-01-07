@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Trắc Nghiệm</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS bổ sung cho bộ đếm thời gian chạy theo trang */
+        #timer-container {
+            display: none;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #d32f2f;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+            text-align: center;
+        }
+        .timer-note {
+            font-size: 0.75em;
+            display: block;
+            margin-top: 2px;
+            font-weight: normal;
+        }
+        #start-btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn-note {
+            display: block;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-style: italic;
+        }
+    </style>
+</head> 
+<body>
+    <div id="headerTrangChu">
+        <h2>CÔNG AN TỈNH QUẢNG NINH</h2>
+        <h1>PHÒNG CẢNH SÁT PCCC VÀ CNCH</h1>
+    </div>
+    <div id="tieuDe">
+        <h2>BỘ ĐỀ KIỂM TRA NGHIỆP VỤ CHỮA CHÁY VÀ CNCH</h2></div>
+    <!-- Bộ đếm thời gian nổi -->
+    <div id="timer-container">
+        <span id="timer-display">00:00</span>
+        <span class="timer-note">(Hệ thống tự nộp khi hết giờ)</span>
+    </div>
+
+    <div id="nhapThongtin">
+        <h2>Thông tin cá nhân</h2>
+        <form id="infoForm">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="phone">SĐT (Chỉ nhập số):</label>
+            <input type="tel" id="phone" pattern="[0-9]*" inputmode="numeric" 
+                   oninput="this.value = this.value.replace(/[^0-9]/g, '')" required><br><br>
+
+            <label for="position">Chức vụ:</label>
+            <input type="text" id="position" required><br><br>
+
+            <label for="donvi">Đơn vị:</label>
+            <select id="donvi" required>
+                <option value="">--Chọn đơn vị--</option>
+                <option value="Đội Cảnh sát PCCC và CNCH trên sông, biển">Đội Cảnh sát PCCC và CNCH trên sông, biển</option>
+                <option value="Đội Chữa cháy và CNCH KV1">Đội Chữa cháy và CNCH KV1</option>
+                <option value="Đội Chữa cháy và CNCH KV2">Đội Chữa cháy và CNCH KV2</option>
+                <option value="Đội Chữa cháy và CNCH KV3">Đội Chữa cháy và CNCH KV3</option>
+                <option value="Đội Chữa cháy và CNCH KV4">Đội Chữa cháy và CNCH KV4</option>
+                <option value="Đội Chữa cháy và CNCH KV5">Đội Chữa cháy và CNCH KV5</option>
+                <option value="Đội Chữa cháy và CNCH KV6">Đội Chữa cháy và CNCH KV6</option>
+                <option value="Đội Chữa cháy và CNCH KV7">Đội Chữa cháy và CNCH KV7</option>
+                <option value="Đội Chữa cháy và CNCH KV8">Đội Chữa cháy và CNCH KV8</option>
+                <option value="Đội Chữa cháy và CNCH KV9">Đội Chữa cháy và CNCH KV9</option>
+                <option value="Đội Chữa cháy và CNCH KV10">Đội Chữa cháy và CNCH KV10</option>
+                <option value="khác">Khác</option>
+            </select><br><br>
+
+            <div id="start-btn-container">
+                <button type="button" id="start-btn">Làm bài</button>
+                <span class="btn-note">(Bạn có 30 phút để làm bài, nếu hết 30 phút hệ thống sẽ tự nộp)</span>
+            </div>
+        </form>
+    </div>
+
+    <div id="boDeRandom" style="display: none;">
+        <h1 id="tieuDe_boDeRandom">Đề Trắc nghiệm</h1>
+        <div id="question-container"></div>
+        <!-- <h2>II. Tự luận</h2> -->
+        <div id="essay-container"></div>
+        <button id="submit-btn">Nộp bài</button>
+    </div>
+
+    <div id="confirmation-message" style="display: none; border: 2px solid #333; padding: 20px; background: #fff; margin-top: 20px; border-radius: 8px;">
+        <p id="confirmation-text" style="font-weight: bold; color: #d32f2f; font-size: 1.1em;"></p>
+        <div style="margin-top: 15px;">
+            <button id="confirm-submit">Xác nhận nộp bài</button>
+            <button id="resume-btn" style="margin-left: 10px;">Làm bài tiếp</button>
+        </div>
+    </div>
+
+    <div id="thank-you-message" style="display: none; text-align: center; padding: 50px;">
+        <h2>Cảm ơn đồng chí đã hoàn thành bài thi!</h2>
+        <p>Kết quả sẽ được tập hợp và thông báo sau.</p>
+        <button id="close-btn">Về trang chủ</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

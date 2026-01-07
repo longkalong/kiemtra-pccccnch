@@ -1,0 +1,145 @@
+[
+  {
+    "ID": "TT370001",
+    "cauHoi": "Mỗi ca trực tại bộ phận tiếp nhận và xử lý thông tin báo cháy, báo tình huống cứu nạn, cứu hộ phải bố trí tối thiểu bao nhiêu cán bộ, chiến sĩ?",
+    "luaChon": [
+      "A. 01",
+      "B. 02",
+      "C. 03",
+      "D. 04"
+    ],
+    "dapan": 2
+  },
+    {
+    "ID": "TT370002",
+    "cauHoi": "Nội dung thông tin báo cháy, báo tình huống cứu nạn, cứu hộ cần tiếp nhận gồm: ",
+    "luaChon": [
+      "A. Họ, tên, số điện thoại hoặc địa chỉ của người báo cháy, báo tình huống cứu nạn, cứu hộ",
+      "B. Địa chỉ, thời gian phát hiện cháy, tai nạn, sự cố",
+      "C. Loại hình xảy ra cháy, tai nạn, sự cố; quy mô đám cháy, tai nạn, sự cố; số lượng, tình trạng người bị mắc kẹt trong đám cháy, tai nạn, sự cố; nguy cơ cháy lan và các thông tin khác liên quan đến đám cháy, tai nạn, sự cố",
+      "D. Tất cả các đáp án trên"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "TT370003",
+    "cauHoi": "Khi tiếp nhận, ghi chép đầy đủ thông tin báo cháy, báo tình huống cứu nạn, cứu hộ vào Sổ tiếp nhận và xử lý thông tin báo cháy, báo tình huống cứu nạn, cứu hộ theo Mẫu số Bao nhiêu thuộc Phụ lục II kèm theo Thông tư 37/2025/TT-BCA?",
+    "luaChon": [
+      "A. Mẫu số 06",
+      "B. Mẫu số 07",
+      "C. Mẫu số 08",
+      "D. Mẫu số 09"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "TT370004",
+    "cauHoi": "Trong ca trực sẵn sàng chữa cháy, cứu nạn, cứu hộ phải bố trí tối thiểu bao nhiêu tổ trực?",
+    "luaChon": [  
+      "A. 01",
+      "B. 02",
+      "C. 03",
+      "D. 04"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "TT370005",
+    "cauHoi": "Thời gian cán bộ, chiến sĩ lên phương tiện và nổ máy sẵn sàng xuất phát kể từ khi có lệnh báo động: ",
+    "luaChon": [  
+      "A. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 90 giây; ",
+      "B. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 120 giây; ",
+      "C. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 180 giây; ",
+      "D. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 180 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 180 giây; "
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "TT370006",
+    "cauHoi": "Trong thời gian đang bàn giao ca trực mà nhận được tin báo cháy, báo tình huống cứu nạn, cứu hộ: ",
+    "luaChon": [  
+      "A. ca trực sau thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ, việc trực tại đơn vị do ca trực trước đảm nhiệm",
+      "B. cả 2 ca trực cùng thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ",
+      "C. ca nào cũng được tùy theo chỉ huy phân công nhiệm vụ",
+      "D. ca trực trước thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ, việc trực tại đơn vị do ca trực sau đảm nhiệm"
+    ],
+    "dapan": 4
+  },
+ {
+    "ID": "TT370007",
+    "cauHoi": "Sau khi huấn luyện thường xuyên nghiệp vụ chữa cháy, cứu nạn, cứu hộ, thực tập phương án phương án chữa cháy, cứu nạn, cứu hộ, phương án cứu nạn, cứu hộ hoặc sau khi đi làm nhiệm vụ chữa cháy, cứu nạn, cứu hộ về đến đơn vị, chỉ huy đơn vị phải tổ chức làm những gì?",
+    "luaChon": [  
+      "A. phải tổ chức kiểm tra, bảo dưỡng, bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định",
+      "B. phải tổ chức kiểm tra, bảo dưỡng, bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ.",
+      "C. phải bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định",
+      "D. phải tổ chức kiểm tra, bảo dưỡng, chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "TT370008",
+    "cauHoi": "Khi đến nơi xảy ra cháy, tai nạn, sự cố có diễn biến phức tạp thì người chỉ huy phải thành lập tổ trinh sát có tối thiểu từ mấy cán bộ, chiến sĩ trở lên để tổ chức trinh sát đám cháy, tai nạn, sự cố",
+    "luaChon": [  
+      "A. 02",
+      "B. 03",
+      "C. 04",
+      "D. 05"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "TT370009",
+    "cauHoi": "Cán bộ, chiến sĩ thực hiện nhiệm vụ trinh sát đám cháy, hiện trường tai nạn, sự cố có trách nhiệm gì?",
+    "luaChon": [  
+      "A. phải mang theo thiết bị bảo hộ cá nhân và các phương tiện, thiết bị chuyên dùng; kịp thời triển khai các biện pháp khẩn cấp cứu người, cứu tài sản, khống chế và dập tắt các điểm cháy nếu điều kiện cho phép; báo cáo kết quả thực hiện nhiệm vụ trong suốt quá trình trinh sát cho người chỉ huy",
+      "B. Tại đám cháy cần xác định: số lượng, vị trí, tình trạng của người bị nạn; biện pháp và khả năng cứu người bị nạn; các yếu tố nguy hiểm từ đám cháy có thể đe dọa đến tính mạng, sức khỏe của người bị nạn cũng như lực lượng tham gia chữa cháy, cứu nạn, cứu hộ; các chất cháy chủ yếu, nguy cơ cháy lan và khả năng phát triển của đám cháy; vị trí, khu vực cần triển khai lực lượng, phương tiện để cứu người, cứu tài sản, ngăn chặn cháy lan; khả năng sử dụng phương tiện chữa cháy hiện có của cơ sở và các nguồn nước trong, ngoài cơ sở có thể phục vụ chữa cháy; những dấu vết, vật chứng liên quan đến đám cháy (nếu có) để phục vụ việc xác định nguyên nhân xảy ra cháy",
+      "C. Tại hiện trường tai nạn, sự cố cần xác định: số lượng, vị trí, tình trạng của người bị nạn, phương tiện, tài sản đang bị đe dọa bởi các yếu tố nguy hiểm; đường vào, ra nơi xảy ra tai nạn, sự cố; các yếu tố nguy hiểm có thể đe dọa đến tính mạng, sức khỏe của người bị nạn, của lực lượng cứu nạn, cứu hộ; vị trí thích hợp để bố trí các phương tiện, thiết bị cứu nạn, cứu hộ; các biện pháp cứu nạn, cứu hộ và bảo đảm an toàn trong quá trình thực hiện nhiệm vụ; những dấu vết, vật chứng liên quan đến tai nạn, sự cố (nếu có) để phục vụ việc xác định nguyên nhân xảy ra tai nạn, sự cố",
+      "D. Tất cả các đáp án trên"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "TT370010",
+    "cauHoi": "Phương tiện chữa cháy, cứu nạn, cứu hộ cơ giới, mặt nạ phòng độc cách ly, thiết bị dò tìm người, máy phân tích nồng độ hóa chất, máy đo cường độ phóng xạ, bộ đàm được bảo quản, bảo dưỡng như thế nào?",
+    "luaChon": [  
+      "A. 02 ngày một lần",
+      "B. thường xuyên hằng ngày",
+      "C. 07 ngày một lần",
+      "D. 03 ngày một lần"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "TT370011",
+    "cauHoi": "Phương tiện chữa cháy, cứu nạn, cứu hộ cơ giới, mặt nạ phòng độc cách ly, thiết bị dò tìm người, máy phân tích nồng độ hóa chất, máy đo cường độ phóng xạ, bộ đàm do ai thực hiện việc bảo quản, bảo dưỡng",
+    "luaChon": [  
+      "A. do cán bộ, chiến sĩ đội trực thực hiện",
+      "B. do chỉ huy đội trực thực hiện",
+      "C. do cán bộ điều kiển xe, lái tàu, xuồng thực hiện",
+      "D. do cán bộ, chiến sĩ được giao quản lý, sử dụng thực hiện"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "TT370012",
+    "cauHoi": "Ví dụ: Đồng chí Nguyễn Văn A, thuộc lực lượng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ khi chữa cháy, cứu nạn, cứu hộ trong thời gian 02 giờ, thì đ/c Nguyễn Văn A mức tiền bồi dưỡng được hưởng là bao nhiêu?",
+    "luaChon": [  
+      "A. 350.000 đồng",
+      "B. 353.000 đồng",
+      "C. 352.000 đồng",
+      "D. 351.000 đồng"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "TT370013",
+    "cauHoi": "Thông tư 37/2025/TT-BCA ngày 15/05/2025 của Bộ Công an quy định gì?",
+    "luaChon": [  
+      "A. Quy định về nhiệm vụ công tác phòng cháy, chữa cháy, cứu nạn, cứu hộ của lực lượng Công an nhân dân.",
+      "B. Quy định chi tiết một số điều của Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ và Nghị định số 105/2025/NĐ-CP ngày 15 tháng 5 năm 2025 của Chính phủ Quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ.",
+      "C. Quy định về thực hiện dân chủ trong Công tác Phòng cháy, chữa cháy, cứu nạn, cứu hộ của Lực lượng Công an nhân dân",
+      "D. Quy định xử phạt vi phạm hành chính trong Lĩnh vực Phòng cháy, chữa cháy và cứu nạn, cứu hộ."
+    ],
+    "dapan": 1
+  }
+]

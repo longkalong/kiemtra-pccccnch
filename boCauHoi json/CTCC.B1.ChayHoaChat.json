@@ -1,0 +1,134 @@
+[
+  {
+    "ID": "CTCCB1001",
+    "cauHoi": "Theo quy định tại Điều 4 Luật Hóa chất năm 2018, Hóa chất là gì?",
+    "luaChon": [
+      "A. Là đơn chất, hợp chất, hỗn hợp chất được con người khai thác hoặc tạo ra từ nguồn nguyên liệu tự nhiên, nguyên liệu nhân tạo.",
+      "B. Là hóa chất có một hoặc một số đặc tính nguy hiểm sau đây theo nguyên tắc phân loại của Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS): dễ nổ; ôxy hóa mạnh; ăn mòn mạnh; dễ cháy; độc cấp tính, độc mãn tính; gây kích ứng với con người; gây ung thư hoặc có nguy cơ gây ung thư; gây biến đổi gen; độc đối với sinh sản; tích luỹ sinh học; ô nhiễm hữu cơ khó phân huỷ; độc hại đến môi trường.",
+      "C. Là những hóa chất có thể/hoặc tự phân giải gây cháy, nổ hoặc cùng các chất khác tạo thành hỗn hợp cháy, nổ trong điều kiện nhất định về thành phần, nhiệt độ, độ ẩm, áp suất.",
+      "D. Là hóa chất nguy hiểm có ít nhất một trong những đặc tính nguy hiểm: độc cấp tính, độc mãn tính, gây kích ứng với con người, gây ung thư hoặc có nguy cơ gây ung thư, gây biến đổi gen, độc đối với sinh sản, tích luỹ sinh học, ô nhiễm hữu cơ khó phân huỷ, độc hại đến môi trường. "
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CTCCB1002",
+    "cauHoi": "Theo quy định tại Điều 4 Luật Hóa chất năm 2018, Hóa chất nguy hiểm là gì?",
+    "luaChon": [
+      "A. Là đơn chất, hợp chất, hỗn hợp chất được con người khai thác hoặc tạo ra từ nguồn nguyên liệu tự nhiên, nguyên liệu nhân tạo.",
+      "B. Là hóa chất có một hoặc một số đặc tính nguy hiểm sau đây theo nguyên tắc phân loại của Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS): dễ nổ; ôxy hóa mạnh; ăn mòn mạnh; dễ cháy; độc cấp tính, độc mãn tính; gây kích ứng với con người; gây ung thư hoặc có nguy cơ gây ung thư; gây biến đổi gen; độc đối với sinh sản; tích luỹ sinh học; ô nhiễm hữu cơ khó phân huỷ; độc hại đến môi trường.",
+      "C. Là những hóa chất có thể/hoặc tự phân giải gây cháy, nổ hoặc cùng các chất khác tạo thành hỗn hợp cháy, nổ trong điều kiện nhất định về thành phần, nhiệt độ, độ ẩm, áp suất.",
+      "D. Là hóa chất nguy hiểm có ít nhất một trong những đặc tính nguy hiểm: độc cấp tính, độc mãn tính, gây kích ứng với con người, gây ung thư hoặc có nguy cơ gây ung thư, gây biến đổi gen, độc đối với sinh sản, tích luỹ sinh học, ô nhiễm hữu cơ khó phân huỷ, độc hại đến môi trường. "
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CTCCB1003",
+    "cauHoi": "Theo quy định tại Điều 4 Luật Hóa chất năm 2018, Hóa chất dễ cháy, nổ là gì?",
+    "luaChon": [
+      "A. Là đơn chất, hợp chất, hỗn hợp chất được con người khai thác hoặc tạo ra từ nguồn nguyên liệu tự nhiên, nguyên liệu nhân tạo.",
+      "B. Là hóa chất có một hoặc một số đặc tính nguy hiểm sau đây theo nguyên tắc phân loại của Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS): dễ nổ; ôxy hóa mạnh; ăn mòn mạnh; dễ cháy; độc cấp tính, độc mãn tính; gây kích ứng với con người; gây ung thư hoặc có nguy cơ gây ung thư; gây biến đổi gen; độc đối với sinh sản; tích luỹ sinh học; ô nhiễm hữu cơ khó phân huỷ; độc hại đến môi trường.",
+      "C. Là những hóa chất có thể/hoặc tự phân giải gây cháy, nổ hoặc cùng các chất khác tạo thành hỗn hợp cháy, nổ trong điều kiện nhất định về thành phần, nhiệt độ, độ ẩm, áp suất.",
+      "D. Là hóa chất nguy hiểm có ít nhất một trong những đặc tính nguy hiểm: độc cấp tính, độc mãn tính, gây kích ứng với con người, gây ung thư hoặc có nguy cơ gây ung thư, gây biến đổi gen, độc đối với sinh sản, tích luỹ sinh học, ô nhiễm hữu cơ khó phân huỷ, độc hại đến môi trường. "
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CTCCB1004",
+    "cauHoi": "Theo quy định tại Điều 4 Luật Hóa chất năm 2018, Hóa chất độc là gì?",
+    "luaChon": [
+      "A. Là đơn chất, hợp chất, hỗn hợp chất được con người khai thác hoặc tạo ra từ nguồn nguyên liệu tự nhiên, nguyên liệu nhân tạo.",
+      "B. Là hóa chất có một hoặc một số đặc tính nguy hiểm sau đây theo nguyên tắc phân loại của Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS): dễ nổ; ôxy hóa mạnh; ăn mòn mạnh; dễ cháy; độc cấp tính, độc mãn tính; gây kích ứng với con người; gây ung thư hoặc có nguy cơ gây ung thư; gây biến đổi gen; độc đối với sinh sản; tích luỹ sinh học; ô nhiễm hữu cơ khó phân huỷ; độc hại đến môi trường.",
+      "C. Là những hóa chất có thể/hoặc tự phân giải gây cháy, nổ hoặc cùng các chất khác tạo thành hỗn hợp cháy, nổ trong điều kiện nhất định về thành phần, nhiệt độ, độ ẩm, áp suất.",
+      "D. Là hóa chất nguy hiểm có ít nhất một trong những đặc tính nguy hiểm: độc cấp tính, độc mãn tính, gây kích ứng với con người, gây ung thư hoặc có nguy cơ gây ung thư, gây biến đổi gen, độc đối với sinh sản, tích luỹ sinh học, ô nhiễm hữu cơ khó phân huỷ, độc hại đến môi trường. "
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "CTCCB1005",
+    "cauHoi": "Theo quy định tại Điều 4 Luật Hóa chất năm 2018, Sự cố hóa chất là gì? ",
+    "luaChon": [
+      "A. Là tình trạng cháy, nổ, rò rỉ, phát tán hóa chất gây hại hoặc có nguy cơ gây hại cho người, tài sản và môi trường. ",
+      "B. Là sự cố hóa chất gây hại hoặc có nguy cơ gây hại lớn, trên diện rộng cho người, tài sản, môi trường và vượt ra khỏi khả năng kiểm soát của cơ sở hóa chất.",
+      "C. Là hoạt động nghiên cứu, thử nghiệm hóa chất, xử lý hóa chất thải bỏ, xử lý chất thải hóa chất.",
+      "D. Là hoạt động đầu tư, sản xuất, sang chai, đóng gói, mua bán, xuất khẩu, nhập khẩu, vận chuyển, cất giữ, bảo quản, sử dụng hóa chất."
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CTCCB1006",
+    "cauHoi": "Theo quy định tại Điều 4 Luật Hóa chất năm 2018, Sự cố hóa chất nghiêm trọng là gì? ",
+    "luaChon": [
+      "A. Là tình trạng cháy, nổ, rò rỉ, phát tán hóa chất gây hại hoặc có nguy cơ gây hại cho người, tài sản và môi trường. ",
+      "B. Là sự cố hóa chất gây hại hoặc có nguy cơ gây hại lớn, trên diện rộng cho người, tài sản, môi trường và vượt ra khỏi khả năng kiểm soát của cơ sở hóa chất.",
+      "C. Là hoạt động nghiên cứu, thử nghiệm hóa chất, xử lý hóa chất thải bỏ, xử lý chất thải hóa chất.",
+      "D. Là hoạt động đầu tư, sản xuất, sang chai, đóng gói, mua bán, xuất khẩu, nhập khẩu, vận chuyển, cất giữ, bảo quản, sử dụng hóa chất."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CTCCB1007",
+    "cauHoi": "Đối với hóa chất thuộc nhóm 2.1 (khí dễ cháy), khi chữa cháy cần chú ý gì?",
+    "luaChon": [
+      "A. Trong giai đoạn khống chế và dập tắt đám cháy, các tiểu đội được giao  nhiệm vụ phải thường xuyên phun tia nước đặc làm mát thiết bị công nghệ và thiết bị chứa khí. ",
+      "B. Khi làm lạnh bề mặt của thiết bị công nghệ cần đảm bảo phun một nửa bề mặt thiết bị đang cháy và ít nhất một phần bề mặt của thiết bị lân cận (phần giáp với thiết bị đang cháy)",
+      "C. DKhi làm lạnh bề mặt của thiết bị công nghệ cần đảm bảo phun bao trùm toàn bề mặt thiết bị đang cháy và toàn bộ bề mặt của thiết bị lân cận.",
+      "D. Không được bố trí lực lượng và phương tiện đối diện các cửa của thiết bị chứa, cửa các tháp chưng cất, phía đầu của các thiết bị nằm ngang, các cửa của thiết bị trao đổi nhiệt và các mặt bích kết nối giữa các thiết bị"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "CTCCB1008",
+    "cauHoi": "Đối với hóa chất thuộc nhóm 2.3 (khí gas độc hại), khi chữa cháy cần chú ý gì?",
+    "luaChon": [
+      "A. ",
+      "B. ",
+      "C. Sử dụng nước dạng phun sương nhằm làm loãng nồng độ khí độc tại các khu vực có cán bộ chiến sĩ làm việc",
+      "D. "
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CTCCB1009",
+    "cauHoi": "",
+    "luaChon": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CTCCB1010",
+    "cauHoi": "",
+    "luaChon": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CTCCB1011",
+    "cauHoi": "",
+    "luaChon": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CTCCB1012",
+    "cauHoi": "",
+    "luaChon": [
+      "A. ",
+      "B. ",
+      "C. ",
+      "D. "
+    ],
+    "dapan": 1
+  }
+]
