@@ -71,64 +71,10 @@
     "luaChon": [
       "A. Trong giai đoạn khống chế và dập tắt đám cháy, các tiểu đội được giao  nhiệm vụ phải thường xuyên phun tia nước đặc làm mát thiết bị công nghệ và thiết bị chứa khí. ",
       "B. Khi làm lạnh bề mặt của thiết bị công nghệ cần đảm bảo phun một nửa bề mặt thiết bị đang cháy và ít nhất một phần bề mặt của thiết bị lân cận (phần giáp với thiết bị đang cháy)",
-      "C. DKhi làm lạnh bề mặt của thiết bị công nghệ cần đảm bảo phun bao trùm toàn bề mặt thiết bị đang cháy và toàn bộ bề mặt của thiết bị lân cận.",
+      "C. Khi làm lạnh bề mặt của thiết bị công nghệ cần đảm bảo phun bao trùm toàn bề mặt thiết bị đang cháy và toàn bộ bề mặt của thiết bị lân cận.",
       "D. Không được bố trí lực lượng và phương tiện đối diện các cửa của thiết bị chứa, cửa các tháp chưng cất, phía đầu của các thiết bị nằm ngang, các cửa của thiết bị trao đổi nhiệt và các mặt bích kết nối giữa các thiết bị"
     ],
     "dapan": 4
-  },
-  {
-    "ID": "CTCCB1008",
-    "cauHoi": "Đối với hóa chất thuộc nhóm 2.3 (khí gas độc hại), khi chữa cháy cần chú ý gì?",
-    "luaChon": [
-      "A. ",
-      "B. ",
-      "C. Sử dụng nước dạng phun sương nhằm làm loãng nồng độ khí độc tại các khu vực có cán bộ chiến sĩ làm việc",
-      "D. "
-    ],
-    "dapan": 3
-  },
-  {
-    "ID": "CTCCB1009",
-    "cauHoi": "",
-    "luaChon": [
-      "A. ",
-      "B. ",
-      "C. ",
-      "D. "
-    ],
-    "dapan": 1
-  },
-  {
-    "ID": "CTCCB1010",
-    "cauHoi": "",
-    "luaChon": [
-      "A. ",
-      "B. ",
-      "C. ",
-      "D. "
-    ],
-    "dapan": 1
-  },
-  {
-    "ID": "CTCCB1011",
-    "cauHoi": "",
-    "luaChon": [
-      "A. ",
-      "B. ",
-      "C. ",
-      "D. "
-    ],
-    "dapan": 1
-  },
-  {
-    "ID": "CTCCB1012",
-    "cauHoi": "",
-    "luaChon": [
-      "A. ",
-      "B. ",
-      "C. ",
-      "D. "
-    ],
-    "dapan": 1
   }
+
 ]
