@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
         cauKhichLe: [
-            "Cố lên, bạn đang làm rất tốt! 💪",
+            "Cố lên, Đồng chí đang làm rất tốt! 💪",
             "Sắp hoàn thành rồi, kiên trì nhé! ✨",
             "Tuyệt vời! Tiếp tục phát huy nào! 🚀",
             "Bình tĩnh và tự tin nhé! 🍀",
             "Mọi nỗ lực sẽ được đền đáp! 🌟",
-            "Bạn đang đi đúng hướng rồi đấy! 🎯",
+            "Đồng chí đang đi đúng hướng rồi đấy! 🎯",
             "Tập trung cao độ nào! 🔥",
-            "Bạn thông minh hơn bạn nghĩ đấy! 🧠"
+            "Đồng chí thông minh hơn Đồng chí nghĩ đấy! 🧠"
         ]
     };
 
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let timerInterval;
 
     const noteSpan = document.querySelector('.btn-note');
-    if (noteSpan) noteSpan.textContent = `(Bạn có ${CONFIG.thoiGianLamBaiPhut} phút để làm bài)`;
+    if (noteSpan) noteSpan.textContent = `(Bộ đề gồm ${CONFIG.soLuongCauHoi} câu hỏi. Đồng chí có ${CONFIG.thoiGianLamBaiPhut} phút để làm bài. Hết thười gian hệ thống sẽ tự động nộp bài.)`;
 
     async function loadAllData() {
         try {
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     statsDiv.style.cssText = "margin-top:10px; padding:10px; background:rgba(255,255,255,0.2); border-radius:5px; font-size:0.85em;";
     statsDiv.innerHTML = `
         <div id="stat-progress">Đã trả lời: 0/${CONFIG.soLuongCauHoi}</div>
-        <div id="encouragement-msg" style="margin-top:5px; font-style:italic; color:#fff; font-weight:normal;">Chúc bạn thi tốt!</div>
+        <div id="encouragement-msg" style="margin-top:5px; font-style:italic; color:#fff; font-weight:normal;">Chúc Đồng chí thi tốt!</div>
     `;
     timerContainer.appendChild(statsDiv);
 
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitBtn.addEventListener('click', function() {
         const answeredCount = document.querySelectorAll('input[type="radio"]:checked').length;
-        confirmationText.innerHTML = `Bạn đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Bạn có chắc chắn muốn nộp bài?`;
+        confirmationText.innerHTML = `Đồng chí đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Đồng chí có chắc chắn muốn nộp bài?`;
         confirmationMessageDiv.style.display = 'block';
         boDeRandomDiv.style.display = 'none';
         // Đảm bảo nút làm bài tiếp luôn hiển thị khi mở hộp thoại xác nhận thủ công
