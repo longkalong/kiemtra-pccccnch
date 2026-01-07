@@ -142,7 +142,7 @@
     "dapan": 1
   },
   {
-    "ID": "KTCN0014",
+    "ID": "KTCN0015",
     "cauHoi": "Thời gian nới garo 1 lần là bao lâu?",
     "luaChon": [
       "A. 2-3 phút",
@@ -153,7 +153,7 @@
     "dapan": 3
   },
   {
-    "ID": "KTCN0015",
+    "ID": "KTCN0016",
     "cauHoi": "Trường hợp dưới đây cần tiến hành nới garo",
     "luaChon": [
       "A. Garo quá 1 giờ mà không nới",
@@ -164,7 +164,7 @@
     "dapan": 1
   },
   {
-    "ID": "KTCN0016",
+    "ID": "KTCN0017",
     "cauHoi": "Khi bị bỏng, việc gì sau đây cần được làm?",
     "luaChon": [
       "A. Dùng đá, nước đá lạnh để chườm, ngâm phần bị bỏng.",
@@ -175,7 +175,7 @@
     "dapan": 4
   },
   {
-    "ID": "KTCN0017",
+    "ID": "KTCN0018",
     "cauHoi": "Để phòng chống sốc bỏng, việc nào sau đây KHÔNG nên làm?",
     "luaChon": [
       "A. Đặt người bị nạn ở tư thế nằm.",
@@ -186,7 +186,7 @@
     "dapan": 2
   },
   {
-    "ID": "KTCN0018",
+    "ID": "KTCN0019",
     "cauHoi": "Khi bị bỏng điện, việc gì sau đây cần được làm?",
     "luaChon": [
       "A. Dùng tay trần hoặc vật kim loại để gạt dây điện.",
@@ -197,7 +197,7 @@
     "dapan": 3
   },
   {
-    "ID": "KTCN0019",
+    "ID": "KTCN0020",
     "cauHoi": "KHi gặp nạn nhân bị tai nạn, đang trong xe ô tô, việc gì sau đây KHÔNG nên làm?",
     "luaChon": [
       "A. Di chuyển nạn nhân ra khỏi xe.",
