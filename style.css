@@ -1,61 +1,8 @@
-#nhapThongtin {
-    margin: 10% 10% 10% 10%;
-}
-#nhapThongtin h2{
-    text-align: center;
-    margin-bottom: 20px;
+@media print {
+  body { display: none; } /* Khi nhấn Ctrl+P sẽ không thấy gì */
 }
 
-.question {
-    margin-bottom: 10px;
+.blur-content {
+  filter: blur(20px);
+  transition: filter 0.1s ease;
 }
-
-.choices {
-    list-style-type: none;
-    padding: 0;
-}
-
-.choices li {
-    margin-bottom: 5px;
-}
-
-#headerTrangChu {
-    text-align: center;
-    margin-bottom: 20px;
-    border: 0.3em solid #000;
-    border-radius: 3px;
-}
-
-
-#tieuDe{
-    text-align: center;
-    margin: 0 20px 0 20px;
-}
-
-
-#name, #phone, #donVi, #position, #donvi {
-    width: 100%;
-    padding: 8px;
-    margin: 0px 0 0px 0;
-    box-sizing: border-box;
-}
-
-#tieuDe_boDeRandom {
-    text-align: center;
-    margin: 20px 0;
-}
-#start-btn, #submit-btn {
-    font-size: 16px;
-    padding: 5px;
-}
-
-#timer-container {
-    text-align: center;
-    width: 90%;
-}
-#submit-btn {
-    text-align: center;
-    margin:0 5% 5% 5%;
-
-}
-

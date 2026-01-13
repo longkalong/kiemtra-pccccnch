@@ -47,10 +47,10 @@
     "ID": "TT370005",
     "cauHoi": "Thời gian cán bộ, chiến sĩ lên phương tiện và nổ máy sẵn sàng xuất phát kể từ khi có lệnh báo động: ",
     "luaChon": [  
-      "A. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 90 giây; ",
-      "B. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 120 giây; ",
-      "C. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 180 giây; ",
-      "D. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 180 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 180 giây; "
+      "A. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 90 giây.",
+      "B. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 120 giây.",
+      "C. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 90 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 180 giây.",
+      "D. đối với xe chữa cháy, xe chuyên dùng phục vụ chữa cháy, cứu nạn, cứu hộ không quá 180 giây; đối với tàu chữa cháy, xuồng, ca nô chữa cháy, cứu nạn, cứu hộ (trừ tàu chữa cháy trên biển) không quá 180 giây."
     ],
     "dapan": 3
   },
@@ -58,10 +58,10 @@
     "ID": "TT370006",
     "cauHoi": "Trong thời gian đang bàn giao ca trực mà nhận được tin báo cháy, báo tình huống cứu nạn, cứu hộ: ",
     "luaChon": [  
-      "A. ca trực sau thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ, việc trực tại đơn vị do ca trực trước đảm nhiệm",
-      "B. cả 2 ca trực cùng thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ",
-      "C. ca nào cũng được tùy theo chỉ huy phân công nhiệm vụ",
-      "D. ca trực trước thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ, việc trực tại đơn vị do ca trực sau đảm nhiệm"
+      "A. ca trực sau thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ, việc trực tại đơn vị do ca trực trước đảm nhiệm.",
+      "B. cả 2 ca trực cùng thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ.",
+      "C. ca nào cũng được tùy theo chỉ huy phân công nhiệm vụ.",
+      "D. ca trực trước thực hiện nhiệm vụ chữa cháy, cứu nạn, cứu hộ, việc trực tại đơn vị do ca trực sau đảm nhiệm."
     ],
     "dapan": 4
   },
@@ -69,10 +69,10 @@
     "ID": "TT370007",
     "cauHoi": "Sau khi huấn luyện thường xuyên nghiệp vụ chữa cháy, cứu nạn, cứu hộ, thực tập phương án phương án chữa cháy, cứu nạn, cứu hộ, phương án cứu nạn, cứu hộ hoặc sau khi đi làm nhiệm vụ chữa cháy, cứu nạn, cứu hộ về đến đơn vị, chỉ huy đơn vị phải tổ chức làm những gì?",
     "luaChon": [  
-      "A. phải tổ chức kiểm tra, bảo dưỡng, bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định",
+      "A. phải tổ chức kiểm tra, bảo dưỡng, bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định.",
       "B. phải tổ chức kiểm tra, bảo dưỡng, bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ.",
-      "C. phải bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định",
-      "D. phải tổ chức kiểm tra, bảo dưỡng, chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định"
+      "C. phải bổ sung nhiên liệu, nước, chất chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định.",
+      "D. phải tổ chức kiểm tra, bảo dưỡng, chữa cháy bảo đảm phương tiện luôn ở trạng thái trực sẵn sàng chữa cháy, cứu nạn, cứu hộ theo quy định."
     ],
     "dapan": 1
   },
@@ -137,9 +137,10 @@
     "luaChon": [  
       "A. Quy định về nhiệm vụ công tác phòng cháy, chữa cháy, cứu nạn, cứu hộ của lực lượng Công an nhân dân.",
       "B. Quy định chi tiết một số điều của Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ và Nghị định số 105/2025/NĐ-CP ngày 15 tháng 5 năm 2025 của Chính phủ Quy định chi tiết một số điều và biện pháp thi hành Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ.",
-      "C. Quy định về thực hiện dân chủ trong Công tác Phòng cháy, chữa cháy, cứu nạn, cứu hộ của Lực lượng Công an nhân dân",
+      "C. Quy định về thực hiện dân chủ trong Công tác Phòng cháy, chữa cháy, cứu nạn, cứu hộ của Lực lượng Công an nhân dân.",
       "D. Quy định xử phạt vi phạm hành chính trong Lĩnh vực Phòng cháy, chữa cháy và cứu nạn, cứu hộ."
     ],
     "dapan": 1
   }
+
 ]

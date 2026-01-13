@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Trắc Nghiệm</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
         #timer-container {
             display: none;
@@ -39,35 +40,35 @@
         }
     </style>
 </head> 
-<body>
-    <div id="headerTrangChu">
-        <h2>CÔNG AN TỈNH QUẢNG NINH</h2>
-        <h1>PHÒNG CẢNH SÁT PCCC VÀ CNCH</h1>
+<body class="font-sans bg-gray-150">
+
+    <div id="headerTrangChu" class="w-[420px] md:w-80/100 border border-2 rounded-md  text-center p-4 mx-auto my-6">
+        <h2 class="text-lg font-semibold">CÔNG AN TỈNH QUẢNG NINH</h2>
+        <h1 class="text-xl font-bold">PHÒNG CẢNH SÁT PCCC VÀ CNCH</h1>
     </div>
-    <div id="tieuDe">
-        <h2>BỘ ĐỀ KIỂM TRA NGHIỆP VỤ CHỮA CHÁY VÀ CNCH</h2></div>
+    <div id="tieuDe" class="text-center font-semibold text-2xl mb-8">
+        <h2>BỘ ĐỀ KIỂM TRA <br>NGHIỆP VỤ CHỮA CHÁY VÀ CNCH</h2></div>
     <!-- Bộ đếm thời gian nổi -->
     <div id="timer-container">
         <span id="timer-display">00:00</span>
         <span class="timer-note">(Hệ thống tự nộp khi hết giờ)</span>
     </div>
 
-    <div id="nhapThongtin">
-        <h2>Thông tin cá nhân</h2>
-        <form id="infoForm">
-            <label for="name">Tên:</label>
-            <input type="text" id="name" required><br><br>
+    <div id="nhapThongtin" class="space-x-3 border border-2 rounded-md p-6 w-[420px] md:w-80/100 mx-auto my-3">
+        <h2 class="text-center font-medium text-xl">Thông tin cá nhân</h2>
+        <form id="infoForm" class="font-semibold md:w-70/100 mx-auto mt-4">
+            <label for="name">Tên:</label><br>
+            <input type="text" id="name" class="border w-100/100 px-2"><br><br>
 
-            <label for="phone">SĐT (Chỉ nhập số):</label>
-            <input type="tel" id="phone" pattern="[0-9]*" inputmode="numeric" 
+            <label for="phone">SĐT (Chỉ nhập số):</label><br>
+            <input type="tel" id="phone" class="border w-100/100 px-2" pattern="[0-9]*" inputmode="numeric" 
                    oninput="this.value = this.value.replace(/[^0-9]/g, '')" required><br><br>
 
-            <label for="position">Chức vụ:</label>
-            <input type="text" id="position" required><br><br>
-
-            <label for="donvi">Đơn vị:</label>
-            <select id="donvi" required>
-                <option value="">--Chọn đơn vị--</option>
+            <label for="position">Chức vụ:</label><br>
+            <input type="text" id="position" class="border w-100/100 px-2" required><br><br>
+            <label for="donvi">Đơn vị:</label><br>
+            <select id="donvi" class="border w-100/100" required>
+                <option value="" class="text-center">--Chọn đơn vị--</option>
                 <option value="Đội Cảnh sát PCCC và CNCH trên sông, biển">Đội Cảnh sát PCCC và CNCH trên sông, biển</option>
                 <option value="Đội Chữa cháy và CNCH KV1">Đội Chữa cháy và CNCH KV1</option>
                 <option value="Đội Chữa cháy và CNCH KV2">Đội Chữa cháy và CNCH KV2</option>
@@ -83,25 +84,27 @@
             </select><br><br>
 
             <div id="start-btn-container">
-                <button type="button" id="start-btn">Làm bài</button>
+                <button type="button" id="start-btn" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 text-white">Làm bài</button>
                 <span class="btn-note">(Bạn có 30 phút để làm bài, nếu hết 30 phút hệ thống sẽ tự nộp)</span>
             </div>
         </form>
     </div>
 
     <div id="boDeRandom" style="display: none;">
-        <h1 id="tieuDe_boDeRandom">Đề Trắc nghiệm</h1>
+        <h1 id="tieuDe_boDeRandom" class="text-center text-2xl font-semibold p-6">Đề Trắc nghiệm</h1>
         <div id="question-container"></div>
         <!-- <h2>II. Tự luận</h2> -->
         <div id="essay-container"></div>
-        <button id="submit-btn">Nộp bài</button>
+        <div class="text-center">        
+            <button id="submit-btn" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 m-6 text-white">Nộp bài</button>
+        </div>
     </div>
 
     <div id="confirmation-message" style="display: none; border: 2px solid #333; padding: 20px; background: #fff; margin-top: 20px; border-radius: 8px;">
         <p id="confirmation-text" style="font-weight: bold; color: #d32f2f; font-size: 1.1em;"></p>
         <div style="margin-top: 15px;">
-            <button id="confirm-submit">Xác nhận nộp bài</button>
-            <button id="resume-btn" style="margin-left: 10px;">Làm bài tiếp</button>
+            <button id="confirm-submit" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 m-2 text-white">Xác nhận nộp bài</button>
+            <button id="resume-btn" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 m-6 text-white">Làm bài tiếp</button>
         </div>
     </div>
 
@@ -112,5 +115,7 @@
     </div>
 
     <script src="script.js"></script>
+    <!-- <script src="alert.js"></script> -->
+
 </body>
 </html>

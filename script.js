@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ==========================================
     const CONFIG = {
         thoiGianLamBaiPhut: 20, 
-        soLuongCauHoi: 20,
+        soLuongCauHoi: 2,
         danhSachFileJson: [
             './boCauHoi json/KTCN.III.SCC.json',
             './boCauHoi json/kyThuatCaNhan.json',
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
         questionContainer.innerHTML = '';
         currentQuestions.forEach((q, index) => {
             const qDiv = document.createElement('div');
-            qDiv.className = 'question';
+            qDiv.className = 'question w-[420px] md:w-80/100 p-2 mx-auto my-2';
             qDiv.id = `q-block-${q.ID}`;
             // TRẠNG THÁI LÚC LÀM BÀI: Màu bình thường
             qDiv.style.cssText = "margin-bottom:25px; padding:15px; background:#f9f9f9; border-radius:8px; border: 1px solid #ddd; transition: all 0.3s ease;";
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submitBtn.addEventListener('click', function() {
         const answeredCount = document.querySelectorAll('input[type="radio"]:checked').length;
-        confirmationText.innerHTML = `Đồng chí đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Bạn có chắc chắn muốn nộp bài?`;
+        confirmationText.innerHTML = `Đồng chí đã hoàn thành: ${answeredCount}/${currentQuestions.length} câu. Đồng chí có chắc chắn muốn nộp bài?`;
         confirmationMessageDiv.style.display = 'block';
         boDeRandomDiv.style.display = 'none';
         resumeBtn.style.display = 'inline-block';
