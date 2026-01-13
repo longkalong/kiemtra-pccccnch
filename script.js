@@ -16,12 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // CẤU HÌNH HỆ THỐNG
     // ==========================================
     const CONFIG = {
-        thoiGianLamBaiPhut: 20, 
+        thoiGianLamBaiPhut: 2, 
         soLuongCauHoi: 2,
         danhSachFileJson: [
-            './boCauHoi json/KTCN.III.SCC.json',
-            './boCauHoi json/kyThuatCaNhan.json',
-            './boCauHoi json/thongTu372025.json'
+            // './boCauHoi json/KTCN.III.SCC.json',
+            // './boCauHoi json/kyThuatCaNhan.json',
+            // './boCauHoi json/thongTu372025.json'
+            './boCauHoi json/test_hinhanh.json'
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
         cauKhichLe: [
@@ -92,19 +93,40 @@ document.addEventListener('DOMContentLoaded', function() {
             qDiv.id = `q-block-${q.ID}`;
             // TRẠNG THÁI LÚC LÀM BÀI: Màu bình thường
             qDiv.style.cssText = "margin-bottom:25px; padding:15px; background:#f9f9f9; border-radius:8px; border: 1px solid #ddd; transition: all 0.3s ease;";
+
+            let imageTag = "";
+            if (q.hinhAnh) {
+
+                imageTag = `<div style="text-align:center; margin:10px 0;">
+                                <img src="${q.hinhAnh}" alt="Hình minh họa" style="max-width:100%; height:auto; border-radius:5px; border:1px solid #ccc;">
+                            </div>`;
+            }
+
             qDiv.innerHTML = `
                 <p style="font-weight: bold;">Câu ${index + 1}: ${q.cauHoi}</p>
+                <img src= "${q.hinhAnh}" alt="Test" style="max-width:100%; height:auto; border-radius:5px; border:1px solid #ccc; margin-bottom:10px;">
                 <ul class="choices" id="choices-${q.ID}" style="list-style: none; padding: 0;">
-                    ${q.luaChon.map((choice, i) => `
-                        <li id="li-${q.ID}-${i + 1}" 
-                            onclick="handleSelect('${q.ID}', ${i + 1})"
-                            style="padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px; cursor:pointer; background:#fff;">
-                            <label style="display:flex; align-items:center; cursor:pointer; width:100%;">
-                                <input type="radio" name="radio-${q.ID}" value="${i + 1}" style="margin-right:10px;" onclick="event.stopPropagation(); handleSelect('${q.ID}', ${i + 1});">
-                                <span>${choice}</span>
-                            </label>
-                        </li>
-                    `).join('')}
+                    ${q.luaChon.map((choice, i) => {
+
+                        const textContent = typeof choice === 'object' ? choice.text : choice;
+                        const imgHtml = (typeof choice === 'object' && choice.img) 
+                            ? `<img src="${choice.img}" style="display:block; max-width:150px; margin-top:5px; border-radius:4px;">` 
+                            : '';
+
+                        return `
+                            <li id="li-${q.ID}-${i + 1}" 
+                                onclick="handleSelect('${q.ID}', ${i + 1})"
+                                style="padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px; cursor:pointer; background:#fff;">
+                                <label style="display:flex; align-items:flex-start; cursor:pointer; width:100%;">
+                                    <input type="radio" name="radio-${q.ID}" value="${i + 1}" style="margin-right:10px; margin-top:5px;" onclick="event.stopPropagation(); handleSelect('${q.ID}', ${i + 1});">
+                                    <div>
+                                        <span>${textContent}</span>
+                                        ${imgHtml}
+                                    </div>
+                                </label>
+                            </li>
+                        `;
+                    }).join('')}        
                 </ul>
             `;
             questionContainer.appendChild(qDiv);

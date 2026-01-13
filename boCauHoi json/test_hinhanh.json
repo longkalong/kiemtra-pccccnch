@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "KTCN0001",
+    "cauHoi": "Thành phần của bộ quần áo chữa cháy, CNCH chuyên dụng gồm?",
+    "hinhAnh": "images/133858389664743244.jpg", 
+    "luaChon": [    
+      {"text": "Mũ bảo hộ, áo chống cháy, găng tay, ủng", "img": "images/133861791849115576.jpg"},
+      {"text": "Mũ bảo hộ, áo chống cháy, găng tay, ủng, mặt nạ phòng độc", "img": "images/133893023555553254.jpg"},
+      {"text": "Áo chống cháy, găng tay, ủng", "img": "images/133876220049630935.jpg"},
+      {"text": "Mũ bảo hộ, áo chống cháy", "img": "images/133858389664743244.jpg"}
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "KTCN0004",
+    "cauHoi": "Kỹ thuật 'Dìu người bị nạn' được áp dụng trong trường hợp nào?",
+    "hinhAnh": "images/z6997215626502_88249501f3a9fdeb5f0e30eddcf8ae73.jpg",
+    "luaChon": [
+      "A. ...",
+      "B. ...",
+      "C. ...",
+      "D. ..."
+    ],
+    "dapan": 1
+  }
+]
