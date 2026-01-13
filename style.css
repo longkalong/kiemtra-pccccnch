@@ -1,4 +1,8 @@
 #nhapThongtin {
+    margin: 10% 10% 10% 10%;
+}
+#nhapThongtin h2{
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -21,6 +25,8 @@
     border: 0.3em solid #000;
     border-radius: 3px;
 }
+
+
 #tieuDe{
     text-align: center;
     margin: 0 20px 0 20px;
@@ -38,3 +44,18 @@
     text-align: center;
     margin: 20px 0;
 }
+#start-btn, #submit-btn {
+    font-size: 16px;
+    padding: 5px;
+}
+
+#timer-container {
+    text-align: center;
+    width: 90%;
+}
+#submit-btn {
+    text-align: center;
+    margin:0 5% 5% 5%;
+
+}
+

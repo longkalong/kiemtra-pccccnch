@@ -16,10 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // CẤU HÌNH HỆ THỐNG
     // ==========================================
     const CONFIG = {
-        thoiGianLamBaiPhut: 30, 
-        soLuongCauHoi: 40,
+        thoiGianLamBaiPhut: 20, 
+        soLuongCauHoi: 20,
         danhSachFileJson: [
-            './boCauHoi json/CTCC.B1.ChayHoaChat.json',
             './boCauHoi json/KTCN.III.SCC.json',
             './boCauHoi json/kyThuatCaNhan.json',
             './boCauHoi json/thongTu372025.json'
