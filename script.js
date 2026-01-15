@@ -16,17 +16,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // CẤU HÌNH HỆ THỐNG
     // ==========================================
     const CONFIG = {
-        thoiGianLamBaiPhut: 2, 
-        soLuongCauHoi: 2,
+        thoiGianLamBaiPhut: 30, 
+        soLuongCauHoi: 15,
         danhSachFileJson: [
             '/boCauHoi json/CTCC.B23CCCHKDXangDau.json',
             '/boCauHoi json/KTCN.III.SCC.json',
             '/boCauHoi json/kyThuatCaNhan.json',
             '/boCauHoi json/mayCuaCamTayStihlTs420.json',
             '/boCauHoi json/thongTu372025.json'
+
             // './boCauHoi json/KTCN.III.SCC.json',
             // './boCauHoi json/kyThuatCaNhan.json',
-            // './boCauHoi json/thongTu372025.json'
+            // './boCauHoi json/thongTu372025.json',
             // './boCauHoi json/test_hinhanh.json'
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
@@ -63,12 +64,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function loadAllData() {
         try {
-            const promises = CONFIG.danhSachFileJson.map(file => fetch(file).then(res => res.json()));
+            const promises = CONFIG.danhSachFileJson.map(file => 
+                fetch(file).then(res => {
+                    if (!res.ok) throw new Error(`Không thể tải file: ${file}`);
+                    return res.json();
+                })
+            );
+            
             const results = await Promise.all(promises);
+            
+            // Gộp tất cả các mảng từ các file JSON vào allQuestions
             allQuestions = results.flat();
-        } catch (error) { console.error("Lỗi tải dữ liệu:", error); }
+
+            // IN TỔNG SỐ CÂU HỎI TRONG NGÂN HÀNG RA CONSOLE
+            console.log("--- THỐNG KÊ NGÂN HÀNG CÂU HỎI ---");
+            console.log(`Tổng số file JSON đã nạp: ${CONFIG.danhSachFileJson.length}`);
+            console.log(`Tổng số câu hỏi có trong ngân hàng: ${allQuestions.length}`);
+            console.log("---------------------------------");
+
+        } catch (error) {
+            console.error("Lỗi khi tải dữ liệu câu hỏi:", error);
+            alert("Không thể nạp dữ liệu câu hỏi. Vui lòng kiểm tra file JSON.");
+        }
     }
-    console.log("Tổng số câu hỏi: ", allQuestions);
     loadAllData();
 
     function shuffle(array) {
@@ -101,17 +119,16 @@ document.addEventListener('DOMContentLoaded', function() {
             qDiv.style.cssText = "margin-bottom:25px; padding:15px; background:#f9f9f9; border-radius:8px; border: 1px solid #ddd; transition: all 0.3s ease;";
 
             let imageTag = "";
-            if (q.hinhAnh) {
-
-                imageTag = `<div style="text-align:center; margin:10px 0;">
-                                <img src="${q.hinhAnh}" alt="Hình minh họa" style="max-width:100%; height:auto; border-radius:5px; border:1px solid #ccc;">
-                            </div>`;
+            if (q.hinhAnh && q.hinhAnh.trim() !== "") {
+            imageTag = `<div style="text-align:center; margin:10px 0;">
+                    <img src="${q.hinhAnh}" alt="Hình minh họa" style="max-width:100%; height:auto; border-radius:5px; border:1px solid #ccc;">
+                </div>`;
             }
 
             qDiv.innerHTML = `
                 <p style="font-weight: bold;">Câu ${index + 1}: ${q.cauHoi}</p>
-                <img src= "${q.hinhAnh}" alt="Test" style="max-width:100%; height:auto; border-radius:5px; border:1px solid #ccc; margin-bottom:10px;">
-                <ul class="choices" id="choices-${q.ID}" style="list-style: none; padding: 0;">
+    ${imageTag} 
+    <ul class="choices" id="choices-${q.ID}" style="list-style: none; padding: 0;">
                     ${q.luaChon.map((choice, i) => {
 
                         const textContent = typeof choice === 'object' ? choice.text : choice;
