@@ -1,0 +1,101 @@
+[
+    {
+        "ID": "TS4200001",
+        "cauHoi": "Dung tích động cơ của máy cắt bê tông Stihl TS 420 là bao nhiêu?",
+        "luaChon": [
+        "A. 50,2 cc",
+        "B. 66,7 cc",
+        "C. 72,4 cc",
+        "D. 94,0 cc"
+        ],
+        "dapan": 2
+    },
+    {
+    "ID": "TS4200005",
+    "cauHoi": "Kích thước đĩa cắt (đá cắt) tiêu chuẩn của máy Stihl TS 420 là:",
+    "luaChon": [
+      "A. 300 mm",
+      "B. 350 mm",
+      "C. 400 mm",
+      "D. 450 mm"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200006",
+    "cauHoi": "Chiều sâu cắt tối đa mà máy Stihl TS 420 có thể đạt được là:",
+    "luaChon": [
+      "A. 100 mm",
+      "B. 115 mm",
+      "C. 125 mm",
+      "D. 150 mm"
+    ],
+    "dapan": 3
+    },
+      {
+    "ID": "TS4200008",
+    "cauHoi": "Trước khi khởi động, cần nhấn vào núm bơm xăng (số 20) bao nhiêu lần?",
+    "luaChon": [
+      "A. 1-2 lần",
+      "B. 3-5 lần",
+      "C. 7-10 lần",
+      "D. Không cần nhấn"
+    ],
+    "dapan": 3
+    },
+      {
+    "ID": "TS4200020",
+    "cauHoi": "Linh kiện nào sau đây được coi là linh kiện hao mòn cần thay thế định kỳ?",
+    "luaChon": [
+      "A. Thân máy",
+      "B. Tay nắm khởi động",
+      "C. Ly hợp, dây curoa, bộ lọc, bugi",
+      "D. Bình xăng con"
+    ],
+    "dapan": 3
+    },
+      {
+    "ID": "TS4200021",
+    "cauHoi": "Khi giật dây khởi động, cần lưu ý điều gì để tránh hỏng bộ giật?",
+    "luaChon": [
+      "A. Giật thật mạnh rồi buông tay ngay",
+      "B. Nhẹ nhàng nương tay giật về vị trí cũ, không buông tay đột ngột",
+      "C. Chỉ giật bằng tay phải",
+      "D. Giật liên tục không nghỉ"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200022",
+    "cauHoi": "Vị trí START trên cần điều khiển trượt dùng để làm gì?",
+    "luaChon": [
+      "A. Để tắt máy",
+      "B. Để duy trì ga khởi động",
+      "C. Để điều chỉnh lượng nước",
+      "D. Để thay lưỡi cắt"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200026",
+    "cauHoi": "Bộ phận 'Van giảm áp' có tác dụng gì trước khi khởi động?",
+    "luaChon": [
+      "A. Tăng áp suất buồng đốt",
+      "B. Giảm lực kéo khi giật khởi động",
+      "C. Tăng lượng oxy vào máy",
+      "D. Làm sạch bugi"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200027",
+    "cauHoi": "Máy cắt Stihl TS 420 sử dụng loại dầu nhớt nào?",
+    "luaChon": [
+      "A. Dầu nhớt 4 thì (4T)",
+      "B. Dầu nhớt 2 thì (2T)",
+      "C. Dầu thủy lực",
+      "D. Dầu ăn"
+    ],
+    "dapan": 2
+    }
+]

@@ -1,0 +1,154 @@
+[
+    {
+      "ID": "CTCCCHKDXD0001",
+      "cauHoi": "Đặc điểm nào sau đây KHÔNG là đặc điểm nguy hiểm cháy nổ của xăng dầu?",
+      "luaChon": [
+        "A. Xăng dầu không hoà tan trong nước và có tỷ trọng nhỏ hơn nước.",
+        "B. Do hơi xăng dầu nhẹ hơn không khí từ 2 - 5 lần, nên thường tích tụ xung quanh thiết bị bơm rót và dễ tạo thành hỗn hợp nguy hiểm cháy nổ.",
+        "C. Vận tốc cháy của xăng dầu lớn",
+        "D. Xăng dầu có tính độc hại cao, nên khi con người tiếp xúc nhiều với hơi xăng sẽ ảnh hưởng không tốt đến sức khoẻ và giảm khả năng làm việc"
+      ],
+      "dapan": 2
+    },
+    {
+        "ID": "CTCCCHKDXD0002",
+        "cauHoi": "Cửa hàng xăng dầu trên mặt nước được xây dựng cố định hoặc sử dụng loại phương tiện nào?",
+        "luaChon": [
+        "A. Thuyền gỗ gia cố bằng nhựa",
+        "B. Tàu vỏ thép, xà lan đã được cải hoán",
+        "C. Bè tre quy mô lớn",
+        "D. Cano cao tốc chuyên dụng được cải hoán"
+        ],
+        "dapan": 2
+    },
+    {
+    "ID": "CTCCCHKDXD0003",
+    "cauHoi": "Hệ thống đường ống công nghệ trong cửa hàng xăng dầu bao gồm:",
+    "luaChon": [
+      "A. Ống thoát nước và ống thông gió",
+      "B. Ống dẫn điện cao áp",
+      "C. Ống nhập, họng nhập kín, ống xuất và ống dẫn hơi",
+      "D. Chỉ bao gồm ống dẫn xăng từ bể lên cột bơm"
+    ],
+    "dapan": 3
+    },
+    {
+        "ID": "CTCCCHKDXD0004",
+        "cauHoi": "Đặc điểm nguy hiểm cháy, nổ quan trọng nhất của xăng dầu tại cửa hàng kinh doanh là:",
+        "luaChon": [
+        "A. Dễ bay hơi tạo thành hỗn hợp nổ với không khí",
+        "B. Có khả năng tự bốc cháy ở nhiệt độ thường",
+        "C. Tan nhiều trong nước gây cháy lan",
+        "D. Trọng lượng riêng nặng hơn nước"
+        ],
+        "dapan": 1
+    },
+    {
+    "ID": "PCCCXD0002",
+    "cauHoi": "Khi xảy ra cháy xăng dầu, tại sao không được dùng nước trực tiếp để chữa cháy (nếu không có phụ gia tạo bọt)?",
+    "luaChon": [
+      "A. Vì nước làm xăng dầu bay hơi nhanh hơn",
+      "B. Vì xăng dầu nhẹ hơn nước, nổi lên trên và gây cháy lan",
+      "C. Vì nước phản ứng hóa học với xăng sinh ra khí độc",
+      "D. Vì nước làm tăng nhiệt độ vùng cháy"
+    ],
+    "dapan": 2
+    },
+    {
+    "ID": "PCCCXD0006",
+    "cauHoi": "Khi nhập hàng từ xe bồn vào bể chứa, yếu tố nào dễ gây ra tia lửa dẫn đến cháy nổ nhất?",
+    "luaChon": [
+      "A. Độ ẩm không khí cao",
+      "B. Tĩnh điện do ma sát giữa xăng dầu và thành ống",
+      "C. Sức gió mạnh",
+      "D. Áp suất lốp xe bồn"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "PCCCXD0007",
+    "cauHoi": "Đâu là đặc điểm của đám cháy xăng dầu trong bể chứa ngầm khi bị hở nắp?",
+    "luaChon": [
+      "A. Cháy bề mặt với cường độ bức xạ nhiệt lớn",
+      "B. Cháy ngầm không có khói",
+      "C. Chỉ cháy ở dưới đáy bể",
+      "D. Không bao giờ xảy ra nổ"
+    ],
+    "dapan": 1
+    },
+      {
+    "ID": "PCCCXD0008",
+    "cauHoi": "Biện pháp an toàn quan trọng nhất khi xe bồn nhập hàng vào cửa hàng xăng dầu là:",
+    "luaChon": [
+      "A. Tắt máy xe và tiếp địa chống tĩnh điện",
+      "B. Mở cửa xe bồn để thông thoáng",
+      "C. Cho xe nổ máy liên tục để bơm dầu",
+      "D. Tưới nước lên sân trước khi nhập"
+    ],
+    "dapan": 1
+    },
+      {
+    "ID": "PCCCXD0009",
+    "cauHoi": "Chiến thuật 'phủ kín bề mặt' bằng bọt hòa tan (Foam) có tác dụng gì?",
+    "luaChon": [
+      "A. Làm tăng oxy cho đám cháy",
+      "B. Cách ly oxy với bề mặt chất cháy và làm mát",
+      "C. Làm loãng nồng độ xăng dầu",
+      "D. Tăng nhiệt độ sôi của xăng"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "PCCCXD0010",
+    "cauHoi": "Tại các cửa hàng xăng dầu, cát thường được dùng để chữa cháy vì:",
+    "luaChon": [
+      "A. Cát làm xăng dầu biến chất",
+      "B. Cát có tác dụng bao vây, ngăn chặn cháy lan và dập tắt đám cháy nhỏ",
+      "C. Cát làm xăng dầu bốc hơi nhanh hơn",
+      "D. Cát tạo ra khí CO2"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "PCCCXD0017",
+    "cauHoi": "Khi triển khai chữa cháy cửa hàng xăng dầu trên mặt nước, cần lưu ý thêm điều gì?",
+    "luaChon": [
+      "A. Sử dụng thêm cát trên mặt nước",
+      "B. Ngăn chặn xăng dầu tràn ra mặt nước gây cháy lan diện rộng",
+      "C. Không cần làm mát vỏ tàu",
+      "D. Tắt tất cả các loại đèn chiếu sáng"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "PCCCXD0023",
+    "cauHoi": "Yếu tố nào làm tăng tốc độ cháy của xăng dầu?",
+    "luaChon": [
+      "A. Diện tích bề mặt chất lỏng lớn",
+      "B. Nhiệt độ môi trường thấp",
+      "C. Độ ẩm không khí cao",
+      "D. Lượng oxy trong không khí thấp"
+    ],
+    "dapan": 1
+    },  {
+    "ID": "PCCCXD0028",
+    "cauHoi": "Đặc điểm của bình chữa cháy CO2 khi chữa cháy xăng dầu là:",
+    "luaChon": [
+      "A. Dập cháy bằng cách làm loãng nồng độ Oxy và làm lạnh cực nhanh",
+      "B. Dập cháy bằng cách tạo màng ngăn",
+      "C. Dập cháy bằng cách phản ứng hóa học",
+      "D. Dập cháy bằng cách hút oxy trong không khí ngăn phản ứng cháy"   ],
+    "dapan": 1
+    },
+      {
+    "ID": "PCCCXD0030",
+    "cauHoi": "Chiến thuật chữa cháy bằng cách dùng bạt hoặc chăn phủ kín đám cháy dựa trên nguyên lý:",
+    "luaChon": [
+      "A. Làm lạnh chất cháy",
+      "B. Cách ly (triệt tiêu nguồn Oxy)",
+      "C. Làm loãng chất cháy",
+      "D. Kìm hãm phản ứng hóa học"
+    ],
+    "dapan": 2
+    }
+]

@@ -19,10 +19,15 @@ document.addEventListener('DOMContentLoaded', function() {
         thoiGianLamBaiPhut: 2, 
         soLuongCauHoi: 2,
         danhSachFileJson: [
+            '/boCauHoi json/CTCC.B23CCCHKDXangDau.json',
+            '/boCauHoi json/KTCN.III.SCC.json',
+            '/boCauHoi json/kyThuatCaNhan.json',
+            '/boCauHoi json/mayCuaCamTayStihlTs420.json',
+            '/boCauHoi json/thongTu372025.json'
             // './boCauHoi json/KTCN.III.SCC.json',
             // './boCauHoi json/kyThuatCaNhan.json',
             // './boCauHoi json/thongTu372025.json'
-            './boCauHoi json/test_hinhanh.json'
+            // './boCauHoi json/test_hinhanh.json'
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
         cauKhichLe: [
@@ -63,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
             allQuestions = results.flat();
         } catch (error) { console.error("Lỗi tải dữ liệu:", error); }
     }
+    console.log("Tổng số câu hỏi: ", allQuestions);
     loadAllData();
 
     function shuffle(array) {
