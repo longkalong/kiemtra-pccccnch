@@ -23,7 +23,7 @@
     },
       {
     "ID": "TS4200006",
-    "cauHoi": "Chiều sâu cắt tối đa mà máy Stihl TS 420 có thể đạt được là:",
+    "cauHoi": "Chiều sâu cắt tối đa mà máy cắt bê tông cầm tay Stihl TS 420 có thể đạt được là:",
     "luaChon": [
       "A. 100 mm",
       "B. 115 mm",
@@ -34,7 +34,7 @@
     },
       {
     "ID": "TS4200008",
-    "cauHoi": "Trước khi khởi động, cần nhấn vào núm bơm xăng (số 20) bao nhiêu lần?",
+    "cauHoi": "Trước khi khởi động máy cắt bê tông cầm tay Stihl TS 420, cần nhấn vào núm bơm xăng (số 20) bao nhiêu lần?",
     "luaChon": [
       "A. 1-2 lần",
       "B. 3-5 lần",
@@ -45,7 +45,7 @@
     },
       {
     "ID": "TS4200020",
-    "cauHoi": "Linh kiện nào sau đây được coi là linh kiện hao mòn cần thay thế định kỳ?",
+    "cauHoi": "Trong máy cắt bê tông cầm tay Stihl TS 420, linh kiện nào sau đây được coi là linh kiện hao mòn cần thay thế định kỳ?",
     "luaChon": [
       "A. Thân máy",
       "B. Tay nắm khởi động",
@@ -78,7 +78,7 @@
     },
       {
     "ID": "TS4200026",
-    "cauHoi": "Bộ phận 'Van giảm áp' có tác dụng gì trước khi khởi động?",
+    "cauHoi": "Bộ phận 'Van giảm áp' trong máy cắt bê tông cầm tay Stihl TS 420 có tác dụng gì trước khi khởi động?",
     "luaChon": [
       "A. Tăng áp suất buồng đốt",
       "B. Giảm lực kéo khi giật khởi động",
