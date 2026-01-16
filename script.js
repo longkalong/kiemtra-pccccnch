@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ==========================================
     const CONFIG = {
         thoiGianLamBaiPhut: 30, 
-        soLuongCauHoi: 15,
+        soLuongCauHoi: 20,
         danhSachFileJson: [
             '/boCauHoi json/CTCC.B23CCCHKDXangDau.json',
             '/boCauHoi json/KTCN.III.SCC.json',
@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', function() {
             allQuestions = results.flat();
 
             // IN TỔNG SỐ CÂU HỎI TRONG NGÂN HÀNG RA CONSOLE
-            console.log("--- THỐNG KÊ NGÂN HÀNG CÂU HỎI ---");
-            console.log(`Tổng số file JSON đã nạp: ${CONFIG.danhSachFileJson.length}`);
-            console.log(`Tổng số câu hỏi có trong ngân hàng: ${allQuestions.length}`);
-            console.log("---------------------------------");
+            // console.log("--- THỐNG KÊ NGÂN HÀNG CÂU HỎI ---");
+            // console.log(`Tổng số file JSON đã nạp: ${CONFIG.danhSachFileJson.length}`);
+            // console.log(`Tổng số câu hỏi có trong ngân hàng: ${allQuestions.length}`);
+            // console.log("---------------------------------");
 
         } catch (error) {
             console.error("Lỗi khi tải dữ liệu câu hỏi:", error);
