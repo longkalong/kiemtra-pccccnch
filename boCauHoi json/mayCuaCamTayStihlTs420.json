@@ -1,48 +1,5 @@
 [
-    {
-        "ID": "TS4200001",
-        "cauHoi": "Dung tích động cơ của máy cắt bê tông Stihl TS 420 là bao nhiêu?",
-        "luaChon": [
-        "A. 50,2 cc",
-        "B. 66,7 cc",
-        "C. 72,4 cc",
-        "D. 94,0 cc"
-        ],
-        "dapan": 2
-    },
-    {
-    "ID": "TS4200005",
-    "cauHoi": "Kích thước đĩa cắt (đá cắt) tiêu chuẩn của máy Stihl TS 420 là:",
-    "luaChon": [
-      "A. 300 mm",
-      "B. 350 mm",
-      "C. 400 mm",
-      "D. 450 mm"
-    ],
-    "dapan": 2
-    },
-      {
-    "ID": "TS4200006",
-    "cauHoi": "Chiều sâu cắt tối đa mà máy cắt bê tông cầm tay Stihl TS 420 có thể đạt được là:",
-    "luaChon": [
-      "A. 100 mm",
-      "B. 115 mm",
-      "C. 125 mm",
-      "D. 150 mm"
-    ],
-    "dapan": 3
-    },
-      {
-    "ID": "TS4200008",
-    "cauHoi": "Trước khi khởi động máy cắt bê tông cầm tay Stihl TS 420, cần nhấn vào núm bơm xăng (số 20) bao nhiêu lần?",
-    "luaChon": [
-      "A. 1-2 lần",
-      "B. 3-5 lần",
-      "C. 7-10 lần",
-      "D. Không cần nhấn"
-    ],
-    "dapan": 3
-    },
+
       {
     "ID": "TS4200020",
     "cauHoi": "Trong máy cắt bê tông cầm tay Stihl TS 420, linh kiện nào sau đây được coi là linh kiện hao mòn cần thay thế định kỳ?",
