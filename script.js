@@ -303,4 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     confirmSubmitBtn.addEventListener('click', () => submitQuiz());
+    window.forceSubmitQuiz = function() {
+        submitQuiz(true); 
+    };
 });

@@ -1,24 +1,36 @@
-document.addEventListener('contextmenu', event => event.preventDefault());
-document.addEventListener('copy', e => e.preventDefault());
-document.addEventListener('paste', e => e.preventDefault());
-document.addEventListener('cut', e => e.preventDefault());
-document.addEventListener("visibilitychange", function() {
+window.violationCount = 0;
+
+function handleViolation(message) {
+    window.violationCount++;
+    alert(`${message}\nSố lần vi phạm: ${window.violationCount}/3`);
+    
+    if (window.violationCount >= 3) {
+        alert("Bạn đã vi phạm quá 3 lần. Hệ thống sẽ tự động nộp bài!");
+        if (typeof window.forceSubmitQuiz === 'function') {
+            window.forceSubmitQuiz();
+        }
+    }
+}
+
+document.addEventListener('visibilitychange', function() {
   if (document.hidden) {
-    alert("Cảnh báo: Bạn vừa rời khỏi trang làm bài! Hành vi này đã được ghi lại.");
+    handleViolation("Cảnh báo: Bạn vừa rời khỏi trang làm bài!");
   }
 });
-window.addEventListener('blur', () => {
-  console.log("Người dùng đã chuyển tab hoặc mở ứng dụng khác");
-});
-window.addEventListener('blur', () => {
-  // Khi người dùng nhấn phím tắt chụp ảnh, trình duyệt sẽ bị blur
-  document.body.classList.add('blur-content');
-});
 
-window.addEventListener('focus', () => {
-  // Khi họ quay lại trang web
-  document.body.classList.remove('blur-content');
-});
+// window.addEventListener('blur', () => {
+//   console.log("Người dùng đã chuyển tab hoặc mở ứng dụng khác");
+// });
+// window.addEventListener('blur', () => {
+//   // Khi người dùng nhấn phím tắt chụp ảnh, trình duyệt sẽ bị blur
+//   document.body.classList.add('blur-content');
+// });
+
+// window.addEventListener('focus', () => {
+//   // Khi họ quay lại trang web
+//   document.body.classList.remove('blur-content');
+// });
+
 document.addEventListener('keydown', function(e) {
     // 1. Chặn F12 (Mở Inspect)
     if (e.key === "F12") {
@@ -43,8 +55,12 @@ document.addEventListener('keydown', function(e) {
         alert("Cảnh báo: Không được phép in bài thi!");
         e.preventDefault();
     }
-
-    // 5. Cảnh báo khi dùng Shift + Win + S hoặc PrintScreen
+    // 5. Chặn Ctrl + C (Copy nội dung trang)
+    if (e.ctrlKey && e.key === "c") {
+        alert("Cảnh báo: Không được phép sao chép nội dung bài thi!");
+        e.preventDefault();
+    }
+    // 6. Cảnh báo khi dùng Shift + Win + S hoặc PrintScreen
     // Lưu ý: Trình duyệt không chặn được Win+S nhưng có thể phát hiện phím Shift/Meta
     if (e.key === "PrintScreen" || (e.key === "s" && e.metaKey && e.shiftKey)) {
         alert("Hệ thống phát hiện hành động chụp màn hình!");
