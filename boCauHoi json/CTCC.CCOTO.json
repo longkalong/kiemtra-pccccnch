@@ -56,7 +56,7 @@
     },
     {
     "ID": "CCOTO0006",
-    "cauHoi": "Chiến thuật sử dụng lăng phun nào sau đây là đúng khi chữa cháy  xe ô tô?",
+    "cauHoi": "Chiến thuật sử dụng lăng phun nào sau đây là đúng khi chữa cháy xe ô tô?",
     "luaChon": [
         "A. Sử dụng lăng A phun trực tiếp vào tâm đám cháy từ xa để dập tắt nhanh nhất.",
         "B. Dùng lăng A phun lùa vào trong các khoang qua cửa, dập dứt điểm từng khoang; đồng thời dùng lăng B, lăng hương sen phun làm mát và bảo vệ các khoang lân cận.",
@@ -155,7 +155,7 @@
   },
   {
     "ID": "CCOTO0015",
-    "cauHoi": "Nhiệm vụ trọng tâm của 'Giai đoạn 1' khi chữa cháy xe xi téc xăng dầu bị cháy lan trên mặt đất là gì?",
+    "cauHoi": "Nhiệm vụ trọng tâm của 'Giai đoạn đầu' khi chữa cháy xe xi téc xăng dầu bị cháy lan trên mặt đất là gì?",
     "luaChon": [
       "A. Tập trung dập tắt ngọn lửa trên miệng xi téc ngay lập tức.",
       "B. Phun nước vào bên trong xi téc để hạ nhiệt độ xăng dầu.",
