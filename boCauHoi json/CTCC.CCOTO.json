@@ -1,0 +1,222 @@
+[
+    {
+    "ID": "CCOTO0001",
+    "cauHoi": "Trong quá trình trinh sát đám cháy ô tô chở khách, chở hàng; trong thành phần tổ trinh sát ngoài CBCS Cảnh sát PCCC và CNCH, thì nhất thiết phải có:",
+    "luaChon": [
+        "A. lái xe hoặc chủ phương tiện.",
+        "B. chủ hàng hoặc người đại diện chủ hàng.",
+        "C. người dân.",
+        "D. người bốc xếp hàng hóa."
+    ],
+    "dapan": 1
+    },
+    {
+    "ID": "CCOTO0002",
+    "cauHoi": "Để đảm bảo an toàn khi chữa cháy xe ô tô chở khách, chở hàng; khi triển khai đường vòi cần lưu ý gì?",
+    "luaChon": [
+        "A. Triển khai đường vòi cắt ngang đường để rút ngắn khoảng cách tiếp cận đám cháy.",
+        "B. Ưu tiên triển khai vòi băng qua dải phân cách cứng để xe chữa cháy khác dễ dàng di chuyển.",
+        "C. Các tuyến đường vòi chính phải triển khai dọc theo đường, nếu phải triển khai cắt ngang đường thì phải có giải pháp chèn để tránh xe chữa cháy chạy qua đè lên làm vỡ vòi trên tuyến đường vòi chính.",
+        "D. Triển khai vòi ở giữa làn đường xe chạy để thuận tiện cho việc triển khai và thu hồi vòi sau khi dập tắt đám cháy."
+    ],
+    "dapan": 3
+    },
+    {
+    "ID": "CCOTO0003",
+    "cauHoi": "Trong chữa cháy xe ô tô, khi triển khai các tuyến đường vòi chữa cháy chính, trường hợp bắt buộc phải đặt vòi cắt ngang qua đường giao thông thì cần thực hiện giải pháp gì?",
+    "luaChon": [
+        "A. Tạm dừng toàn bộ các phương tiện giao thông cho đến khi chữa cháy xong.",
+        "B. Phải có giải pháp chèn vòi để tránh việc xe chữa cháy chạy qua đè lên làm vỡ vòi.",
+        "C. Sử dụng loại vòi có khả năng chịu lực cực cao để xe có thể cán qua trực tiếp.",
+        "D. Chỉ triển khai vòi cắt ngang đường vào ban đêm khi không có phương tiện qua lại."
+    ],
+    "dapan": 2
+    }    ,
+    {
+    "ID": "CCOTO0004",
+    "cauHoi": "Khi xe ô tô (chở hàng hoặc chở khách) bị cháy khi đang chạy trên đường, người lái xe cần lưu ý gì về vị trí dừng xe?",
+    "luaChon": [
+        "A. Phải dừng xe ngay lập tức tại vị trí phát hiện cháy để dập lửa, bất kể địa hình.",
+        "B. Tìm cách điều khiển xe vào sát các công trình hoặc khu dân cư để nhờ người dân hỗ trợ chữa cháy.",
+        "C. Chỉ được phép dừng xe tại các trạm dừng nghỉ hoặc trạm xăng dầu có sẵn phương tiện chữa cháy.",
+        "D. Có thể dừng ở bất kỳ đoạn đường nào nhưng phải cách xa các công trình, làng bản, dân cư và thông báo ngay cho lực lượng chuyên nghiệp."
+    ],
+    "dapan": 4
+    },
+    {
+    "ID": "CCOTO0005",
+    "cauHoi": "Trong trường hợp xe tải đang bốc dỡ hàng hóa tại bến xe mà xảy ra cháy, quy trình xử lý ưu tiên nào sau đây là đúng?",
+    "luaChon": [
+        "A. Tập trung toàn bộ lực lượng tại chỗ để dập tắt đám cháy ngay tại vị trí bốc dỡ.",
+        "B. Chỉ sơ tán hàng hóa trên xe, giữ nguyên vị trí xe để tránh làm đám cháy bùng phát mạnh hơn.",
+        "C. Ngắt kết nối các phương tiện xung quanh và chờ lực lượng chữa cháy chuyên nghiệp đến xử lý.",
+        "D. Di chuyển chiếc xe ra xa khu vực bến xe rồi mới tiến hành các biện pháp tổ chức dập tắt đám cháy."
+    ],
+    "dapan": 4
+    },
+    {
+    "ID": "CCOTO0006",
+    "cauHoi": "Chiến thuật sử dụng lăng phun nào sau đây là đúng khi chữa cháy  xe ô tô?",
+    "luaChon": [
+        "A. Sử dụng lăng A phun trực tiếp vào tâm đám cháy từ xa để dập tắt nhanh nhất.",
+        "B. Dùng lăng A phun lùa vào trong các khoang qua cửa, dập dứt điểm từng khoang; đồng thời dùng lăng B, lăng hương sen phun làm mát và bảo vệ các khoang lân cận.",
+        "C. Chỉ sử dụng lăng hương sen để tiết kiệm nước và tránh làm hỏng hàng hóa chưa bị cháy.",
+        "D. Phun nước từ dưới gầm xe lên trên để làm mát hệ thống truyền động trước khi dập lửa khoang hàng."
+    ],
+    "dapan": 2
+    },
+    {
+    "ID": "CCOTO0007",
+    "cauHoi": "Qua thực tế các vụ cháy xe ô tô xi téc chở xăng dầu, đám cháy thường diễn ra dưới những hình thái nào sau đây?",
+    "luaChon": [
+        "A. Chỉ cháy tại hệ thống truyền động và lốp xe do ma sát nhiệt.",
+        "B. Cháy trên miệng xi téc; hoặc cháy đồng thời tại miệng, thành xi téc, họng xuất nhập hàng và xăng dầu chảy loang ra ngoài.",
+        "C. Đám cháy chỉ xảy ra bên trong bồn chứa kín và không bao giờ thoát ra ngoài miệng xi téc.",
+        "D. Cháy do nổ lốp xe dẫn đến biến dạng hoàn toàn xi téc trước khi ngọn lửa bùng phát tại các họng xả."
+    ],
+    "dapan": 2
+    },
+    {
+    "ID": "CCOTO0008",
+    "cauHoi": "Tại sao khi chữa cháy xe xi téc xăng dầu đã phát triển lớn, lực lượng chữa cháy phải đặc biệt chú ý đến thời gian cháy và độ bền của vỏ bình chứa?",
+    "luaChon": [
+        "A. Vì xăng dầu sẽ tự bốc hơi hết sau một thời gian nhất định, không cần phun chất chữa cháy.",
+        "B. Vì sau một thời gian, vỏ téc mất độ bền cơ học dễ gây nổ hoặc hỏng các cụm van, mặt bích làm xăng dầu tràn ra ngoài gây cháy lan diện rộng.",
+        "C. Vì nhiệt độ cao sẽ làm xăng dầu biến chất, không còn giá trị kinh tế sau khi dập tắt.",
+        "D. Vì áp suất bên trong giảm dần theo thời gian cháy, giúp việc tiếp cận hiện trường trở nên an toàn tuyệt đối."
+    ],
+    "dapan": 2
+    },
+    {
+    "ID": "CCOTO0009",
+    "cauHoi": "Theo nguyên tắc chữa cháy xe xi téc, khoảng cách thiết lập vành đai an toàn ban đầu và bán kính di tản đề phòng nổ lần lượt là bao nhiêu?",
+    "luaChon": [
+        "A. Trên 20m tính từ thiết bị sự cố và di tản bán kính trên 100m.",
+        "B. Trên 30m tính từ thiết bị sự cố và di tản bán kính trên 300m.",
+        "C. Trên 50m tính từ thiết bị sự cố và di tản mở rộng bán kính trên 800m.",
+        "D. Trên 100m tính từ thiết bị sự cố và di tản mở rộng bán kính trên 1000m."
+    ],
+    "dapan": 3
+    },
+    {
+    "ID": "CCOTO0010",
+    "cauHoi": "Khi tổ chức làm mát xe xi téc đang bị cháy, thao tác nào sau đây là SAI?",
+    "luaChon": [
+        "A. Làm mát liên tục cho đến khi xăng dầu bên trong nguội hẳn.",
+        "B. Dùng tia nước áp lực cao phun vuông góc trực tiếp vào thành thiết bị chứa.",
+        "C. Phun nước làm mát cả bình chứa nhiên liệu của xe và téc chứa xăng dầu.",
+        "D. Làm mát đồng thời các công trình liền kề nằm trong vùng bức xạ nhiệt."
+    ],
+    "dapan": 2
+    },
+    {
+    "ID": "CCOTO0011",
+    "cauHoi": "Trường hợp đám cháy diễn ra đồng thời trên miệng xi téc và dưới sàn do xăng dầu chảy loang, trình tự dập lửa đúng là gì?",
+    "luaChon": [
+        "A. Dập tắt ngọn lửa trên miệng xi téc trước, sau đó mới dập ngọn lửa dưới sàn.",
+        "B. Chỉ tập trung dập lửa trên miệng xi téc, mặc kệ đám cháy dưới sàn tự tắt.",
+        "C. Tập trung lực lượng dập tắt ngọn lửa xung quanh và dưới sàn trước, sau đó mới dập tắt ngọn lửa trên miệng xi téc.",
+        "D. Phun bọt đồng thời vào tất cả các điểm cháy mà không cần phân biệt thứ tự."
+    ],
+    "dapan": 3
+    },
+    {
+    "ID": "CCOTO0012",
+    "cauHoi": "Khi sử dụng bọt chữa cháy (foam) để tấn công dập tắt ngọn lửa xe xi téc, điều kiện tiên quyết là gì?",
+    "luaChon": [
+        "A. Phải phun bọt ngay lập tức khi xe chữa cháy vừa đến hiện trường.",
+        "B. Chỉ phun bọt khi đám cháy đã tự yếu đi.",
+        "C. Phải tính toán và chuẩn bị đủ cơ số chất tạo bọt cần thiết mới tiến hành phun tấn công.",
+        "D. Phun nước pha lẫn bọt với tỉ lệ thấp nhất để tiết kiệm hóa chất."
+    ],
+    "dapan": 3
+    },
+    {
+    "ID": "CCOTO0013",
+    "cauHoi": "Biện pháp nào được sử dụng để khoanh vùng, ngăn ngừa xăng dầu chảy loang phát tán ra phạm vi rộng?",
+    "luaChon": [
+        "A. Dùng lăng tiêu điểm phun trực tiếp vào dòng chảy loang.",
+        "B. Đắp đê ngăn, bao chặn xung quanh phương tiện bằng cát, đất, sỏi...",
+        "C. Sử dụng quạt thổi công suất lớn để đẩy hơi xăng dầu đi hướng khác.",
+        "D. Mở hết các van xả để xăng dầu chảy nhanh xuống hệ thống thoát nước công cộng."
+    ],
+    "dapan": 2
+    },
+{
+    "ID": "CCOTO0014",
+    "cauHoi": "Trong thực tế, hai phương pháp cơ bản thường được sử dụng kết hợp để dập tắt đám cháy xăng dầu là gì?",
+    "luaChon": [
+      "A. Phương pháp làm loãng nồng độ oxy và phương pháp ức chế hóa học.",
+      "B. Phương pháp làm lạnh và phương pháp cách ly.",
+      "C. Phương pháp triệt tiêu nguồn nhiệt và phương pháp di chuyển chất cháy.",
+      "D. Phương pháp dùng nước áp lực cao và phương pháp dùng cát che phủ."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0015",
+    "cauHoi": "Nhiệm vụ trọng tâm của 'Giai đoạn 1' khi chữa cháy xe xi téc xăng dầu bị cháy lan trên mặt đất là gì?",
+    "luaChon": [
+      "A. Tập trung dập tắt ngọn lửa trên miệng xi téc ngay lập tức.",
+      "B. Phun nước vào bên trong xi téc để hạ nhiệt độ xăng dầu.",
+      "C. Khoanh vùng đám cháy, dập tắt lửa trên thành xe và mặt đất, ngăn chặn xăng dầu chảy loang.",
+      "D. Đợi xăng dầu cháy hết trên mặt sàn mới triển khai đội hình phun bọt."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0016",
+    "cauHoi": "Tại sao TUYỆT ĐỐI không được phun nước dạng tia vào trong xi téc qua nắp nắp xi téc đang cháy?",
+    "luaChon": [
+      "A. Vì nước sẽ làm hỏng cấu trúc kim loại bên trong xi téc.",
+      "B. Vì sẽ làm loãng xăng dầu, giảm giá trị kinh tế của hàng hóa.",
+      "C. Vì làm tăng thể tích chất lỏng dẫn đến trào xăng dầu đang cháy ra ngoài gây cháy lớn.",
+      "D. Vì nước áp lực cao sẽ dập tắt ngọn lửa quá nhanh gây nổ thứ cấp."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0017",
+    "cauHoi": "Trong giai đoạn dập lửa miệng xi téc, việc sử dụng lăng giá hoặc lăng A phun dòng nước áp lực cao nhằm mục đích gì?",
+    "luaChon": [
+      "A. Để cắt chân ngọn lửa trên miệng xi téc.",
+      "B. Để đẩy xăng dầu chảy ngược lại vào trong téc.",
+      "C. Để hòa loãng hơi xăng dầu trên miệng téc.",
+      "D. Để tạo lớp màng ngăn oxy xâm nhập vào bên trong."
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCOTO0018",
+    "cauHoi": "Khi có các đốm lửa nhỏ còn tồn tại xen giữa các đám bọt phủ trên sàn, nên sử dụng phương tiện gì để xử lý dứt điểm?",
+    "luaChon": [
+      "A. Phun tia nước áp lực cao trực tiếp vào đốm lửa.",
+      "B. Sử dụng các bình bột chữa cháy.",
+      "C. Dùng quạt công suất lớn để thổi tắt lửa.",
+      "D. Đổ thêm nước vào khu vực có đốm lửa."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0019",
+    "cauHoi": "Đối với cháy xe xi téc đang xuất nhập hàng tại cửa hàng xăng dầu, hành động nào cần thực hiện ngay sau khi phát hiện cháy?",
+    "luaChon": [
+      "A. Tiếp tục bơm xăng dầu xuống bể chứa cho nhanh để giải phóng xe.",
+      "B. Mở tất cả các van để xăng dầu thoát ra ngoài nhanh hơn.",
+      "C. Dừng xuất nhập, đóng các van, di chuyển xe bị cháy ra xa khu vực cửa hàng và dân cư (nếu có thể).",
+      "D. Chỉ tập trung dùng cát đắp đê mà không cần đóng van xuất nhập."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0020",
+    "cauHoi": "Giải pháp nào giúp thoát nước ra khỏi đê bao mà vẫn giữ lại được lớp xăng dầu và bọt chữa cháy?",
+    "luaChon": [
+      "A. Khoét lỗ ở phía trên đỉnh của đê bao.",
+      "B. Đặt các ống thoát trên thân đê bao sát với mặt sàn.",
+      "C. Để nước tự thấm qua lớp đất, cát đắp đê.",
+      "D. Sử dụng máy bơm hút nước từ bề mặt trên cùng của đám cháy."
+    ],
+    "dapan": 2
+  }
+]

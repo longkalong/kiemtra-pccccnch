@@ -16,26 +16,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // CẤU HÌNH HỆ THỐNG
     // ==========================================
     const CONFIG = {
-        thoiGianLamBaiPhut: 30, 
+        thoiGianLamBaiPhut: 20, 
         soLuongCauHoi: 20,
         danhSachFileJson: [
-<<<<<<< HEAD
-            './boCauHoi json/KTCN.III.SCC.json',
-            './boCauHoi json/kyThuatCaNhan.json',
-            './boCauHoi json/thongTu372025.json',  
-            './boCauHoi json/test_hinhanh.json'
-=======
-            '/boCauHoi json/CTCC.B23CCCHKDXangDau.json',
-            '/boCauHoi json/KTCN.III.SCC.json',
+            '/boCauHoi json/CTCC.CCOTO.json',
+            // '/boCauHoi json/KTCN.III.SCC.json',
             '/boCauHoi json/kyThuatCaNhan.json',
-            '/boCauHoi json/mayCuaCamTayStihlTs420.json',
+            // '/boCauHoi json/mayCuaCamTayStihlTs420.json',
             '/boCauHoi json/thongTu372025.json'
-
+            
             // './boCauHoi json/KTCN.III.SCC.json',
             // './boCauHoi json/kyThuatCaNhan.json',
             // './boCauHoi json/thongTu372025.json',
             // './boCauHoi json/test_hinhanh.json'
->>>>>>> 4cdf8ec5f2463aa0375fe7074ad4c6f9b448d89d
+
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
         cauKhichLe: [
