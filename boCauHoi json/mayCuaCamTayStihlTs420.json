@@ -1,0 +1,58 @@
+[
+
+      {
+    "ID": "TS4200020",
+    "cauHoi": "Trong máy cắt bê tông cầm tay Stihl TS 420, linh kiện nào sau đây được coi là linh kiện hao mòn cần thay thế định kỳ?",
+    "luaChon": [
+      "A. Thân máy",
+      "B. Tay nắm khởi động",
+      "C. Ly hợp, dây curoa, bộ lọc, bugi",
+      "D. Bình xăng con"
+    ],
+    "dapan": 3
+    },
+      {
+    "ID": "TS4200021",
+    "cauHoi": "Khi giật dây khởi động máy Cắt bê tông cầm tay, cần lưu ý điều gì để tránh hỏng bộ giật?",
+    "luaChon": [
+      "A. Giật thật mạnh rồi buông tay ngay",
+      "B. Nhẹ nhàng nương tay giật về vị trí cũ, không buông tay đột ngột",
+      "C. Chỉ giật bằng tay phải",
+      "D. Giật liên tục không nghỉ"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200022",
+    "cauHoi": "Trên máy Cắt bê tông cầm tay, vị trí START trên cần điều khiển trượt dùng để làm gì?",
+    "luaChon": [
+      "A. Để tắt máy",
+      "B. Để duy trì ga khởi động",
+      "C. Để điều chỉnh lượng nước",
+      "D. Để thay lưỡi cắt"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200026",
+    "cauHoi": "Bộ phận 'Van giảm áp' trong máy cắt bê tông cầm tay Stihl TS 420 có tác dụng gì trước khi khởi động?",
+    "luaChon": [
+      "A. Tăng áp suất buồng đốt",
+      "B. Giảm lực kéo khi giật khởi động",
+      "C. Tăng lượng oxy vào máy",
+      "D. Làm sạch bugi"
+    ],
+    "dapan": 2
+    },
+      {
+    "ID": "TS4200027",
+    "cauHoi": "Máy cắt Stihl TS 420 sử dụng loại dầu nhớt nào?",
+    "luaChon": [
+      "A. Dầu nhớt 4 thì (4T)",
+      "B. Dầu nhớt 2 thì (2T)",
+      "C. Dầu thủy lực",
+      "D. Dầu ăn"
+    ],
+    "dapan": 2
+    }
+]
