@@ -172,10 +172,10 @@ document.addEventListener('DOMContentLoaded', function() {
     startBtn.addEventListener('click', function() {
         const name = document.getElementById('name').value.trim();
         const phone = document.getElementById('phone').value.trim();
-        const position = document.getElementById('position').value.trim();
+        const chucvu = document.getElementById('chucvu').value;
         const donvi = document.getElementById('donvi').value;
 
-        if (!name || !phone || !donvi || !position) { 
+        if (!name || !phone || !donvi || !chucvu) { 
             alert("Vui lòng nhập đầy đủ thông tin!"); 
             return; 
         }
@@ -257,8 +257,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const data = {
             name: document.getElementById('name').value,
+            cccd: document.getElementById('cccd').value,
+            ngaycap: document.getElementById('ngaycap').value,
             phone: "'" + document.getElementById('phone').value,
-            position: document.getElementById('position').value,
+            chucvu: document.getElementById('chucvu').value,
             donvi: document.getElementById('donvi').value,
             correct_answers: correctCount,
             score: `${correctCount}/${total}`,
@@ -282,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div style="background: #fff; padding: 25px; border-radius: 12px; margin-top: 30px; border: 4px solid #2e7d32; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
                     <h2 style="color: #2e7d32; text-align: center; margin-top:0;">KẾT QUẢ BÀI LÀM</h2>
                     <p><strong>Thí sinh:</strong> ${data.name}</p>
-                    <p><strong>Chức vụ:</strong> ${data.position}</p>
+                    <p><strong>Chức vụ:</strong> ${data.chucvu}</p>
                     <p><strong>Đơn vị:</strong> ${data.donvi}</p>
                     <hr>
                     <p><strong>Số câu đúng:</strong> <span style="color: green; font-weight: bold; font-size: 1.2em;">${correctCount}</span> / ${total}</p>

@@ -60,12 +60,27 @@
             <label for="name">Tên:</label><br>
             <input type="text" id="name" class="border w-100/100 px-2"><br><br>
 
+            <label for="cccd">Nhập CCCD</label><br>
+            <input type="tel" id="cccd" class="border w-100/100 px-2" pattern="[0-9]*" inputmode="numeric" 
+                   oninput="this.value = this.value.replace(/[^0-9]/g, '')" required><br><br>
+
+            <label for="ngaycap">Ngày cấp:</label><br>
+            <input type="text" id="ngaycap" class="border w-100/100 px-2"><br><br>
+
             <label for="phone">SĐT (Chỉ nhập số):</label><br>
             <input type="tel" id="phone" class="border w-100/100 px-2" pattern="[0-9]*" inputmode="numeric" 
                    oninput="this.value = this.value.replace(/[^0-9]/g, '')" required><br><br>
 
-            <label for="position">Chức vụ:</label><br>
-            <input type="text" id="position" class="border w-100/100 px-2" required><br><br>
+            <label for="chucvu">Chức vụ:</label><br>
+            <select id="chucvu" class="border w-100/100" required>
+                <option value="" class="text-center">--Chọn chức vụ--</option>
+                <option value="Lãnh đạo Phòng">Lãnh đạo Phòng</option>
+                <option value="Chỉ huy Đội">Chỉ huy Đội</option>
+                <option value="Cán bộ">Cán bộ</option>
+                <option value="CSNV">CSNV</option>            
+                <option value="khác">Khác</option>
+            </select><br><br>
+
             <label for="donvi">Đơn vị:</label><br>
             <select id="donvi" class="border w-100/100" required>
                 <option value="" class="text-center">--Chọn đơn vị--</option>
@@ -80,6 +95,7 @@
                 <option value="Đội Chữa cháy và CNCH KV8">Đội Chữa cháy và CNCH KV8</option>
                 <option value="Đội Chữa cháy và CNCH KV9">Đội Chữa cháy và CNCH KV9</option>
                 <option value="Đội Chữa cháy và CNCH KV10">Đội Chữa cháy và CNCH KV10</option>
+                <option value="Đội Công tác Chữa cháy và CNCH">Đội Công tác Chữa cháy và CNCH</option>                
                 <option value="khác">Khác</option>
             </select><br><br>
 
