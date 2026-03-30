@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // './boCauHoi json/test_hinhanh.json'
 
         ],
-        scriptURL: 'https://script.google.com/macros/s/AKfycbzPp65ktWnD3IcGQl1_o6XJUDs9DQy_AX0vk8C1CrUDCgR0Rp8rJ3bp9A2uBwA6ByJ0/exec',
+        scriptURL: 'https://script.google.com/macros/s/AKfycbyF2ftPJS84Yz2aG-l2ut_HbAi1YAkdbtpefUC31S59G53cm2iXjnKkB5ns5SIgVn8H/exec',
         cauKhichLe: [
             "Cố lên, bạn đang làm rất tốt! 💪",
             "Sắp hoàn thành rồi, kiên trì nhé! ✨",
@@ -257,8 +257,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const data = {
             name: document.getElementById('name').value,
-            cccd: document.getElementById('cccd').value,
-            ngaycap: document.getElementById('ngaycap').value,
+            cccd: "'" + document.getElementById('cccd').value,
+            ngaycap: "'" + document.getElementById('ngaycap').value,
             phone: "'" + document.getElementById('phone').value,
             chucvu: document.getElementById('chucvu').value,
             donvi: document.getElementById('donvi').value,
