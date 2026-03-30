@@ -1,0 +1,442 @@
+[
+  {
+    "ID": "CCOTO0021",
+    "cauHoi": "Theo nội dung bài học, ô tô khách được định nghĩa là loại xe chở người với số lượng lớn hơn bao nhiêu người?",
+    "luaChon": [
+      "A. 07 người.",
+      "B. 09 người.",
+      "C. 12 người.",
+      "D. 16 người."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0022",
+    "cauHoi": "Cấu tạo chung của ô tô gồm bao nhiêu phần chính?",
+    "luaChon": [
+      "A. 03 phần.",
+      "B. 04 phần.",
+      "C. 05 phần.",
+      "D. 06 phần."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0023",
+    "cauHoi": "Vận tốc cháy lan trung bình của đám cháy ô tô thông thường là bao nhiêu?",
+    "luaChon": [
+      "A. 0,5 m/phút.",
+      "B. 1,0 - 1,2 m/phút.",
+      "C. 2,5 m/phút.",
+      "D. 4,0 m/phút."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0024",
+    "cauHoi": "Khi cháy ô tô, nhiệt độ vùng cháy có thể lên tới mức nào?",
+    "luaChon": [
+      "A. 500 - 600 độ C.",
+      "B. 700 - 800 độ C.",
+      "C. 1000 - 1100 độ C.",
+      "D. Trên 1500 độ C."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0025",
+    "cauHoi": "Những bộ phận nào của ô tô có nguy cơ nổ cao nhất khi gặp nhiệt độ cao?",
+    "luaChon": [
+      "A. Vô lăng và cần số.",
+      "B. Đèn pha và kính chắn gió.",
+      "C. Bình nhiên liệu, lốp xe, túi khí.",
+      "D. Ghế ngồi và thảm sàn."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0026",
+    "cauHoi": "Đặc điểm nào dưới đây gây khó khăn nhất cho việc thoát nạn trong xe khách khi xảy ra cháy?",
+    "luaChon": [
+      "A. Xe chạy tốc độ cao.",
+      "B. Không gian hẹp, cửa ra vào hạn chế, khói độc dày đặc.",
+      "C. Hệ thống loa đài quá lớn.",
+      "D. Xe có nhiều kính cửa sổ."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0027",
+    "cauHoi": "Nội dung nào KHÔNG thuộc quy trình trinh sát đám cháy ô tô?",
+    "luaChon": [
+      "A. Xác định loại ô tô, loại hàng hóa trên xe.",
+      "B. Kiểm tra số lượng người còn kẹt lại.",
+      "C. Kiểm tra nồng độ cồn của lái xe.",
+      "D. Xác định tình trạng bình nhiên liệu và hệ thống điện."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0028",
+    "cauHoi": "Khi triển khai cứu người trong đám cháy ô tô khách, ưu tiên số một là gì?",
+    "luaChon": [
+      "A. Cứu tài sản quý giá trên xe.",
+      "B. Dập tắt hoàn toàn đám cháy rồi mới cứu người.",
+      "C. Cứu người bị nạn ra khỏi khu vực nguy hiểm.",
+      "D. Phun nước làm mát lốp xe."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0029",
+    "cauHoi": "Trong chữa cháy ô tô, hướng tiếp cận tốt nhất để triển khai lực lượng là gì?",
+    "luaChon": [
+      "A. Cuối hướng gió.",
+      "B. Đầu hướng gió hoặc ngang hướng gió.",
+      "C. Trực diện từ phía sau xe.",
+      "D. Từ phía trên mái xe xuống."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0030",
+    "cauHoi": "Nếu đám cháy chỉ mới phát sinh ở cụm động cơ và nắp capo chưa bị biến dạng, nên làm gì?",
+    "luaChon": [
+      "A. Mở tung nắp capo ngay lập tức.",
+      "B. Phun chất chữa cháy qua khe hở nắp capo hoặc hốc bánh xe.",
+      "C. Đứng lên nắp capo để dập lửa.",
+      "D. Đập vỡ kính chắn gió."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0031",
+    "cauHoi": "Đối với đám cháy ô tô chở chất lỏng cháy chảy tràn trên mặt đường, loại chất chữa cháy nào hiệu quả nhất?",
+    "luaChon": [
+      "A. Nước phun thẳng vào gốc lửa.",
+      "B. Bọt chữa cháy (Foam).",
+      "C. Khí Nitơ.",
+      "D. Cát khô."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0032",
+    "cauHoi": "Tại sao phải ngắt điện (cắt dây cọc bình acquy) khi chữa cháy ô tô?",
+    "luaChon": [
+      "A. Để tiết kiệm điện.",
+      "B. Để loa báo động không kêu.",
+      "C. Loại trừ nguồn gây cháy và ngăn ngừa chập mạch điện.",
+      "D. Để dễ dàng di chuyển xe."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0033",
+    "cauHoi": "Khi phun nước làm mát bình nhiên liệu, cần chú ý điều gì?",
+    "luaChon": [
+      "A. Phun ngắt quãng.",
+      "B. Chỉ phun vào lốp xe.",
+      "C. Phun liên tục trực tiếp vào vỏ bình để giảm nhiệt độ áp suất.",
+      "D. Phun vào bên trong thùng xe."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0034",
+    "cauHoi": "Đâu là biện pháp an toàn khi tiếp cận đám cháy ô tô?",
+    "luaChon": [
+      "A. Không đeo mặt nạ phòng độc để nhìn cho rõ.",
+      "B. Trang bị đầy đủ quần áo chữa cháy, mũ, ủng, thiết bị thở.",
+      "C. Đi giày vải để di chuyển nhanh.",
+      "D. Tiếp cận sát bình xăng khi nó đang phồng lên."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0035",
+    "cauHoi": "Theo tài liệu, ô tô tải được xác định có khối lượng chuyên chở cho phép từ bao nhiêu kg trở lên?",
+    "luaChon": [
+      "A. 500 kg.",
+      "B. 1.000 kg.",
+      "C. 1.500 kg.",
+      "D. 2.000 kg."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0036",
+    "cauHoi": "Hệ thống nào trên ô tô có chức năng nhận và truyền động lực từ động cơ đến bánh xe?",
+    "luaChon": [
+      "A. Hệ thống lái.",
+      "B. Hệ thống truyền lực.",
+      "C. Hệ thống treo.",
+      "D. Hệ thống phanh."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0037",
+    "cauHoi": "Khi cháy ô tô chở hàng là hóa chất độc hại, lực lượng chữa cháy cần lưu ý điều gì?",
+    "luaChon": [
+      "A. Phun nước thật mạnh vào hóa chất.",
+      "B. Đứng cuối hướng gió.",
+      "C. Sử dụng trang phục chống hóa chất chuyên dụng và đứng đầu hướng gió.",
+      "D. Không cần dùng mặt nạ lọc độc."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0038",
+    "cauHoi": "Hành động nào cần thực hiện ngay khi phát hiện người bị kẹt trong cabin xe đang cháy?",
+    "luaChon": [
+      "A. Gọi điện cho người thân của họ.",
+      "B. Phun nước làm mát khu vực có người kẹt và dùng thiết bị banh cắt để cứu người.",
+      "C. Chờ xe cháy hết rồi mới vào tìm.",
+      "D. Đẩy ô tô xuống vực."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0039",
+    "cauHoi": "Trong trường hợp cháy ô tô trên đường cao tốc, việc đầu tiên cần làm để đảm bảo an toàn cho lực lượng là gì?",
+    "luaChon": [
+      "A. Chạy ra giữa đường vẫy tay.",
+      "B. Đặt biển cảnh báo, khoanh vùng bảo vệ khu vực chiến đấu.",
+      "C. Tập trung xem giấy tờ xe.",
+      "D. Tắt hết đèn xe chữa cháy."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0040",
+    "cauHoi": "Tại sao không nên dùng dòng nước đặc áp lực cao phun trực tiếp vào lớp bọt đang bao phủ đám cháy xăng dầu?",
+    "luaChon": [
+      "A. Làm tốn nước.",
+      "B. Làm hỏng vỏ xe.",
+      "C. Phá hủy lớp bọt gây cháy trở lại.",
+      "D. Làm ướt quần áo chiến sĩ."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0041",
+    "cauHoi": "Khi chữa cháy ô tô trong gara, tầng hầm, khó khăn lớn nhất là gì?",
+    "luaChon": [
+      "A. Thiếu ánh sáng.",
+      "B. Khói độc tụ lại đậm đặc, nhiệt độ cao và khó thoát khói.",
+      "C. Không có chỗ đỗ xe chữa cháy.",
+      "D. Sàn nhà quá trơn."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0042",
+    "cauHoi": "Lăng phun bọt bội số nở trung bình thường được sử dụng khi nào trong chữa cháy ô tô?",
+    "luaChon": [
+      "A. Khi chỉ cháy lốp xe.",
+      "B. Khi dập cháy xăng dầu chảy tràn trên mặt sàn.",
+      "C. Khi phun vào kính xe.",
+      "D. Khi làm mát chiến sĩ."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0043",
+    "cauHoi": "Biện pháp nào giúp hạn chế cháy lan từ ô tô bị cháy sang các xe lân cận?",
+    "luaChon": [
+      "A. Phun nước làm mát các xe xung quanh và di chuyển chúng ra nơi an toàn.",
+      "B. Đổ thêm cát vào các xe xung quanh.",
+      "C. Đập vỡ kính các xe xung quanh.",
+      "D. Xì hết hơi lốp các xe xung quanh."
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCOTO0044",
+    "cauHoi": "Sau khi đám cháy ô tô đã được dập tắt hoàn toàn, cần làm gì tiếp theo?",
+    "luaChon": [
+      "A. Thu dọn vòi lăng và về ngay.",
+      "B. Kiểm tra kỹ xem còn tàn lửa không và bàn giao hiện trường cho cơ quan chức năng.",
+      "C. Cho phép người dân vào lấy linh kiện xe.",
+      "D. Rửa xe bằng xà phòng."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0045",
+    "cauHoi": "Đâu là một loại hình ô tô chuyên dùng theo tài liệu?",
+    "luaChon": [
+      "A. Xe máy.",
+      "B. Xe đạp điện.",
+      "C. Xe cần cẩu, xe chữa cháy, xe truyền hình lưu động.",
+      "D. Xe bò kéo."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0046",
+    "cauHoi": "Nguyên nhân gây cháy ô tô do hệ thống điện thường xuất phát từ đâu?",
+    "luaChon": [
+      "A. Do đổ quá nhiều xăng.",
+      "B. Do chập mạch, quá tải hoặc đấu nối thiết bị không đúng kỹ thuật.",
+      "C. Do lốp xe quá mòn.",
+      "D. Do xe chở quá nhiều người."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0047",
+    "cauHoi": "Khi phun nước chữa cháy ô tô, dòng phun nào giúp bảo vệ chiến sĩ khỏi sức nóng bức xạ hiệu quả nhất?",
+    "luaChon": [
+      "A. Dòng phun đặc.",
+      "B. Dòng phun phân tán (phun sương).",
+      "C. Phun ngắt quãng.",
+      "D. Phun từ xa 50 mét."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0048",
+    "cauHoi": "Trong cấu tạo ô tô, hệ thống nào có nhiệm vụ giảm các va đập từ mặt đường truyền lên xe?",
+    "luaChon": [
+      "A. Hệ thống lái.",
+      "B. Hệ thống treo.",
+      "C. Hệ thống điện.",
+      "D. Động cơ."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0049",
+    "cauHoi": "Việc sử dụng thiết bị banh, cắt thủy lực trong chữa cháy ô tô nhằm mục đích gì?",
+    "luaChon": [
+      "A. Để phá hủy xe cho nhanh.",
+      "B. Để tạo lối thoát nạn và giải cứu người bị kẹt trong cabin biến dạng.",
+      "C. Để lấy động cơ ra ngoài.",
+      "D. Để giải trí."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0050",
+    "cauHoi": "Nếu ô tô cháy trên dốc, cần lưu ý điều gì về hướng chảy của nhiên liệu?",
+    "luaChon": [
+      "A. Nhiên liệu sẽ chảy ngược lên dốc.",
+      "B. Nhiên liệu cháy sẽ chảy loang xuống phía dưới dốc, gây cháy lan.",
+      "C. Nhiên liệu sẽ tự bốc hơi hết.",
+      "D. Không có nguy hiểm gì."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0051",
+    "cauHoi": "Công tác hậu cần trong chữa cháy ô tô bao gồm việc cung cấp gì?",
+    "luaChon": [
+      "A. Vé xem phim.",
+      "B. Nước, chất chữa cháy, nhiên liệu và y tế cho lực lượng chiến đấu.",
+      "C. Quà lưu niệm cho lái xe.",
+      "D. Sách báo đọc tại chỗ."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0052",
+    "cauHoi": "Vật liệu nào trong nội thất ô tô khi cháy tạo ra nhiều khí độc nhất?",
+    "luaChon": [
+      "A. Khung thép của xe.",
+      "B. Kính cửa sổ.",
+      "C. Nhựa, cao su, nệm mút polyurethane.",
+      "D. Nước làm mát động cơ."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0053",
+    "cauHoi": "Khi trinh sát đám cháy ô tô tải, cần đặc biệt chú ý điều gì về hàng hóa?",
+    "luaChon": [
+      "A. Màu sắc của hàng hóa.",
+      "B. Giá tiền của hàng hóa.",
+      "C. Tính chất nguy hiểm của hàng hóa (dễ cháy, nổ, độc hại).",
+      "D. Tên nhà sản xuất hàng hóa."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0054",
+    "cauHoi": "Túi khí (Airbag) trên ô tô có thể gây nguy hiểm gì cho nhân viên cứu hộ?",
+    "luaChon": [
+      "A. Làm nhân viên cứu hộ buồn ngủ.",
+      "B. Có thể nổ bất ngờ nếu chưa kích hoạt và bị tác động nhiệt/va chạm.",
+      "C. Túi khí làm hỏng quần áo chữa cháy.",
+      "D. Không có nguy hiểm gì."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0055",
+    "cauHoi": "Khoảng cách an toàn tối thiểu khi tiếp cận đám cháy ô tô có nguy cơ nổ bình xăng là bao nhiêu nếu không có đồ bảo hộ?",
+    "luaChon": [
+      "A. 1 mét.",
+      "B. 5 mét.",
+      "C. 10 - 15 mét.",
+      "D. 100 mét."
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCOTO0056",
+    "cauHoi": "Sử dụng 'đê bao' bằng đất cát khi chữa cháy ô tô chảy tràn xăng dầu nhằm mục đích gì?",
+    "luaChon": [
+      "A. Để trang trí hiện trường.",
+      "B. Để ngăn chặn xăng dầu cháy lan ra diện tích rộng hoặc xuống cống rãnh.",
+      "C. Để xe không lăn bánh được.",
+      "D. Để làm sạch đường phố."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0057",
+    "cauHoi": "Khi đám cháy đã lan vào khoang hành khách xe bus, ưu tiên phun nước vào đâu?",
+    "luaChon": [
+      "A. Phun vào gương chiếu hậu.",
+      "B. Phun vào trần xe và các hàng ghế để dập lửa và giảm nhiệt.",
+      "C. Phun vào biển số xe.",
+      "D. Phun vào ống xả."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0058",
+    "cauHoi": "Cơ quan nào có thẩm quyền xác định số lượng người chở cho phép trên ô tô khách?",
+    "luaChon": [
+      "A. Cửa hàng bán xe.",
+      "B. Cơ quan đăng kiểm (ghi trong Giấy chứng nhận kiểm định).",
+      "C. Người lái xe tự quyết định.",
+      "D. Ủy ban nhân dân xã."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0059",
+    "cauHoi": "Hệ thống phụ trợ trên ô tô bao gồm những thiết bị nào?",
+    "luaChon": [
+      "A. Bánh xe và vô lăng.",
+      "B. Điều hòa, radio, tời kéo, hệ thống định vị.",
+      "C. Piston và xi lanh.",
+      "D. Bình xăng và ống dẫn."
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCOTO0060",
+    "cauHoi": "Tại sao phải liên tục theo dõi tình trạng lốp xe khi chữa cháy ô tô?",
+    "luaChon": [
+      "A. Để xem lốp có đẹp không.",
+      "B. Vì lốp xe có thể nổ gây nguy hiểm trực tiếp cho chiến sĩ ở gần.",
+      "C. Để biết xe của hãng nào.",
+      "D. Để đếm số lượng bánh xe."
+    ],
+    "dapan": 2
+  }
+]
