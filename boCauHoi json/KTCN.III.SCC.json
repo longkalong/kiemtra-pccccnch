@@ -143,12 +143,12 @@
   },
   {
     "ID": "KTCN0015",
-    "cauHoi": "Thời gian nới garo 1 lần là bao lâu?",
+    "cauHoi": "Sau khi nới garo, sau bao lâu sẽ siết lại?",
     "luaChon": [
-      "A. 2-3 phút",
-      "B. 3-4 phút",
+      "A. 1-2 phút",
+      "B. 15-20 phút",
       "C. 4-5 phút",
-      "D. 5-6 phút"
+      "D. 10-15 phút"
     ],
     "dapan": 3
   },

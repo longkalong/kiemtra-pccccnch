@@ -168,8 +168,9 @@ document.addEventListener('DOMContentLoaded', function() {
         selectedLi.style.background = "#e3f2fd";
         updateLiveStats();
     };
-
+    let startTime;
     startBtn.addEventListener('click', function() {
+        startTime = new Date().toLocaleString('vi-VN');
         const name = document.getElementById('name').value.trim();
         const phone = document.getElementById('phone').value.trim();
         const chucvu = document.getElementById('chucvu').value;
@@ -262,6 +263,8 @@ document.addEventListener('DOMContentLoaded', function() {
             phone: "'" + document.getElementById('phone').value,
             chucvu: document.getElementById('chucvu').value,
             donvi: document.getElementById('donvi').value,
+            start_time: startTime,
+            submit_time: new Date().toLocaleString('vi-VN'),
             correct_answers: correctCount,
             score: `${correctCount}/${total}`,
             grade: grade,
