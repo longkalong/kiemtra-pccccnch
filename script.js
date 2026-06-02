@@ -21,10 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
         danhSachFileJson: [
             // '/boCauHoi json/CTCC.CCOTO.json',
             // '/boCauHoi json/KTCN.III.SCC.json',
-            '/boCauHoi json/kyThuatCaNhan.json',
+            // '/boCauHoi json/kyThuatCaNhan.json',
             // '/boCauHoi json/mayCuaCamTayStihlTs420.json',
             '/boCauHoi json/thongTu372025.json',
-            '/boCauHoi json/CTCC.B23CCCHKDXangDau.json'
+            '/boCauHoi json/CTCC.B7.NhaCaoTang.json'
+            // '/boCauHoi json/CTCC.B23CCCHKDXangDau.json'
             // './boCauHoi json/KTCN.III.SCC.json',
             // './boCauHoi json/kyThuatCaNhan.json',
             // './boCauHoi json/thongTu372025.json',

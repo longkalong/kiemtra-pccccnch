@@ -1,0 +1,1103 @@
+[
+  {
+    "ID": "CCNCT0001",
+    "cauHoi": "Theo Điều 3.1 TCVN 6160-1996 'Phòng cháy và chữa cháy nhà cao tầng - Yêu cầu thiết kế', nhà cao tầng là nhà và các công trình công cộng có chiều cao và số tầng tương đương là bao nhiêu?",
+    "luaChon": [
+      "A. Chiều cao từ 15 m đến 50 m (tương đương từ 5 đến 15 tầng)",
+      "B. Chiều cao từ 25 m đến 100 m (tương đương từ 10 đến 30 tầng)",
+      "C. Chiều cao từ 50 m đến 100 m (tương đương từ 15 đến 30 tầng)",
+      "D. Chiều cao từ 25 m đến 150 m (tương đương từ 10 đến 45 tầng)"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0002",
+    "cauHoi": "Theo Điều 3.1. TCXDVN 194-2006 'Nhà cao tầng - Công tác khảo sát địa kỹ thuật', nhà cao tầng là nhà ở và công trình công cộng có số tầng như thế nào?",
+    "luaChon": [
+      "A. Có số tầng lớn hơn 5",
+      "B. Có số tầng lớn hơn 7",
+      "C. Có số tầng lớn hơn 9",
+      "D. Có số tầng lớn hơn 10"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0003",
+    "cauHoi": "Loại nhà nào được gọi là nhà siêu cao tầng?",
+    "luaChon": [
+      "A. Nhà cao trên 50 m, trên 15 tầng",
+      "B. Nhà cao trên 75 m, trên 20 tầng",
+      "C. Nhà cao trên 100 m, trên 30 tầng",
+      "D. Nhà cao trên 120 m, trên 35 tầng"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0004",
+    "cauHoi": "Nhà nhiều tầng là nhà có số tầng nằm trong khoảng nào?",
+    "luaChon": [
+      "A. Từ 2 đến 5 tầng",
+      "B. Từ 2 đến 9 tầng",
+      "C. Từ 5 đến 9 tầng",
+      "D. Từ 2 đến 10 tầng"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0005",
+    "cauHoi": "Việc kết hợp nhiều công năng khác nhau trong một tòa nhà dẫn đến điều gì?",
+    "luaChon": [
+      "A. Dẫn đến tính chất phức tạp về cháy, nổ với số lượng người tập trung rất đông, nhiều hàng hoá, vật liệu dễ cháy...",
+      "B. Dẫn đến việc hệ thống PCCC của tòa nhà không thể hoạt động đồng bộ",
+      "C. Dẫn đến việc không thể bố trí buồng thang bộ không bị nhiễm khói",
+      "D. Dẫn đến việc xe chữa cháy không thể tiếp cận tòa nhà từ các hướng"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0006",
+    "cauHoi": "Tại một số địa phương hiện nay, đặc điểm quy hoạch nào của một số tòa nhà nhiều tầng, cao tầng trong các khu vực đông dân cư cần lưu ý trong các phương án chữa cháy?",
+    "luaChon": [
+      "A. Xây dựng biệt lập hoàn toàn với các khu dân cư lân cận",
+      "B. Xây dựng sát với khu vực nhà dân và các công trình lân cận, chỉ có từ 1 đến 2 mặt tiếp giáp với đường giao thông",
+      "C. Có hệ thống sân bãi rộng lớn bao quanh đảm bảo cho xe thang hoạt động",
+      "D. Tất cả các tòa nhà đều có từ 3 đến 4 mặt tiếp giáp với đường giao thông lớn"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0007",
+    "cauHoi": "Đối với nhà nhiều tầng và cao tầng, khu vực tầng hầm thường được bố trí các hạng mục hoặc công năng nào?",
+    "luaChon": [
+      "A. Chỉ làm trung tâm thương mại và khu vui chơi giải trí",
+      "B. Khu vực để xe, phòng máy biến áp, tủ điện, trạm bơm, hoặc siêu thị, trung tâm thương mại, khu vui chơi giải trí",
+      "C. Chỉ làm phòng sinh hoạt chung và phòng Ban quản lý",
+      "D. Làm văn phòng, khách sạn và các căn hộ để ở"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0008",
+    "cauHoi": "Trong tổ hợp công trình nhiều tầng và cao tầng chia thành đơn nguyên, ở mỗi đơn nguyên có đặc điểm cửa ra vào như thế nào tại tầng một?",
+    "luaChon": [
+      "A. Có từ 2 đến 3 cửa chung ra, vào buồng thang",
+      "B. Mỗi đơn nguyên chỉ có duy nhất một cửa chung ra, vào buồng thang tại tầng một",
+      "C. Không có cửa chung tại tầng một mà đi trực tiếp từ tầng hầm lên",
+      "D. Cửa chung ra vào luôn được mở thông ra khoảng không gian mở ngoài trời"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0009",
+    "cauHoi": "Tại một số đô thị, việc nhiều gia đình tại các khu nhà nhiều tầng lắp ghép tự gia cố thêm ô lưới, cửa bằng kim loại kiên cố hoặc xây thêm phần diện tích phụ trên hành lang và ban công gây ra trở ngại gì khi có cháy?",
+    "luaChon": [
+      "A. Làm tăng tải trọng cháy trung bình của tòa nhà lên gấp đôi",
+      "B. Làm cho hệ thống báo cháy tự động không thể truyền tín hiệu",
+      "C. Đường và cửa thoát nạn sẽ bị cản trở, lực lượng chữa cháy sẽ gặp trở ngại khi triển khai các hoạt động chiến đấu",
+      "D. Làm sụt lún hệ thống bể nước ngầm của tòa nhà"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0010",
+    "cauHoi": "Đối với các căn hộ chung cư, văn phòng và khách sạn, nếu đám cháy diễn ra trong thời gian dài, nhiệt độ vượt quá ngưỡng bao nhiêu có thể dẫn đến phá vỡ kính cửa sổ gây cháy lan lên các tầng phía trên?",
+    "luaChon": [
+      "A. Vượt quá ngưỡng 100 - 150 độ C",
+      "B. Vượt quá ngưỡng 150 - 200 độ C",
+      "C. Vượt quá ngưỡng 200 - 250 độ C",
+      "D. Vượt quá ngưỡng 250 - 300 độ C"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "CCNCT0011",
+    "cauHoi": "Tải trọng cháy trung bình tại các căn hộ chung cư, văn phòng và khách sạn chiếm khoảng bao nhiêu?",
+    "luaChon": [
+      "A. (10 - 20) kg/m2",
+      "B. (20 - 30) kg/m2",
+      "C. (30 - 50) kg/m2",
+      "D. (50 - 70) kg/m2"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0012",
+    "cauHoi": "Nếu chọn gỗ là chất cháy đặc trưng (trong các gian có số lượng các loại đồ gỗ chiếm từ 40 - 50 % diện tích mặt sàn), thì vận tốc lan truyền của ngọn lửa trên đồ gỗ sẽ là bao nhiêu?",
+    "luaChon": [
+      "A. (0,1 - 0,3) m/ph",
+      "B. (0,3 - 0,5) m/ph",
+      "C. (0,5 - 0,7) m/ph",
+      "D. (0,7 - 0,9) m/ph"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0013",
+    "cauHoi": "Sau khi ra khỏi cửa phòng, ngọn lửa sẽ dễ dàng cháy lan giữa các tầng nhà theo những đường hoặc vật liệu nào?",
+    "luaChon": [
+      "A. Theo kết cấu bê tông cốt thép của sàn nhà và vách ngăn chống cháy",
+      "B. Theo vật liệu dùng để che chắn ở ban công, cửa sổ, hành lang, đường ống dẫn nước thải bằng nhựa hoặc các bộ phận liên quan khác",
+      "C. Theo hệ thống đường dây tải điện thoại bố trí ngầm trong tường",
+      "D. Theo các cấu kiện bằng vật liệu không cháy và khó cháy của tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0014",
+    "cauHoi": "Yếu tố nào làm cho xe chữa cháy, xe thang, cần nâng, cần cẩu,... ở một số khu chung cư hiện nay không thể tiếp cận đến ngôi nhà bị cháy?",
+    "luaChon": [
+      "A. Do hệ thống bể nước ngầm bố trí quá sát tòa nhà",
+      "B. Do khoảng cách chống cháy giữa các ngôi nhà bị lấn chiếm, đường giao thông không đảm bảo về kích thước hoặc lưu thông không thuận tiện",
+      "C. Do các tòa nhà đều sử dụng mô hình kiến trúc nhà ở chung cư hỗn hợp",
+      "D. Do hệ thống họng chờ cho xe chữa cháy đặt sai vị trí"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0015",
+    "cauHoi": "Yếu tố nào làm giảm đáng kể khả năng chống tụ khói trong buồng thang bộ khi xảy ra cháy và trong quá trình thoát nạn từ các tầng?",
+    "luaChon": [
+      "A. Do quạt tăng áp hoạt động vượt quá công suất định mức",
+      "B. Do các cửa thông từ hành lang vào buồng thang bị mở",
+      "C. Do hệ thống chiếu sáng sự cố và chỉ dẫn thoát nạn bị ngắt",
+      "D. Do người dân di chuyển với vận tốc quá nhanh trong buồng thang"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0016",
+    "cauHoi": "Sự cố nguy hiểm nào có thể xảy ra nếu xe chữa cháy, xe thang và các xe chuyên dùng tiếp cận đám cháy trên hệ thống bể nước ngầm không chịu được tải trọng?",
+    "luaChon": [
+      "A. Làm hệ thống máy bơm chữa cháy của tòa nhà bị mất áp",
+      "B. Có thể gây sụt, lún, vỡ dẫn đến hư hỏng phương tiện, làm giảm hiệu quả công tác chữa cháy, CNCH",
+      "C. Gây chập cháy hệ thống điện và trạm biến áp của tòa nhà",
+      "D. Làm tăng lượng khói độc lan truyền lên các tầng phía trên"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0017",
+    "cauHoi": "Những đường nào lửa và khói từ nơi bị cháy có thể lan ra khắp ngôi nhà trong trường hợp thời gian cháy kéo dài?",
+    "luaChon": [
+      "A. Chỉ lan qua giếng thang máy và buồng thang dành cho người đi bộ",
+      "B. Đường ống thông gió, hút khói, cáp thông tin, cáp quang; buồng thang giành cho người đi bộ, giếng thang máy; đường ống dẫn rác thải; đường ống dẫn nước thải bằng nhựa, …",
+      "C. Các bức tường ngăn bằng vật liệu chịu lực và vách ngăn chống cháy",
+      "D. Chỉ lan dọc theo hệ thống kính bao xung quanh mặt ngoài tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0018",
+    "cauHoi": "Đối với các tòa nhà cao trên 28 m hoặc có từ 02 tầng hầm trở lên, yêu cầu lắp đặt hệ thống kỹ thuật chuyên dụng nào dành riêng cho lực lượng chữa cháy chuyên nghiệp?",
+    "luaChon": [
+      "A. Lắp đặt hệ thống Gas trung tâm tự động ngắt",
+      "B. Lắp đặt hệ thống họng chờ tiếp nước sát mặt đất",
+      "C. Lắp đặt thang máy chữa cháy dành cho Lực lượng chữa cháy chuyên nghiệp",
+      "D. Lắp đặt hệ thống loa cảnh báo hướng dẫn thoát nạn riêng"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0019",
+    "cauHoi": "Đối với các tòa nhà cao trên 100m, việc bố trí gian lánh nạn, tầng lánh nạn nhằm mục đích gì cho người dân?",
+    "luaChon": [
+      "A. Để người dân tập kết hàng hóa, tài sản có giá trị khi có sự cố",
+      "B. Bảo đảm cho người dân trong quá trình thoát nạn có thể di chuyển vào gian lánh nạn qua các cầu thang bộ để thoát nạn trong khi chờ lực lượng Cảnh sát PCCC và CNCH giải cứu",
+      "C. Làm nơi bố trí trạm biến áp, máy phát điện dự phòng và hệ thống Gas trung tâm",
+      "D. Để lực lượng chữa cháy chuyên nghiệp lắp đặt các họng khô cấp nước"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0020",
+    "cauHoi": "Đối với các nhà cao trên 17 tầng được thiết kế và xây dựng mới, họng chờ cho xe chữa cháy được bố trí như thế nào?",
+    "luaChon": [
+      "A. Bố trí không ít hơn 2 họng tại khu vực sân phía dưới sát với tòa nhà, kết nối với hệ thống chữa cháy vách tường",
+      "B. Bố trí duy nhất 1 họng đặt trực tiếp bên trong tầng hầm của tòa nhà",
+      "C. Bố trí tại ban công hoặc lô gia của tất cả các tầng phía trên cao",
+      "D. Bố trí sát khu vực gian lánh nạn của tòa nhà cao trên 100m"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0021",
+    "cauHoi": "Khi xảy ra cháy tại khu vực tầng hầm, vì sao đám cháy phát triển nhanh, tạo nhiều khói độc hại và lan truyền nhanh lên trên?",
+    "luaChon": [
+      "A. Do tầng hầm chứa hệ thống ống thu rác bằng vật liệu nhựa",
+      "B. Do đám cháy lan truyền nhanh lên trên qua các chỗ hở thông tầng, cầu thang hở …",
+      "C. Do quạt của hệ thống chống tụ khói tầng hầm hoạt động ngược chiều",
+      "D. Do kết cấu trần tầng hầm được làm bằng vật liệu dễ cháy"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0022",
+    "cauHoi": "Khoảng cách thoát nạn, thiết kế các tòa nhà cao tầng có hành lang giao thông quá dài, không có khoảng ngừng nghỉ sẽ dẫn đến việc không có khả năng tiếp cận đến các lối thoát hiểm trong khoảng cách bao nhiêu mét?",
+    "luaChon": [
+      "A. Trong khoảng cách 15 m",
+      "B. Trong khoảng cách 20 m",
+      "C. Trong khoảng cách 25 m",
+      "D. Trong khoảng cách 30 m"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0023",
+    "cauHoi": "Tại sao trong nhà nhiều tầng, cao tầng ngày nay (đặc biệt là công trình đa công năng) lại có khả năng xuất hiện cháy ở nhiều khu vực khác nhau?",
+    "luaChon": [
+      "A. Do sự cố ô tô, xe máy ở tầng hầm; sự cố hệ thống điện làm phát sinh nguồn nhiệt, hoặc do sơ suất bất cẩn của con người",
+      "B. Do quạt của hệ thống tăng áp buồng thang bộ hoạt động sai chu kỳ tạo ra ma sát lớn",
+      "C. Do các họng chờ cấp nước chữa cháy cho xe vách tường bị quá tải áp suất",
+      "D. Do kết cấu bê tông cốt thép chịu lực tự tích tụ nhiệt độ theo thời gian"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0024",
+    "cauHoi": "Đối với công trình nhà nhiều tầng, cao tầng ngày nay xây dựng chủ yếu kết cấu kính bao xung quanh và bên trong có rèm cửa, vật nào có khả năng hội tụ ánh sáng làm phát sinh nguồn nhiệt gây cháy nếu con người vô tình để lại?",
+    "luaChon": [
+      "A. Một tấm thảm trải sàn bằng nhựa tổng hợp",
+      "B. Chai nước hoặc các vật có khả năng hội tụ ánh sáng",
+      "C. Các loại ống dẫn nước thải làm bằng nhựa PE",
+      "D. Các hộp kỹ thuật đặt đường dây cáp thông tin"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0025",
+    "cauHoi": "Bằng thực nghiệm, khi cháy xuất hiện trong gian phòng ở tầng 2 của ngôi nhà với diện tích khoảng (15 - 20) m2, thì chỉ sau bao nhiêu phút tính từ thời điểm phát sinh cháy, nhiệt độ trong gian phòng đó đạt tới (540 - 625) độ C?",
+    "luaChon": [
+      "A. Sau 2 phút",
+      "B. Sau 3 phút",
+      "C. Sau 5 phút",
+      "D. Sau 10 phút"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0026",
+    "cauHoi": "Trong thực nghiệm đám cháy gian phòng diện tích (15 - 20) m2 ở tầng 2, sau thời gian 5 phút, nhiệt độ đo được tại khu vực hành lang giữa hai dãy phòng là bao nhiêu?",
+    "luaChon": [
+      "A. (100 - 120) độ C",
+      "B. (120 - 140) độ C",
+      "C. (150 - 200) độ C",
+      "D. (280 - 300) độ C"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "CCNCT0027",
+    "cauHoi": "Trong thực nghiệm đám cháy ở tầng 2, tại thời điểm 5 phút kể từ khi phát sinh cháy, nhiệt độ ở khu vực trước cửa buồng thang được xác định là bao nhiêu?",
+    "luaChon": [
+      "A. (100 - 120) độ C",
+      "B. (120 - 140) độ C",
+      "C. (280 - 300) độ C",
+      "D. (540 - 625) độ C"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0028",
+    "cauHoi": "Tại thời điểm 5 phút trong thực nghiệm đám cháy tầng 2, các chuyên gia đã xác định được lưu lượng khói từ gian phòng bị cháy theo hành lang tràn vào buồng thang là bao nhiêu?",
+    "luaChon": [
+      "A. 2000 m3/h",
+      "B. 3000 m3/h",
+      "C. 4000 m3/h",
+      "D. 5000 m3/h"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0029",
+    "cauHoi": "Trong thực nghiệm đám cháy tầng 2 ở thời điểm 5 phút, nhiệt độ trong thể tích phần buồng thang nằm giữa tầng 2 và tầng 3 nằm trong khoảng nào?",
+    "luaChon": [
+      "A. (50 - 80) độ C",
+      "B. (100 - 150) độ C",
+      "C. (200 - 250) độ C",
+      "D. (280 - 300) độ C"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0030",
+    "cauHoi": "Đám cháy tại các tòa nhà cao tầng có thể lan truyền từ tầng này sang tầng khác qua các cấu kiện, bộ phận kỹ thuật thông tầng cụ thể nào?",
+    "luaChon": [
+      "A. Các giếng kỹ thuật của đường ống dẫn nước, trục kỹ thuật điện, ống thông gió, ống thu rác",
+      "B. Hệ thống dầm và cột bê tông cốt thép chịu lực chính của ngôi nhà",
+      "C. Các bức tường ngăn cháy bằng vật liệu không cháy giữa các căn hộ",
+      "D. Các cửa sảnh tầng hầm dẫn trực tiếp vào phòng máy biến áp"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0031",
+    "cauHoi": "Khi xảy ra cháy ở các tầng phía trên (nhất là ở chung cư), trong căn hộ ở một tầng bất kỳ, đầu tiên ngọn lửa sẽ lan theo hướng nào?",
+    "luaChon": [
+      "A. Lan dọc xuống tầng hầm qua đường ống thoát nước thải đầu tiên",
+      "B. Lan theo các loại chất cháy phân bố trong căn hộ đó",
+      "C. Lan xuyên thẳng qua vách ngăn cháy cố định sang căn hộ đối diện",
+      "D. Lan sang ngôi nhà bên cạnh thông qua bức tường đầu hồi"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0032",
+    "cauHoi": "Vận tốc cháy lan trong căn hộ ở một tầng bất kỳ phụ thuộc vào những yếu tố nào?",
+    "luaChon": [
+      "A. Công suất thiết kế của trạm bơm và áp suất vách tường",
+      "B. Số lượng lối thoát nạn bằng cầu thang sắt lắp đặt bên hông tòa nhà",
+      "C. Nhóm cháy, tải trọng và cách sắp xếp, bố trí của từng loại chất cháy trong từng phòng; thời gian cháy tự do; điều kiện trao đổi khí, trao đổi nhiệt với vùng lân cận",
+      "D. Chiều cao thông thủy của sảnh tầng một công trình"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0033",
+    "cauHoi": "Bên cạnh hướng cháy lan lên theo chiều cao, đám cháy còn lan sang các gian phòng lân cận trên cùng tầng nhà thông qua các bộ phận nào?",
+    "luaChon": [
+      "A. Thông qua hệ thống cáp thông tin bọc nhựa đi ngầm",
+      "B. Thông qua các loại cửa và những khe khoảng hở khác",
+      "C. Thông qua đường ống dẫn rác thải làm bằng vật liệu không cháy",
+      "D. Thông qua hệ thống quạt thổi khí tăng áp của buồng thang bộ"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0034",
+    "cauHoi": "So với phương thẳng đứng, vận tốc cháy lan sang các gian phòng lân cận trên cùng một tầng nhà có đặc điểm gì?",
+    "luaChon": [
+      "A. Có vận tốc nhanh hơn gấp hai lần phương thẳng đứng",
+      "B. Có vận tốc tương đương, bằng nhau ở mọi điều kiện",
+      "C. Có vận tốc chậm hơn so với phương thẳng đứng",
+      "D. Không thể xác định được vì phụ thuộc hoàn toàn vào quạt hút khói"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0035",
+    "cauHoi": "Vận tốc cháy lan sang các gian phòng lân cận trên cùng tầng nhà phụ thuộc vào những yếu tố đặc trưng nào của khu vực đó?",
+    "luaChon": [
+      "A. Tổng số lượng cửa chính mở ra hành lang của đơn nguyên",
+      "B. Nhóm cháy của cấu kiện xây dựng, tải trọng, cách sắp xếp, bố trí của các chất, vật liệu cháy có ở trong đó",
+      "C. Diện tích mặt bằng của hệ thống bể nước chữa cháy ngầm",
+      "D. Khoảng cách an toàn phòng cháy chữa cháy từ tháp cao tầng đến khối đế"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0036",
+    "cauHoi": "Giá trị vận tốc cháy lan khi ngọn lửa lan theo sàn nhà, hành lang, buồng thang... sẽ khác nhau và khác nhiều so với vật liệu không cháy/khó cháy nếu các cấu kiện này được ốp, lát bằng vật liệu gì?",
+    "luaChon": [
+      "A. Tấm bê tông đúc sẵn hoặc tấm thạch cao chịu nhiệt",
+      "B. Gỗ, nhựa tổng hợp, thảm,…",
+      "C. Gạch men chịu lực hoặc các lớp vữa trát tường",
+      "D. Kính cường lực dày hoặc các khung kim loại chống cháy"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0037",
+    "cauHoi": "Yếu tố nào dưới đây có thể làm xuất hiện đám cháy ở các tầng phía DƯỚI so với tầng đang bị cháy chính?",
+    "luaChon": [
+      "A. Do tàn lửa rơi xuống gây cháy các loại vật liệu dùng để che chắn trên ban công, lan can hoặc các gian phụ gia cố thêm bằng vật liệu dễ cháy",
+      "B. Do hệ thống cung cấp gas trung tâm tự động ngắt dòng lưu lượng",
+      "C. Do dòng sản phẩm khói độc di chuyển thẳng đứng with vận tốc cao",
+      "D. Do hiện tượng giảm áp đột ngột tại sảnh tầng một công trình"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0038",
+    "cauHoi": "Hiện tượng gì xảy ra khi đám cháy lan từ các gian phụ (do người dân cơi nới, gia cố thêm bằng vật liệu dễ cháy) sang ngôi nhà bên cạnh?",
+    "luaChon": [
+      "A. Do hệ thống báo cháy tự động truyền tín hiệu sai lệch giữa các căn hộ",
+      "B. Do giữa ngôi nhà bị cháy và ngôi nhà bên cạnh không còn khoảng cách ngăn cháy",
+      "C. Do quạt hút khói đẩy sản phẩm cháy dịch chuyển theo phương ngang",
+      "D. Do kết cấu tường bao che bằng kính bị phá vỡ đột ngột dưới tác động của nước"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0039",
+    "cauHoi": "Đặc trưng cơ bản của tòa nhà cao tầng khi có cháy liên quan đến hướng dịch chuyển của khói và ngọn lửa là gì?",
+    "luaChon": [
+      "A. Khói nhanh chóng lan truyền lên các tầng phía trên và trong các giếng thang máy, buồng thang bộ; ngọn lửa lan truyền rất nhanh trong phạm vi tầng bị cháy rồi theo giếng kỹ thuật, vật liệu trang trí bề mặt lan nhanh lên trên",
+      "B. Khói tích tụ hoàn toàn tại tầng hầm và không thể thoát lên các tầng nổi",
+      "C. Ngọn lửa chỉ phát triển theo chiều ngang dọc theo các hành lang dài mà không thể bắt cháy lên các tầng cao",
+      "D. Khói và lửa bị dập tắt ngay lập tức do hiện tượng đối lưu không khí tự nhiên từ các cửa sổ mở"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0040",
+    "cauHoi": "Qua thực tế các vụ cháy, nếu xảy ra cháy trên các tầng 1, 2 và 3 của tòa nhà từ 12 - 16 tầng thì chỉ trong khoảng bao nhiêu phút tính từ lúc bắt đầu xuất hiện cháy, sản phẩm cháy đã lan truyền theo toàn bộ khu vực buồng thang bộ?",
+    "luaChon": [
+      "A. Chỉ trong khoảng 1 - 2 phút",
+      "B. Chỉ trong khoảng 3 - 4 phút",
+      "C. Chỉ trong khoảng 5 - 6 phút",
+      "D. Chỉ trong khoảng 10 - 15 phút"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0041",
+    "cauHoi": "Mức độ nhiễm khói bao trùm toàn bộ buồng thang bộ chỉ sau 5 - 6 phút (đối với đám cháy tầng 1, 2, 3 của nhà từ 12 - 16 tầng), con người sẽ gặp nguy hiểm như thế nào nếu muốn thoát nạn?",
+    "luaChon": [
+      "A. Vẫn di chuyển bình thường nếu buồng thang có hệ thống chiếu sáng sự cố",
+      "B. Con người sẽ không thể thoát ra khỏi khu vực nguy hiểm nếu không có phương tiện bảo vệ cơ quan hô hấp",
+      "C. Có thể di chuyển bằng thang máy thông thường thay vì thang bộ",
+      "D. Chỉ bị hạn chế tầm nhìn chứ không ảnh hưởng đến tính mạng"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0042",
+    "cauHoi": "Trong khoảng thời gian bao lâu đầu tiên kể từ thời điểm xảy ra cháy, ngọn lửa có thể cháy lan qua ban công, lô gia, cửa sổ và sau đó cháy lan lên các căn hộ ở các tầng trên?",
+    "luaChon": [
+      "A. Trong khoảng 2 - 5 phút đầu",
+      "B. Trong khoảng 5 - 10 phút đầu",
+      "C. Trong khoảng 10 - 15 phút đầu",
+      "D. Trong khoảng 15 - 20 phút đầu"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "CCNCT0043",
+    "cauHoi": "Theo diễn biến đám cháy nhà cao tầng, khi cửa kính của các căn hộ bị phá vỡ do nhiệt độ cao, quá trình trao đổi khí thay đổi dẫn đến hiện tượng gì tiếp theo?",
+    "luaChon": [
+      "A. Tốc độ chuyển động và khối lượng sản phẩm cháy tăng lên; nhiệt độ tại hành lang giữa các phòng và cửa của các buồng thang bộ tăng cao, đặc biệt ở khu vực bên trên",
+      "B. Áp suất dư trong buồng thang bộ đột ngột tăng mạnh giúp đẩy toàn bộ khói ra ngoài",
+      "C. Đám cháy bị giảm vận tốc lan truyền do nhận được lượng oxy lớn từ bên ngoài",
+      "D. Nhiệt độ đám cháy tại căn hộ giảm xuống dưới ngưỡng nguy hiểm"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0044",
+    "cauHoi": "Hiện tượng 'đệm nóng' trong buồng thang bộ được hình thành trong phạm vi bao nhiêu tầng phía trên đám cháy?",
+    "luaChon": [
+      "A. Chỉ tại duy nhất tầng xảy ra đám cháy",
+      "B. Trong phạm vi 2 đến 3 tầng phía trên đám cháy",
+      "C. Trong phạm vi từ 5 đến 7 tầng phía trên đám cháy",
+      "D. Toàn bộ các tầng tính từ tầng bị cháy lên đến mái tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0045",
+    "cauHoi": "Tại khu vực 'đệm nóng' được hình thành ở buồng thang bộ phía trên đám cháy, nhiệt độ của môi trường đạt mức giá trị nào khiến con người không thể vượt qua nếu không có phương tiện bảo vệ cơ quan hô hấp?",
+    "luaChon": [
+      "A. Lớn hơn 50 độ C",
+      "B. Lớn hơn 70 độ C",
+      "C. Lớn hơn 100 độ C",
+      "D. Lớn hơn 250 độ C"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0046",
+    "cauHoi": "Khi cháy xảy ra trong tầng hầm của ngôi nhà nhiều tầng, cao tầng, vì sao trong khoảng 10 phút tính từ thời điểm phát sinh cháy, sự phát triển của đám cháy lại diễn ra không bị cản trở?",
+    "luaChon": [
+      "A. Do hệ thống thông gió hầm tự động tăng công suất hút sản phẩm cháy",
+      "B. Do trong thể tích tầng hầm đã có sẵn không khí để cung cấp cho quá trình cháy",
+      "C. Do các chất cháy ở tầng hầm chủ yếu là chất rắn có vận tốc cháy lan rất chậm",
+      "D. Do trạm biến áp và máy phát điện dự phòng chưa bị ngắt điện"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0047",
+    "cauHoi": "Sau bao nhiêu phút kể từ khi xảy ra cháy ở tầng hầm, không khí cung cấp cho vùng cháy bắt đầu bị thiếu khiến đám cháy phát triển chậm hơn?",
+    "luaChon": [
+      "A. Sau 5 phút",
+      "B. Sau 10 phút",
+      "C. Sau 20 phút",
+      "D. Sau 30 phút"
+    ],
+    "dapan": 4
+  },
+  {
+    "ID": "CCNCT0048",
+    "cauHoi": "Sau mốc thời gian 30 phút đối với đám cháy tầng hầm, cháy chỉ tiếp tục diễn ra mạnh mẽ ở những vị trí nào?",
+    "luaChon": [
+      "A. Tại các góc khuất chật hẹp chứa các loại hộp kỹ thuật điện",
+      "B. Ở những nơi được cung cấp đủ không khí",
+      "C. Tại vị trí các bể chứa nước ngầm chữa cháy vách tường",
+      "D. Xung quanh khu vực dầm bê tông chịu lực của sàn tầng một"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0049",
+    "cauHoi": "Do đặc điểm nào của khu vực tầng hầm bị hạn chế khiến cho nhiệt độ của đám cháy và nồng độ khói ở bên trong đó tăng lên rất nhanh?",
+    "luaChon": [
+      "A. Do khả năng trao đổi khí trong tầng hầm bị hạn chế",
+      "B. Do tải trọng chất cháy trung bình thấp hơn các căn hộ nổi",
+      "C. Do sự tác động của hệ thống gas trung tâm bị rò rỉ",
+      "D. Do diện tích tầng hầm luôn nhỏ hơn diện tích mặt bằng tòa nhà"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0050",
+    "cauHoi": "Nếu trong tầng hầm có lối đi hoặc cửa thông với các tầng của ngôi nhà, sản phẩm cháy (khói, khí độc, nhiệt) thoát ra sẽ lan lên các tầng trên thông qua những vị trí nào được hình thành khi xây lắp?",
+    "luaChon": [
+      "A. Thông qua các hệ thống dầm bê tông và cột trụ chịu lực",
+      "B. Thông qua những khoảng hở khi xây lắp tại các vị trí có các loại đường ống chạy qua; ống dẫn rác, nước thải; hộp kỹ thuật; buồng hoặc giếng thang máy; hệ thống thông gió …",
+      "C. Thông qua các bậc thang sắt độc lập lắp đặt ngoài đầu hồi tòa nhà",
+      "D. Thông qua các vách ngăn chống cháy chuyên dụng phân chia đơn nguyên"
+    ],
+    "dapan": 2
+  },
+
+  {
+    "ID": "CCNCT0051",
+    "cauHoi": "Tổng hợp đặc trưng phát triển đám cháy nhà nhiều tầng, cao tầng bộc lộ hai nguy cơ cốt lõi đe dọa trực tiếp mạng sống con người và cản trở thoát nạn là gì?",
+    "luaChon": [
+      "A. Sự sụt giảm áp suất không khí đột ngột và hiện tượng chập điện cục bộ",
+      "B. Hiện tượng tích tụ nước chữa cháy gây ngập tầng hầm và hư hỏng móng nhà",
+      "C. Sự lan truyền khói độc cực nhanh tạo đệm nóng trong buồng thang bộ và cháy lan nhanh theo phương thẳng đứng qua các giếng kỹ thuật, ban công",
+      "D. Sự biến dạng của hệ thống thang sắt thoát nạn lắp đặt bên ngoài tòa nhà"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0052",
+    "cauHoi": "Khi tiếp nhận thông tin về vụ cháy nhà cao tầng, Chỉ huy chữa cháy của cơ sở phải điều động ngay cán bộ trực kỹ thuật thực hiện nhiệm vụ gì?",
+    "luaChon": [
+      "A. Di chuyển toàn bộ hồ sơ bản vẽ thiết kế công trình ra vị trí tập kết bên ngoài",
+      "B. Tiếp tục quản lý hệ thống kỹ thuật của nhà, đồng thời yêu cầu lực lượng tại chỗ triển khai phương tiện chữa cháy, kiểm tra mở van nước để dập tắt đám cháy",
+      "C. Di chuyển xe của Ban quản lý tòa nhà ra khỏi phạm vi tầng hầm",
+      "D. Tổ chức ngắt toàn bộ nguồn nước cung cấp cho hệ thống chữa cháy tự động"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0053",
+    "cauHoi": "Sau khi lực lượng Cảnh sát PCCC và CNCH có mặt tại hiện trường nhà cao tầng, Chỉ huy chữa cháy của cơ sở có trách nhiệm gì?",
+    "luaChon": [
+      "A. Rút toàn bộ lực lượng phòng cháy chữa cháy cơ sở về vị trí nghỉ ngơi",
+      "B. Báo cáo toàn bộ các thông tin có liên quan đến hoạt động chữa cháy như nơi xảy ra cháy, chất cháy chủ yếu, người bị nạn,... và bàn giao quyền chỉ huy chữa cháy",
+      "C. Chịu trách nhiệm độc lập điều hành các xe thang chữa cháy di động",
+      "D. Tổ chức phong tỏa và không cho lực lượng chuyên nghiệp tiếp cận hệ thống bơm"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0054",
+    "cauHoi": "Khi xảy ra cháy nhà nhiều tầng, cao tầng vào các mốc giờ cao điểm, người chỉ huy chữa cháy đầu tiên khi đến hiện trường cần có hành động gì?",
+    "luaChon": [
+      "A. Chờ đợi Ban giám đốc công ty bảo hiểm đến phối hợp kiểm tra hiện trường",
+      "B. Đánh giá đúng tình hình diễn biến đám cháy, yêu cầu thêm chi viện nếu thấy diễn biến có chiều hướng phức tạp, số lượng lớn người bị nạn",
+      "C. Cho triển khai ngay toàn bộ đội hình lăng giá phun nước vào sảnh tầng một",
+      "D. Yêu cầu ngắt toàn bộ hệ thống loa cảnh báo hướng dẫn thoát nạn của tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0055",
+    "cauHoi": "Một trong những nguyên tắc xử lý thông tin của Chỉ huy chữa cháy Cảnh sát PCCC và CNCH sau khi tiếp nhận thông tin về vụ cháy nhà cao tầng là gì?",
+    "luaChon": [
+      "A. Lựa chọn tuyến đường nhanh nhất đến cơ sở bị cháy",
+      "B. Di chuyển theo lộ trình thông thường không cần tính toán mật độ giao thông",
+      "C. Chờ trung tâm chỉ huy xác minh xong 100% số lượng người bị nạn mới xuất xe",
+      "D. Ưu tiên di chuyển qua các tuyến đường nội đô có nhiều cầu vượt hạn chế chiều cao"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0056",
+    "cauHoi": "Ban chỉ huy chữa cháy, CNCH tại hiện trường vụ cháy nhà cao tầng phức tạp được thành lập nhằm mục đích cốt lõi nào?",
+    "luaChon": [
+      "A. Để thay thế hoàn toàn vai trò của lực lượng Cảnh sát giao thông tại khu vực",
+      "B. Nhằm duy trì và thống nhất công tác chỉ huy, điều hành và tổ chức các hoạt động chữa cháy, CNCH",
+      "C. Để quản lý việc chi trả kinh phí bồi thường thiệt hại sau đám cháy",
+      "D. Nhằm trực tiếp thực hiện việc thu gom tài sản bị cháy cho người dân"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0057",
+    "cauHoi": "Theo quy định, vị trí đặt của Ban chỉ huy chữa cháy, CNCH tại hiện trường đám cháy nhà cao tầng phải bảo đảm yêu cầu nào?",
+    "luaChon": [
+      "A. Phải đặt ở cuối hướng gió để trực tiếp kiểm tra mật độ khói",
+      "B. Phải đặt ở đầu hướng gió, nơi thuận tiện cho việc quan sát đám cháy và toàn bộ các hoạt động của lực lượng, phương tiện tham gia chữa cháy",
+      "C. Phải đặt bên trong tầng hầm của tòa nhà lân cận để bảo đảm bí mật",
+      "D. Phải đặt cố định tại sảnh tầng một của tòa nhà đang xảy ra cháy"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0058",
+    "cauHoi": "Thành viên tham gia Ban tham mưu chữa cháy, CNCH tại hiện trường nhà cao tầng bao gồm những ai?",
+    "luaChon": [
+      "A. Tất cả những người dân đang sinh sống tại các tòa nhà xung quanh",
+      "B. Người có năng lực, chuyên môn sâu về nghiệp vụ chữa cháy, CNCH và đại diện cơ sở hoặc người phụ trách công tác an toàn, kỹ thuật của khu vực, cơ sở nơi xảy ra cháy",
+      "C. Lực lượng bảo vệ tự quản của tổ dân phố lân cận",
+      "D. Nhân viên thuộc các đơn vị chuyển phát hàng hóa thường xuyên tại tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0059",
+    "cauHoi": "Nhiệm vụ nào dưới đây KHÔNG thuộc chức năng của Ban tham mưu chữa cháy, CNCH tại hiện trường?",
+    "luaChon": [
+      "A. Tiếp nhận, giao nhiệm vụ cho các đơn vị đến tham gia chữa cháy, CNCH; tổ chức công tác trinh sát và tổng hợp toàn bộ thông tin về diễn biến đám cháy",
+      "B. Tổ chức thông tin liên lạc bảo đảm sự phối hợp hoạt động giữa các đơn vị tham gia",
+      "C. Ký hợp đồng kinh tế bảo hiểm tài sản cấu kiện xây dựng công trình với chủ đầu tư",
+      "D. Tổ chức bảo đảm công tác hậu cần, y tế và giám sát, kiểm soát tình hình thực hiện nhiệm vụ"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0060",
+    "cauHoi": "Khi triển khai đội hình sử dụng mặt nạ cách ly lên các tầng cao có nhiệt độ không khí lớn, giới hạn chịu đựng của chiến sĩ bị rút ngắn. Vì thế, ở mỗi khu vực chỉ huy cần tối thiểu bao nhiêu tổ trang bị mặt nạ cách ly?",
+    "luaChon": [
+      "A. Chỉ cần duy nhất 1 tổ",
+      "B. Tối thiểu từ 2 đến 3 tổ",
+      "C. Tối thiểu phải có 5 tổ",
+      "D. Không cần bố trí theo tổ"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0061",
+    "cauHoi": "Theo quy trình luân phiên đổi ca khi chiến sĩ làm việc với mặt nạ cách ly ở điều kiện nhiệt độ cao trên tầng nhà, sau bao nhiêu phút làm việc phải tiến hành đổi ca?",
+    "luaChon": [
+      "A. Sau 2 - 3 phút làm việc đầu tiên",
+      "B. Sau 5 - 6 phút làm việc phải tiến hành đổi ca cho tổ khác, sau đó luân phiên nhau sau 5 - 10 phút",
+      "C. Chỉ đổi ca sau khi bình khí nén đã cạn kiệt hoàn toàn",
+      "D. Cố định làm việc 30 phút liên tục không được đổi ca"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0062",
+    "cauHoi": "Khi chiến sĩ chữa cháy làm nhiệm vụ tại khu vực bị tụ khói nặng, thời gian dành cho việc di chuyển lên trên hoặc buồng thang bộ không có ánh sáng tăng lên bao nhiêu lần?",
+    "luaChon": [
+      "A. Tăng lên từ 1,5 đến 2 lần",
+      "B. Tăng lên gấp 4 lần",
+      "C. Giảm đi một nửa do áp lực chiến đấu",
+      "D. Không thay đổi so với điều kiện bình thường"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0063",
+    "cauHoi": "Nội dung đặc thù nào dưới đây mà Tổ trinh sát đám cháy nhà cao tầng cần phải xác định làm rõ theo yêu cầu của Chỉ huy chữa cháy?",
+    "luaChon": [
+      "A. Tổng giá trị tài sản bằng tiền của các căn hộ bị tác động",
+      "B. Số lượng và đối tượng người bị nạn mắc kẹt trong ngôi nhà chưa kịp thoát ra ngoài, đặc biệt là ở tầng bị cháy và các tầng phía trên",
+      "C. Thương hiệu sản xuất của các thiết bị điều hòa lắp đặt ngoài ban công",
+      "D. Định mức tiêu thụ điện năng hàng tháng của hệ thống thang máy"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0064",
+    "cauHoi": "Để bảo đảm an toàn trong quá trình trinh sát khu vực nhiều khói, chỉ huy yêu cầu chiến sĩ vào các gian phòng phải thực hiện biện pháp an toàn liên lạc gì?",
+    "luaChon": [
+      "A. Sử dụng thiết bị còi hú liên tục cầm trên tay",
+      "B. Phải buộc một đầu dây theo người, một đầu dây còn lại giao cho chiến sĩ đứng ngoài để duy trì liên lạc",
+      "C. Chỉ dùng cử chỉ tay để ra hiệu cho nhau",
+      "D. Phải gõ liên tục vào các cấu kiện kim loại trên đường đi"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0065",
+    "cauHoi": "Trong trường hợp nào Chỉ huy chữa cháy phải đưa ra quyết định ngắt toàn bộ hệ thống thang máy của tòa nhà cao tầng và không cho phép sử dụng nếu chưa có mệnh lệnh?",
+    "luaChon": [
+      "A. Khi hệ thống lấy không khí vào thang máy không làm việc, hoặc làm việc không hiệu quả và không hạn chế được khói và luồng không khí có nhiệt độ cao vào buồng thang máy",
+      "B. Khi có tín hiệu báo cháy giả từ khu vực trung tâm thương mại khối đế",
+      "C. Khi nhận thấy tải trọng của cabin thang máy vẫn còn thừa công suất",
+      "D. Ngay khi xe chữa cháy vừa xuất phát rời khỏi doanh trại đơn vị"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0066",
+    "cauHoi": "Hệ thống chống tụ khói của tòa nhà cao tầng chỉ có thể làm việc hiệu quả khi các cửa hút khói được mở ở tối đa bao nhiêu tầng cùng lúc?",
+    "luaChon": [
+      "A. Mở đồng thời ở tất cả các tầng nổi của tòa nhà",
+      "B. Được mở ở nhiều nhất ở 2 tầng",
+      "C. Phải mở từ 5 tầng trở lên để tăng tốc độ lưu thông",
+      "D. Chỉ được mở duy nhất ở tầng mái"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0067",
+    "cauHoi": "Tại sao nghiêm cấm mở các cửa hút của hệ thống chống tụ khói trên 3 tầng hoặc nhiều hơn khi xảy ra cháy nhà cao tầng?",
+    "luaChon": [
+      "A. Vì sẽ làm cho hệ thống bơm nước chữa cháy vách tường bị sụt áp đột ngột",
+      "B. Vì thể tích sản phẩm cháy đi qua cửa hút lớn hơn công suất của quạt, hình thành khả năng hút khói vào khu vực phía trên của giếng chống tụ khói và khói sẽ bị đẩy vào các tầng, phòng bên trên",
+      "C. Vì gây chập cháy hoàn toàn hệ thống điện chiếu sáng sự cố tòa nhà",
+      "D. Vì làm tăng nguy cơ sụp đổ cơ học cấu kiện dầm bê tông thông tầng"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0068",
+    "cauHoi": "Vì sao Chỉ huy chữa cháy phải tính toán kỹ lưỡng và rất cẩn thận trước khi ra quyết định phá hoặc mở các ô cửa sổ bằng kính trong các phòng đang bị cháy ở nhà cao tầng?",
+    "luaChon": [
+      "A. Vì chi phí thay thế các ô cửa kính cường lực rất cao",
+      "B. Vì có thể làm thay đổi dòng không khí chuyển động, làm tăng lượng khói một cách nhanh chóng xâm nhập vào hành lang, buồng thang bộ và giếng thang máy",
+      "C. Vì sẽ làm vô hiệu hóa hoạt động của các đầu phun Sprinkler tự động",
+      "D. Vì kính vỡ có thể làm hỏng lớp sơn bề mặt của xe thang chữa cháy"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0069",
+    "cauHoi": "Nhiệm vụ ứng cứu khẩn cấp người bị nạn luôn được đặt lên hàng đầu. Khi tiếp nhận thông tin yêu cầu trợ giúp từ điện thoại, trực ban tổng đài thuộc trung tâm trực chỉ huy có trách nhiệm xác định yếu tố cốt lõi nào đầu tiên?",
+    "luaChon": [
+      "A. Xác định ví trí của người bị nạn (tòa nhà, lối vào, tầng, số căn hộ hoặc số phòng của khách sạn)",
+      "B. Xác định nghề nghiệp và thu nhập hiện tại của người gọi điện",
+      "C. Hỏi rõ nguyên nhân vì sao người bị nạn không tự trang bị mặt nạ lọc độc",
+      "D. Yêu cầu người bị nạn tự tìm cách di chuyển xuống hầm trước khi điều xe"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0070",
+    "cauHoi": "Đối với đám cháy ở các khu vực tầng thấp và trung bình của tòa nhà cao tầng (dưới các tầng 8 - 9), Chỉ huy chữa cháy yêu cầu truyền chất chữa cháy như thế nào?",
+    "luaChon": [
+      "A. Bắt buộc phải thiết lập trạm bơm trung gian bằng bể chứa di động ở tầng 4",
+      "B. Truyền chất chữa cháy trực tiếp từ các xe chữa cháy và khống chế, dập tắt đám cháy giống như đối với nhà ở, nhà hành chính thông thường",
+      "C. Chỉ sử dụng bình chữa cháy xách tay loại bột để dập tắt gốc lửa từ xa",
+      "D. Huy động xe thang đưa lăng giá lên phun từ tầng mái xuống dưới"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0071",
+    "cauHoi": "Khi triển khai lực lượng chữa cháy nhà cao tầng, hướng triển khai lực lượng, phương tiện để khống chế hoặc dập tắt đám cháy được Chỉ huy chữa cháy chú ý đầu tiên là từ đâu?",
+    "luaChon": [
+      "A. Từ hệ thống đường ống thoát nước thải bằng nhựa của tòa nhà",
+      "B. Từ các họng nước chữa cháy vách tường (tình trạng bình thường) khi lực lượng chữa cháy cơ sở chưa kịp triển khai",
+      "C. Từ việc thả các cuộn vòi từ tầng thượng của tòa nhà xuống mặt đất",
+      "D. Từ việc sử dụng lăng giá phun trực tiếp từ sảnh chính lên tầng mái"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0072",
+    "cauHoi": "Nếu triển khai đội hình phun nước chữa cháy lên tầng cao theo buồng thang bộ của ngôi nhà, đường vòi chính phải được kiến thiết theo nguyên tắc nào?",
+    "luaChon": [
+      "A. Phải được kiến thiết lần lượt từ dưới mặt đất kéo dần lên trên",
+      "B. Phải được kiến thiết lần lượt từ trên xuống dưới",
+      "C. Phải đi ngầm xuyên qua lòng giếng thang máy thông tầng",
+      "D. Triển khai tự do không cần cố định bằng các dụng cụ thích hợp"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0073",
+    "cauHoi": "Khi kiến thiết đường vòi từ trên xuống theo buồng thang bộ, số lượng vòi cần thiết phải được đưa lên vị trí nào trước khi nối và thả dần xuống?",
+    "luaChon": [
+      "A. Đưa thẳng lên vị trí tầng mái của tòa nhà",
+      "B. Đưa lên vị trí dưới tầng bị cháy (cách một tầng)",
+      "C. Tập kết hoàn toàn tại sảnh tầng một công trình",
+      "D. Đưa vào bên trong cabin của thang máy chữa cháy chuyên dụng"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0074",
+    "cauHoi": "Theo tài liệu, trên đường vòi chính triển khai lên nhà cao tầng cần phải bố trí bao nhiêu ba chạc và đặt tại các vị trí cụ thể nào?",
+    "luaChon": [
+      "A. Cần phải có ba cái ba chạc đặt liên tiếp tại khu vực sảnh tầng hầm",
+      "B. Cần phải có hai ba chạc: một cái đặt trên mặt đất cạnh ngôi nhà bị cháy, một cái đặt trên chiếu nghỉ của tầng thấp hơn tầng bị cháy",
+      "C. Chỉ cần duy nhất một ba chạc đặt trực tiếp tại phòng đệm thang máy",
+      "D. Bố trí định kỳ cứ cách 3 tầng đặt một ba chạc dòng ra ban công"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0075",
+    "cauHoi": "Tại sao một đầu nối trên các ba chạc lắp đặt trên đường vòi chính nhà cao tầng phải được để tự do?",
+    "luaChon": [
+      "A. Nhằm mục đích kết nối thêm lăng phun lưu lượng lớn khi cần thiết",
+      "B. Nhằm dễ dàng xả nước ra khỏi đường vòi trước khi thu dọn phương tiện chữa cháy",
+      "C. Để giảm áp suất khí nén tồn dư trong lòng máy bơm chữa cháy",
+      "D. Để phục vụ việc lấy nước sinh hoạt cho các chiến sĩ hậu cần"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0076",
+    "cauHoi": "Để tiết kiệm nước chữa cháy và thỏa mãn các điều kiện cần thiết khi chữa cháy trên các tầng cao, cường độ phun nước đối với loại nhà này được quy định là bao nhiêu?",
+    "luaChon": [
+      "A. (0,01 - 0,05) l/m2.s",
+      "B. (0,08 - 0,1) l/m2.s",
+      "C. (0,2 - 0,35) l/m2.s",
+      "D. (0,5 - 0,8) l/m2.s"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0077",
+    "cauHoi": "Trong thực tế, việc phun nước từ lăng giá trên nóc xe chữa cháy nhằm ngăn chặn cháy lan bên ngoài theo hướng cửa sổ, ban công (nhà từ 2 đến 5 tầng) chỉ đạt hiệu quả tối đa khi đám cháy lan đến tầng mấy?",
+    "luaChon": [
+      "A. Chỉ đạt được hiệu quả khi đám cháy mới lan đến tầng 3 của ngôi nhà",
+      "B. Đạt hiệu quả cao đến tận tầng 10 của tòa nhà",
+      "C. Chỉ có tác dụng duy nhất đối với khu vực sảnh tầng một",
+      "D. Không có giới hạn về tầng nhờ áp lực cột áp cực lớn"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0078",
+    "cauHoi": "Khi tiến hành hoạt động phá dỡ cấu kiện xây dựng phục vụ chữa cháy nhà cao tầng, Chỉ huy chữa cháy phải lưu ý nguyên tắc kỹ thuật cốt lõi nào?",
+    "luaChon": [
+      "A. Phá dỡ càng nhiều cấu kiện càng tốt để tạo độ thông thoáng tuyệt đối",
+      "B. Bộ phận phá dỡ không làm ảnh hưởng đến độ bền vững của các kết cấu trong công trình",
+      "C. Chỉ được phép phá dỡ các cấu kiện làm bằng vật liệu gỗ trang trí nội thất",
+      "D. Tiến hành phá dỡ một cách tự phát theo yêu cầu của cư dân mắc kẹt"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0079",
+    "cauHoi": "Khi thả các cấu kiện xây dựng bị phá dỡ từ trên tầng cao xuống mặt đất, các chiến sĩ phải tuân thủ quy định an toàn nào?",
+    "luaChon": [
+      "A. Thả tự do xuống bất kỳ vị trí nào trống trải xung quanh tòa nhà",
+      "B. Cần bố trí người quan sát, bảo vệ ở phía dưới và hô to để mọi người biết tránh xa khu vực nguy hiểm",
+      "C. Chỉ được thả vào ban đêm khi không còn người qua lại dưới sân khối đế",
+      "D. Buộc dây cố định và dòng từ từ từng cấu kiện nhỏ xuống hầm chứa rác"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0080",
+    "cauHoi": "Đối với đám cháy xảy ra tại khu vực tầng hầm tòa nhà cao tầng, sau khi đám cháy đã được dập tắt hoàn toàn, Chỉ huy chữa cháy cần có bố trí gì tại hiện trường?",
+    "luaChon": [
+      "A. Cho toàn bộ lực lượng phương tiện rút nhanh về đơn vị để bảo dưỡng",
+      "B. Cần bố trí một tổ ở lại thực hiện phun nước làm mát và ngăn cháy trở lại",
+      "C. Bàn giao nguyên trạng mặt bằng cho đội ngũ dọn dẹp vệ sinh đô thị",
+      "D. Ngắt toàn bộ hệ thống quạt hút khói di động đang đặt tại cửa hầm"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0081",
+    "cauHoi": "Trước khi thực hiện thu hồi lực lượng và phương tiện chữa cháy nhà cao tầng trở về đơn vị, người chỉ huy bắt buộc phải thực hiện nội dung kiểm tra nào?",
+    "luaChon": [
+      "A. Tổ chức họp báo công khai ngay tại khu vực sảnh chính tòa nhà",
+      "B. Phải tập hợp lực lượng, điểm danh quân số được điều động tham gia chữa cháy và kiểm tra lại phương tiện, thiết bị chuyên dùng cho việc chữa cháy",
+      "C. Tiến hành thu tiền chi phí nhiên liệu của đại diện Ban quản trị cơ sở",
+      "D. Kiểm tra niêm phong của toàn bộ các căn hộ không bị cháy trên tầng cao"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0082",
+    "cauHoi": "Khi triển khai đường vòi dọc theo cầu thang bộ lên các tầng cao, chiến sĩ phải thực hiện biện pháp cố định vòi như thế nào để tránh trọng lượng nước kéo tụt đường vòi?",
+    "luaChon": [
+      "A. Cứ cách 1 tầng nhà phải cố định đường vòi một lần bằng dây kỹ thuật hoặc dụng cụ chuyên dùng vào cấu kiện vững chắc",
+      "B. Cứ cách 2 đến 3 tầng nhà phải cố định đường vòi một lần bằng dây kỹ thuật hoặc dụng cụ chuyên dùng vào cấu kiện vững chắc",
+      "C. Chỉ cần cố định duy nhất tại vị trí khớp nối sát với máy bơm chữa cháy",
+      "D. Cho đường vòi quấn quanh lan can tay vịn cầu thang mà không cần buộc dây"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0083",
+    "cauHoi": "Trong giai đoạn trinh sát đám cháy nhà cao tầng, nếu phát hiện giếng thang máy bị nhiễm khói nặng nhưng chưa rõ nguồn cháy, Chỉ huy chữa cháy phải nhận định khả năng cháy lan như thế nào?",
+    "luaChon": [
+      "A. Khói và lửa đang phát triển ở khối đế trung tâm thương mại và đã bị chặn đứng",
+      "B. Đám cháy có khả năng đã bùng phát tại tầng hầm hoặc các tầng thấp và đang lợi dụng giếng thang máy làm kênh dẫn nhiệt, dẫn khói lên các tầng cao",
+      "C. Thang máy đang tự động kích hoạt chế độ tăng áp độc lập",
+      "D. Hệ thống kính bao quanh tòa nhà đã bị phá vỡ hoàn toàn ở tầng thượng"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0084",
+    "cauHoi": "Khi điều động xe thang hoặc xe cần nâng tiếp cận mặt ngoài tòa nhà cao tầng bị cháy, vị trí đỗ xe phải cách tường nhà một khoảng cách an toàn tối thiểu là bao nhiêu để đề phòng kính và cấu kiện xây dựng rơi trúng phương tiện?",
+    "luaChon": [
+      "A. Cách tối thiểu 2 đến 3 mét",
+      "B. Phải đỗ sát vào tường nhà để tận dụng tối đa chiều cao của cần nâng",
+      "C. Phải tính toán khoảng cách an toàn tùy thuộc vào chiều cao tòa nhà và tầm với của chân chống, nhưng thông thường không nhỏ hơn góc nghiêng an toàn và tránh vùng rơi trực diện của vật liệu",
+      "D. Đỗ cách xa trên 50 mét và chỉ phun nước từ xa"
+    ],
+    "dapan": 3
+  },
+  {
+    "ID": "CCNCT0085",
+    "cauHoi": "Khi triển khai đội hình lăng phun nước dập tắt đám cháy ở các tầng cao, áp suất tại họng ra của xe bơm chữa cháy phải được tính toán bù trừ cho yếu tố tổn thất nào là lớn nhất?",
+    "luaChon": [
+      "A. Tổn thất áp suất do ma sát dòng chảy trong đường ống vách tường của tòa nhà",
+      "B. Tổn thất áp suất do độ cao hình học (áp lực cột nước ngược chiều do trọng lực, cứ lên cao 10m tổn thất khoảng 1 bar)",
+      "C. Tổn thất do gió ngoài trời thổi ngược chiều mũi lăng phun",
+      "D. Tổn thất do quạt tăng áp của buồng thang bộ thổi vào dòng nước"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0086",
+    "cauHoi": "Trong quá trình tổ chức thoát nạn, nếu các buồng thang bộ đã bị nhiễm khói và nhiệt độ tăng cao tạo thành 'đệm nóng', Chỉ huy chữa cháy phải hướng dẫn người dân di chuyển đến khu vực nào an toàn nhất?",
+    "luaChon": [
+      "A. Di chuyển ra hành lang dài và đóng chặt tất cả các cửa sổ kính",
+      "B. Hướng dẫn người dân di chuyển vào các gian lánh nạn (đối với nhà trên 100m) hoặc các tầng chưa bị nhiễm khói, ban công, lô gia thoáng khí để chờ lực lượng cứu hộ",
+      "C. Chạy ngược lên tầng mái và nhảy xuống đệm hơi cứu nạn bất kể độ cao",
+      "D. Tập trung toàn bộ vào buồng thang máy thông thường để di chuyển xuống dưới"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0087",
+    "cauHoi": "Nhiệm vụ hàng đầu của Đội trưởng đội chữa cháy cơ sở khi phát hiện cháy tại phòng máy biến áp nằm ở tầng hầm tòa nhà cao tầng là gì?",
+    "luaChon": [
+      "A. Cho triển khai ngay lăng phun nước trực tiếp vào tủ điện biến áp",
+      "B. Thông báo cho điện lực cắt điện cục bộ hoặc toàn bộ tòa nhà, đồng thời tổ chức sơ tán người dân ở các tầng phía trên hầm",
+      "C. Phá hủy hệ thống cửa ngăn cháy để khói thoát ra sảnh tầng một",
+      "D. Chờ lực lượng Cảnh sát PCCC đến mới được phép kích hoạt chuông báo cháy"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0088",
+    "cauHoi": "Khi sử dụng hệ thống họng khô (họng chờ tiếp nước) để cấp nước lên các tầng cao của tòa nhà, xe chữa cháy chuyên dụng sẽ kết nối với vị trí nào?",
+    "luaChon": [
+      "A. Kết nối vào họng tiếp nước đặt ở phía ngoài nhà, sát mặt đất để bơm nước vào đường ống đứng cấp nước cho các họng nội bộ tầng cao",
+      "B. Kết nối trực tiếp vào bể nước mái của tòa nhà",
+      "C. Kết nối vào đường ống thoát nước thải nhựa để dẫn ngược lên trên",
+      "D. Kết nối vào vòi phun Sprinkler tại tầng hầm"
+    ],
+    "dapan": 1
+  },
+  {
+    "ID": "CCNCT0089",
+    "cauHoi": "Tại sao việc duy trì thông tin liên lạc vô tuyến (bộ đàm) giữa Ban chỉ huy hiện trường dưới mặt đất và các tổ chiến đấu trên tầng cao (tầng 20 trở lên) thường gặp hiện tượng nhiễu hoặc mất tín hiệu?",
+    "luaChon": [
+      "A. Do quạt tăng áp buồng thang bộ tạo ra sóng từ trường phá sóng bộ đàm",
+      "B. Do kết cấu bê tông cốt thép dày đặc, tường chịu lực và các thiết bị kỹ thuật gây phản xạ, che chắn và hấp thụ sóng vô tuyến",
+      "C. Do tần số vô tuyến bị bão hòa bởi dòng đối lưu khói độc",
+      "D. Do pin của các thiết bị bộ đàm tự động xả áp khi gặp nhiệt độ cao"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0090",
+    "cauHoi": "Để khắc phục tình trạng mất liên lạc vô tuyến giữa các tầng cao và mặt đất, Ban tham mưu chữa cháy cần triển khai giải pháp chiến thuật nào?",
+    "luaChon": [
+      "A. Yêu cầu các chiến sĩ hô to dọc theo giếng thang máy thông tầng",
+      "B. Thiết lập các trạm chuyển tiếp vô tuyến trung gian (sử dụng chiến sĩ làm cầu nối liên lạc tại các tầng giữa) hoặc sử dụng các kênh tần số chuyên dụng, thiết bị kích sóng",
+      "C. Sử dụng còi cứu nạn gõ vào đường ống nước vách tường theo mã Morse",
+      "D. Chỉ liên lạc khi chiến sĩ di chuyển xuống tầng trệt đổi bình khí"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0091",
+    "cauHoi": "Khi triển khai đội hình lăng phun bọt (Foam) để dập tắt đám cháy xe cơ giới tại tầng hầm tòa nhà cao tầng, Chỉ huy cần lưu ý điều kiện thông gió như thế nào?",
+    "luaChon": [
+      "A. Phải tắt toàn bộ hệ thống hút khói để bọt không bị hút đi",
+      "B. Phải phối hợp nhịp nhàng giữa việc phun bọt dập lửa và mở hệ thống hút khói, quạt thông gió di động để đẩy khói độc ra ngoài, tăng tầm nhìn cho chiến sĩ",
+      "C. Cho quạt thổi khí thẳng vào gốc lửa để đẩy bọt đi nhanh hơn",
+      "D. Chỉ được phun bọt từ ngoài cửa hầm chứ không được tiến vào bên trong"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0092",
+    "cauHoi": "Khi lực lượng trinh sát tiến hành mở cửa một căn hộ đang có đám cháy âm ỉ bên trong để tìm kiếm người bị nạn, hành động nào sau đây là NGUY HIỂM và có thể gây ra hiện tượng nổ tạt (Backdraft)?",
+    "luaChon": [
+      "A. Quỳ thấp người, hé mở cửa từ từ và nấp sau cánh cửa để che chắn nhiệt",
+      "B. Mở tung cửa căn hộ một cách đột ngột làm lượng oxy lớn tràn vào phòng gặp sản phẩm cháy chưa cháy hết ở nhiệt độ cao",
+      "C. Dùng lăng phun nước làm mát từ khe cửa trước khi mở rộng",
+      "D. Sử dụng camera nhiệt kiểm tra nhiệt độ bề mặt cánh cửa trước khi tác động"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0094",
+    "cauHoi": "Trong trường hợp hệ thống máy bơm chữa cháy chính của tòa nhà cao tầng bị hỏng do chập điện, lực lượng tại chỗ phải xử lý như thế nào để duy trì áp lực nước tại các họng nước chữa cháy vách tường?",
+    "luaChon": [
+      "A. Chờ dòng nước tự chảy từ bể nước mái xuống (áp lực thấp)",
+      "B. Kích hoạt ngay máy bơm dự phòng (nếu có) hoặc hướng dẫn xe chữa cháy kết nối bơm tiếp nước vào họng chờ ngoài nhà",
+      "C. Sử dụng xô, chậu múc nước từ bể nước ngầm đổ vào đường ống vách tường",
+      "D. Tổ chức ngắt toàn bộ các họng nước ở tất cả các tầng để tích áp"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0095",
+    "cauHoi": "Khi thực hiện kỹ thuật di chuyển người bị nạn không có khả năng tự vận động xuống theo đường buồng thang bộ nhiễm khói nhẹ, chiến sĩ chữa cháy phải ưu tiên sử dụng phương pháp nào?",
+    "luaChon": [
+      "A. Cõng người bị nạn trên lưng và chạy thật nhanh xuống dưới",
+      "B. Sử dụng cáng cứu thương chuyên dụng, kết hợp cho người bị nạn đeo mặt nạ lọc độc hoặc mặt nạ cấp khí phụ nối từ bình khí của chiến sĩ",
+      "C. Thả người bị nạn dọc theo giếng thu rác của tòa nhà",
+      "D. Đặt người bị nạn lên tấm thảm sàn và kéo dọc theo các bậc cầu thang"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0096",
+    "cauHoi": "Khi đám cháy đã lan ra toàn bộ bề mặt kính mặt ngoài của 3 tầng liên tiếp ở nhà cao tầng, Chỉ huy chữa cháy điều động xe thang triển khai lăng giá hướng dòng nước vào đám cháy theo góc phun như thế nào để đạt hiệu quả cao nhất?",
+    "luaChon": [
+      "A. Phun thẳng đứng từ dưới lên vuông góc với mặt sàn tầng trệt",
+      "B. Phun quét theo góc nghiêng từ trên xuống hoặc xiên từ dưới lên vào mép trên của cửa sổ để nước chảy tràn làm mát bề mặt và ngăn ngọn lửa bùng lên tầng trên",
+      "C. Phun cố định vào một điểm duy nhất ở khung nhôm mặt ngoài",
+      "D. Phun nước dồn dập vào khu vực không có chất cháy để tạo màn mưa"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0097",
+    "cauHoi": "Tại sao trong đám cháy nhà cao tầng, việc kiểm soát và đóng các cửa ngăn cháy trên hành lang và buồng thang bộ lại có ý nghĩa sống còn đối với công tác tổ chức chữa cháy và CNCH?",
+    "luaChon": [
+      "A. Để ngăn không cho người dân chạy ngược trở lại căn hộ lấy tài sản",
+      "B. Nhằm ngăn chặn khói độc và nhiệt độ cao lan tràn từ hành lang vào bên trong buồng thang bộ, bảo vệ đường thoát nạn duy nhất của con người và đường tiến công của chiến sĩ",
+      "C. Để bảo vệ lớp sơn chống cháy của các bậc cầu thang bộ",
+      "D. Nhằm giúp quạt hút khói tầng hầm hoạt động đạt công suất tối đa"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0098",
+    "cauHoi": "Khi kết thúc trận đánh tại đám cháy nhà cao tầng đa công năng, việc kiểm tra hiện trường của Chỉ huy chữa cháy trước khi bàn giao công trình phải đặc biệt lưu ý khu vực kỹ thuật nào để tránh nguy cơ cháy âm ỉ bùng phát trở lại?",
+    "luaChon": [
+      "A. Khu vực quầy lễ tân sảnh tầng một",
+      "B. Các trục kỹ thuật thông tầng, giếng cáp điện, ống thông gió và các khoảng trống trần thạch cao che khuất",
+      "C. Hệ thống sân bãi đỗ xe ngoài trời",
+      "D. Phòng sinh hoạt cộng đồng của tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0099",
+    "cauHoi": "Khi tiến hành cứu nạn người bị mắc kẹt trên cabin thang máy bị dừng đột ngột giữa tầng 15 và 16 do cắt điện khi có cháy, Đội cứu nạn cứu hộ phải ưu tiên sử dụng thiết bị và quy trình nào?",
+    "luaChon": [
+      "A. Dùng búa tạ phá sập hoàn toàn cửa tầng 15 từ phía ngoài",
+      "B. Sử dụng chìa khóa mở cửa tầng chuyên dụng, phối hợp quay tay tời để đưa cabin về bằng tầng (nếu an toàn) hoặc mở cửa thoát hiểm trên trần cabin để đưa người ra ngoài",
+      "C. Dùng kìm cộng lực cắt đứt dây cáp treo cabin để thang tự rơi xuống đáy hầm có đệm đỡ",
+      "D. Yêu cầu người mắc kẹt tự cậy cửa cabin để trèo ra ngoài hành lang"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0100",
+    "cauHoi": "Trong sơ đồ tổ chức hậu cần chữa cháy nhà cao tầng, vị trí tập kết vỏ bình khí và nạp lại khí nén cho mặt nạ cách ly của chiến sĩ thường được Ban tham mưu bố trí ở đâu?",
+    "luaChon": [
+      "A. Bố trí trực tiếp bên trong gian phòng đang bị cháy để tiện thay thế",
+      "B. Bố trí tại khu vực an toàn dưới mặt đất (gần xe nạp khí) hoặc tại tầng kỹ thuật/tầng lánh nạn an toàn hoàn toàn không bị nhiễm khói",
+      "C. Bố trí ngoài ban công của tầng ngay phía trên tầng bị cháy",
+      "D. Bố trí cố định tại đáy hầm thu gom rác của tòa nhà"
+    ],
+    "dapan": 2
+  },
+  {
+    "ID": "CCNCT0101",
+    "cauHoi": "Khi thực hiện chiến thuật phun nước làm mát ngăn cháy lan theo chiều đứng mặt ngoài tòa nhà, lăng phun từ các tầng dưới phải hướng luồng nước vào bộ phận nào của tầng đang cháy?",
+    "luaChon": [
+      "A. Phun trực tiếp vào kết cấu tường đặc không có cửa sổ",
+      "B. Phun vào mép trên của các ô cửa sổ, ban công của tầng đang cháy và làm mát bề mặt kính của tầng ngay phía trên để ngăn vỡ kính gây bén lửa",
+      "C. Phun vào hệ thống cục nóng điều hòa đang hoạt động ở khối đế",
+      "D. Phun bao trùm lên mái tôn che sân thượng của tòa nhà lân cận"
+    ],
+    "dapan": 2
+  }
+]
