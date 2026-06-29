@@ -1,8 +1,215 @@
+/* style.css - Bản nâng cấp v2 cho Hệ thống Kiểm tra PCCC & CNCH */
+
+/* Chặn in ấn */
 @media print {
-  body { display: none; } /* Khi nhấn Ctrl+P sẽ không thấy gì */
+  body { display: none !important; }
 }
 
-.blur-content {
-  filter: blur(20px);
-  transition: filter 0.1s ease;
+/* Định nghĩa các biến màu cho Sáng/Tối */
+:root {
+  --bg-primary: #f8fafc;        /* Slate 50 */
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;     /* Slate 900 */
+  --text-secondary: #475569;   /* Slate 600 */
+  --border-color: #cbd5e1;     /* Slate 300 */
+  --brand-color: #b71c1c;      /* Đỏ PCCC đậm */
+  --brand-color-hover: #d32f2f;
+  --brand-light: #ffebee;
+  --accent-color: #1e293b;
+  --nav-btn-bg: #e2e8f0;       /* Slate 200 */
+  --nav-btn-text: #334155;
+  --success-color: #2e7d32;    /* Xanh lá PCCC an toàn */
+}
+
+:root.dark {
+  --bg-primary: #0f172a;       /* Slate 900 */
+  --bg-card: #1e293b;          /* Slate 800 */
+  --text-primary: #f8fafc;     /* Slate 50 */
+  --text-secondary: #94a3b8;   /* Slate 400 */
+  --border-color: #334155;     /* Slate 700 */
+  --brand-color: #e53935;      /* Đỏ sáng hơn cho tối */
+  --brand-color-hover: #ef5350;
+  --brand-light: #2c1e21;
+  --accent-color: #f8fafc;
+  --nav-btn-bg: #334155;
+  --nav-btn-text: #cbd5e1;
+  --success-color: #4caf50;
+}
+
+/* Áp dụng biến màu cơ bản */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Thẻ đáp án trực quan */
+.choice-item {
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+}
+
+.choice-item:hover {
+  border-color: var(--brand-color);
+  background-color: var(--brand-light);
+  transform: translateX(4px);
+}
+
+.choice-item.selected {
+  border-color: var(--brand-color);
+  background-color: var(--brand-light);
+  box-shadow: inset 4px 0 0 0 var(--brand-color);
+}
+
+/* Phong cách nút điều khiển 3D bảng điều khiển (Tactile) */
+.btn-tactile {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 4px 0 0 #7f0000;
+  transition: all 0.1s ease;
+}
+
+.btn-tactile:hover {
+  background-color: var(--brand-color-hover);
+}
+
+.btn-tactile:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 0 #7f0000;
+}
+
+/* Nút phụ / Nút điều hướng chuyển câu */
+.btn-nav {
+  background-color: var(--nav-btn-bg);
+  color: var(--nav-btn-text);
+  border: 1px solid var(--border-color);
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+}
+
+.btn-nav:hover {
+  filter: brightness(0.95);
+}
+
+.btn-nav:active {
+  transform: scale(0.98);
+}
+
+/* Dải khẩn cấp ở đầu trang */
+.emergency-strip {
+  height: 4px;
+  background: var(--brand-color);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+@keyframes pulse-emergency {
+  0%, 100% { opacity: 1; filter: brightness(1.2); }
+  50% { opacity: 0.3; filter: brightness(0.8); }
+}
+
+.emergency-strip.emergency-active {
+  animation: pulse-emergency 1s infinite;
+  height: 6px;
+}
+
+/* Bảng điều hướng câu hỏi số bên cạnh */
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-card);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-box:hover {
+  border-color: var(--brand-color);
+  color: var(--brand-color);
+}
+
+.nav-box.current {
+  border-color: var(--brand-color);
+  border-width: 2px;
+  color: var(--brand-color);
+}
+
+.nav-box.answered {
+  background-color: var(--brand-light);
+  border-color: var(--brand-color);
+}
+
+.nav-box.answered-correct {
+  background-color: rgba(46, 125, 50, 0.15);
+  border-color: var(--success-color);
+  color: var(--success-color);
+}
+
+.nav-box.answered-wrong {
+  background-color: rgba(183, 28, 28, 0.15);
+  border-color: var(--brand-color);
+  color: var(--brand-color);
+}
+
+/* Khóa màn hình bảo mật khi mất tiêu điểm */
+#secure-blackout {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 23, 42, 0.98);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/* Biểu đồ kết quả tròn điểm số */
+.score-circle-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.score-circle-bg {
+  fill: none;
+  stroke: var(--border-color);
+  stroke-width: 12;
+}
+
+.score-circle-progress {
+  fill: none;
+  stroke: var(--brand-color);
+  stroke-width: 12;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+/* Thư viện ẩn bôi đen chữ */
+.select-none {
+  user-select: none;
+  -webkit-user-select: none;
 }

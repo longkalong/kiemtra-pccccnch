@@ -1,0 +1,1102 @@
+[
+    {
+        "ID": "CNCHDN001",
+        "cauHoi": "Theo đặc điểm của đoạn sông chảy gấp khúc, thay đổi dòng chảy, dòng nước chảy mạnh và tạo thành các dòng xoáy ở khu vực nào?",
+        "luaChon": [
+            "A. Phía bãi bồi",
+            "B. Phía bờ lở",
+            "C. Ở giữa dòng sông",
+            "D. Phía thượng nguồn"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN002",
+        "cauHoi": "Theo định nghĩa trong Bài 9, dòng suối có xuất phát nguồn tự nhiên từ đâu?",
+        "luaChon": [
+            "A. Từ các mạch nước ngầm hoặc hồ nước thiên nhiên trong rừng, núi",
+            "B. Từ các cơn mưa đầu nguồn đổ về thung lũng",
+            "C. Từ băng tuyết tan chảy trên đỉnh núi cao",
+            "D. Từ các cửa sông nhánh đổ ngược về nguồn"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN003",
+        "cauHoi": "Thác nước được định nghĩa là gì?",
+        "luaChon": [
+            "A. Dòng nước chảy ngầm chảy xiết dưới lòng đất",
+            "B. Chỗ dòng sông, dòng suối chảy vượt qua một vách đá cao nằm chắn ngang rồi đổ mạnh xuống",
+            "C. Nơi tiếp giáp giữa dòng suối nhỏ và dòng sông chính",
+            "D. Vũng nước rộng đọng lại sâu trong lục địa"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN004",
+        "cauHoi": "Đặc điểm cơ bản của hồ nước so với ao nước là gì?",
+        "luaChon": [
+            "A. Hồ thường rộng và sâu hơn ao, không có diện tích cố định",
+            "B. Hồ bao giờ cũng nhỏ hơn ao nước",
+            "C. Hồ chỉ được hình thành do nhân tạo",
+            "D. Hồ nước luôn luôn là nước ngọt"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN005",
+        "cauHoi": "Ao nước nhân tạo do con người đào đất lên tích tụ nước chủ yếu từ các nguồn nào?",
+        "luaChon": [
+            "A. Mạch nước ngầm sâu dưới lòng đất",
+            "B. Nước mưa cùng các nguồn nước khác đọng lại",
+            "C. Thác nước đổ mạnh từ trên cao xuống",
+            "D. Sông chính chảy tràn vào mùa lũ"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN006",
+        "cauHoi": "Đối với đoạn sông chảy thẳng không đổi dòng, lớp nước ở đáy sông chảy với tốc độ như thế nào?",
+        "luaChon": [
+            "A. Chảy rất nhanh",
+            "B. Chảy xoáy cuộn tròn sát bờ",
+            "C. Chảy với tốc độ trung bình",
+            "D. Chảy rất chậm"
+        ],
+        "dapan": 4
+    },
+    {
+        "ID": "CNCHDN007",
+        "cauHoi": "Đối với đoạn sông chảy thẳng, lớp nước nào có tốc độ chảy mạnh nhất?",
+        "luaChon": [
+            "A. Tầng nước ở đáy sông",
+            "B. Tầng nước thứ hai từ dưới lên",
+            "C. Lớp nước trên mặt trên cùng ở giữa dòng chảy",
+            "D. Lớp nước sát hai bên bờ sông"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN008",
+        "cauHoi": "Đối với các đoạn sông chảy bị gấp khúc, dòng nước chảy như thế nào ở phía bên bãi bồi?",
+        "luaChon": [
+            "A. Chảy rất mạnh và cuộn xoáy tạo dòng xoáy sâu",
+            "B. Chảy nhanh hơn phía bờ lở",
+            "C. Chảy yếu hơn, đồ vật trôi theo dòng nước rất chậm hoặc bị mắc lại",
+            "D. Chảy thẳng và chia thành nhiều lớp dòng chảy ổn định"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN009",
+        "cauHoi": "Tại sao các sông ở Việt Nam khi xảy ra đuối nước lại rất khó quan sát tìm kiếm nạn nhân?",
+        "luaChon": [
+            "A. Do sông chảy quá cạn và nhiều cát",
+            "B. Do sông phụ thuộc thủy triều, mang nặng phù sa nên nước đục, hạn chế tầm nhìn",
+            "C. Do các sông chảy theo hướng từ Đông sang Tây",
+            "D. Do nước sông quá lạnh làm khúc xạ ánh sáng mạnh"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN010",
+        "cauHoi": "Độ sâu của các dòng sông ở Việt Nam thường dao động trong khoảng nào?",
+        "luaChon": [
+            "A. Từ 1 đến 2 mét",
+            "B. Từ vài mét cho đến vài chục mét",
+            "C. Luôn sâu trên 100 mét",
+            "D. Cạn dưới 1 mét vào mùa mưa"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN011",
+        "cauHoi": "Tỷ lệ các suối đầu nguồn cạn (chảy mùa mưa, cạn kiệt mùa khô) chiếm bao nhiêu phần trăm?",
+        "luaChon": [
+            "A. Chiếm dưới 10%",
+            "B. Chiếm khoảng 30%",
+            "C. Chiếm trên 50%",
+            "D. Chiếm 100%"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN012",
+        "cauHoi": "Tại sao tốc độ tập trung nước và truyền lũ trên các dòng suối thường rất lớn?",
+        "luaChon": [
+            "A. Do độ dốc lòng suối lớn",
+            "B. Do chiều rộng suối rất lớn",
+            "C. Do nước suối rất nóng",
+            "D. Do suối chảy qua vùng đất bằng phẳng"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN013",
+        "cauHoi": "Đặc điểm địa hình lòng suối có liên quan đến nguy cơ chấn thương của nạn nhân là gì?",
+        "luaChon": [
+            "A. Lòng suối trơn tru, bằng phẳng, nhiều bùn lầy",
+            "B. Lòng suối nông đều, không có chướng ngại vật",
+            "C. Lòng suối không bằng phẳng, có nhiều tảng đá to và các hố nước sâu",
+            "D. Lòng suối chứa nhiều cát mịn di chuyển nhanh"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN014",
+        "cauHoi": "Tại sao khi tắm suối, người tắm lại nhanh bị mất sức và đuối sức dẫn đến đuối nước?",
+        "luaChon": [
+            "A. Do nước suối trong và lạnh",
+            "B. Do nước suối chứa nhiều muối khoáng",
+            "C. Do suối chảy cạn vào mùa mưa",
+            "D. Do lòng suối quá nông"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN015",
+        "cauHoi": "Hiện tượng khúc xạ ánh sáng ở dòng suối trong suốt gây ra nguy hiểm gì cho người tắm?",
+        "luaChon": [
+            "A. Làm nước suối bị đổi màu liên tục",
+            "B. Nhìn lòng suối sâu hơn thực tế nhiều lần",
+            "C. Nhìn lòng suối nông hơn thực tế dẫn đến dễ bước hẫng và ngã đột ngột",
+            "D. Làm nước suối trở nên ấm hơn"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN016",
+        "cauHoi": "Trên dòng suối có nhiều tảng đá lớn, dòng nước chảy cuốn vào phía sau tảng đá có đặc điểm gì?",
+        "luaChon": [
+            "A. Dòng nước bị cuốn vào phía sau tảng đá và cuốn theo vòng tròn, giữ mọi thứ lại vị trí này",
+            "B. Dòng nước chảy thẳng băng qua tảng đá",
+            "C. Tạo thành dòng nước tĩnh lặng hoàn toàn",
+            "D. Đẩy mọi vật trôi nhanh về phía trước"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN017",
+        "cauHoi": "Vị trí của nạn nhân bị đuối nước ở ao, hồ có điểm gì khác so với sông, suối?",
+        "luaChon": [
+            "A. Nạn nhân bị cuốn trôi đi rất xa",
+            "B. Nạn nhân ít bị di chuyển do nước ao, hồ tương đối tĩnh",
+            "C. Nạn nhân luôn nổi lên mặt nước lập tức",
+            "D. Nạn nhân dễ bám vào đá ngầm xung quanh"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN018",
+        "cauHoi": "Độ sâu của các giếng đào cổ truyền ở nông thôn thường dao động trong khoảng nào?",
+        "luaChon": [
+            "A. Từ 1m đến 3m",
+            "B. Từ 7m đến 20m, thậm chí sâu trên 20m",
+            "C. Cố định ở 50m",
+            "D. Sâu dưới 5m"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN019",
+        "cauHoi": "Độ sâu của các hố chứa nước nhân tạo phục vụ tưới tiêu nông nghiệp thường là bao nhiêu?",
+        "luaChon": [
+            "A. Sâu từ 2m đến 3m",
+            "B. Sâu trên 10m",
+            "C. Sâu dưới 1m",
+            "D. Sâu từ 5m đến 7m"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN020",
+        "cauHoi": "Phân loại sông theo tài liệu học tập gồm những loại nào?",
+        "luaChon": [
+            "A. Sông chính và sông nhánh",
+            "B. Sông nhân tạo và sông tự nhiên",
+            "C. Sông nước ngọt và sông nước lợ",
+            "D. Sông một tầng và sông nhiều tầng"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN021",
+        "cauHoi": "Phân loại suối gồm những loại nào dựa vào nguồn xuất phát?",
+        "luaChon": [
+            "A. Suối từ mạch nước ngầm và suối từ hồ nước thiên nhiên",
+            "B. Suối từ mưa và suối từ sông chính",
+            "C. Suối một chiều và suối hai chiều",
+            "D. Suối nước nóng và suối nước lạnh"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN022",
+        "cauHoi": "Thác nước chảy qua nhiều bậc, tầng đá liên tiếp nhau được phân loại là gì?",
+        "luaChon": [
+            "A. Thác nước lớn",
+            "B. Thác nhiều tầng",
+            "C. Thác nhân tạo",
+            "D. Thác ngầm"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN023",
+        "cauHoi": "Hồ Tây (Hà Nội) là ví dụ điển hình của loại hồ nào theo nguồn gốc hình thành?",
+        "luaChon": [
+            "A. Hồ băng hà",
+            "B. Hồ miệng núi lửa",
+            "C. Hồ móng ngựa (hồ vết tích khúc sông)",
+            "D. Hồ kiến tạo"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN024",
+        "cauHoi": "Hồ nước ngọt chiếm tỷ lệ như thế nào so với hồ nước mặn trong lục địa?",
+        "luaChon": [
+            "A. Chiếm nhiều nhất",
+            "B. Chiếm rất ít",
+            "C. Tỷ lệ bằng nhau",
+            "D. Không có hồ nước ngọt trong lục địa"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN025",
+        "cauHoi": "Tại sao một số hồ nước trước kia là hồ nước ngọt sau lại trở thành hồ nước mặn?",
+        "luaChon": [
+            "A. Do con người đổ muối vào hồ",
+            "B. Do khí hậu khô hạn làm nước hồ cạn dần và tỉ lệ muối khoáng tăng lên",
+            "C. Do nước biển dâng tràn vào hồ",
+            "D. Do các mảng kiến tạo di chuyển đưa muối từ lòng đất lên"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN026",
+        "cauHoi": "Tốc độ dẫn truyền âm thanh dưới nước đạt khoảng bao nhiêu mét trên giây?",
+        "luaChon": [
+            "A. Khoảng 340 m/s",
+            "B. Khoảng 500 m/s",
+            "C. Khoảng 1500 - 1700 m/s",
+            "D. Khoảng 3000 m/s"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN027",
+        "cauHoi": "Tốc độ truyền âm thanh dưới nước gấp khoảng mấy lần so với trên cạn?",
+        "luaChon": [
+            "A. Gấp 2 lần",
+            "B. Gấp 5 lần",
+            "C. Gấp 10 lần",
+            "D. Gấp 20 lần"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN028",
+        "cauHoi": "Hiện tượng khúc xạ ánh sáng dưới nước làm mọi vật trông như thế nào so với thực tế?",
+        "luaChon": [
+            "A. Xa hơn và nhỏ hơn tỷ lệ 3/4",
+            "B. Gần hơn và to hơn tỷ lệ 4/3",
+            "C. Bị biến dạng hoàn toàn không nhìn rõ",
+            "D. Giữ nguyên kích thước nhưng đổi màu sắc"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN029",
+        "cauHoi": "Ánh sáng chiếu thẳng góc xuống mặt nước bị phản xạ như thế nào?",
+        "luaChon": [
+            "A. Bị phản xạ rất ít",
+            "B. Bị phản xạ hoàn toàn",
+            "C. Bị khúc xạ mạnh nhất tạo ảnh ảo",
+            "D. Không bị khúc xạ"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN030",
+        "cauHoi": "Tại sao việc nghe âm thanh dưới nước của chiến sĩ lặn gặp nhiều khó khăn và thiếu chính xác?",
+        "luaChon": [
+            "A. Do áp suất nước làm hỏng màng nhĩ",
+            "B. Do màng nhĩ bị rung quá mạnh",
+            "C. Con đường nghe qua màng nhĩ hầu như mất, chỉ truyền được vào tai trong bằng đường xương sọ",
+            "D. Do âm thanh dưới nước truyền quá chậm"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN031",
+        "cauHoi": "Quá trình sinh nhiệt của cơ thể để giữ ấm được gọi là gì?",
+        "luaChon": [
+            "A. Quá trình điều hòa hóa học",
+            "B. Quá trình điều hòa vật lý",
+            "C. Quá trình đối lưu thân nhiệt",
+            "D. Quá trình thải nhiệt tự động"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN032",
+        "cauHoi": "Quá trình thải nhiệt của cơ thể thông qua mồ hôi, uống nước, đi tiểu được gọi là gì?",
+        "luaChon": [
+            "A. Quá trình điều hòa hóa học",
+            "B. Quá trình điều hòa vật lý (thân nhiệt vật lý)",
+            "C. Quá trình hấp thụ nhiệt lượng",
+            "D. Quá trình phản xạ co mạch ngoại vi"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN033",
+        "cauHoi": "Khi cơ thể tiếp xúc với nước lạnh, phản ứng điều nhiệt tự nhiên của cơ thể là gì?",
+        "luaChon": [
+            "A. Giãn các mạch máu ngoại vi để tăng thải nhiệt",
+            "B. Co thắt các mạch máu ngoại vi để giảm mất nhiệt và tăng quá trình oxy hóa",
+            "C. Ngừng hoàn toàn quá trình oxy hóa",
+            "D. Tăng tiết mồ hôi trên da"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN034",
+        "cauHoi": "Tại sao hoạt động của chiến sĩ lặn dưới nước đòi hỏi nhiều năng lượng hơn trên cạn?",
+        "luaChon": [
+            "A. Do trở lực của nước rất lớn và tăng khi xuống càng sâu",
+            "B. Do trọng lượng thiết bị lặn tăng lên gấp đôi dưới nước",
+            "C. Do nước làm cơ thể chiến sĩ lặn nóng lên liên tục",
+            "D. Do nhịp tim giảm mạnh dưới nước"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN035",
+        "cauHoi": "Khi nhiệt độ môi trường nước giảm xuống mức 15°C, điều gì xảy ra với chiến sĩ lặn?",
+        "luaChon": [
+            "A. Cảm giác đau tăng lên dữ dội",
+            "B. Ngưỡng kích thích đau giảm rõ rệt, chiến sĩ hầu như không cảm giác thấy vết thương nhẹ",
+            "C. Máu đông nhanh hơn bình thường",
+            "D. Thân nhiệt tăng lên tự động"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN036",
+        "cauHoi": "Vết thương chảy máu dưới nước có đặc điểm gì gây nguy hiểm cho chiến sĩ lặn?",
+        "luaChon": [
+            "A. Máu tự động ngưng chảy lập tức",
+            "B. Vết thương chảy máu dưới nước khó cầm hơn trên cạn và khó đánh giá được mức độ vết thương",
+            "C. Máu đổi thành màu đen",
+            "D. Làm giảm áp suất xung quanh cơ thể thợ lặn"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN037",
+        "cauHoi": "Yếu tố tâm lý nào thường gây căng thẳng cho chiến sĩ lặn, đặc biệt là người mới vào nghề?",
+        "luaChon": [
+            "A. Không gian hoạt động mênh mông, rộng lớn nhất là vào ban đêm",
+            "B. Lo lắng về lượng khí dự trữ và sự hoạt động của máy móc, thiết bị",
+            "C. Lo lắng về địa hình phức tạp, động vật nguy hiểm hoặc mất liên lạc với chỉ huy",
+            "D. Tất cả các phương án trên"
+        ],
+        "dapan": 4
+    },
+    {
+        "ID": "CNCHDN038",
+        "cauHoi": "Tại sao khi bị đuối nước, nạn nhân thường gây nguy hiểm trực tiếp cho chiến sĩ cứu hộ bơi tiếp cận?",
+        "luaChon": [
+            "A. Nạn nhân cố tình kéo chiến sĩ xuống để đùa nghịch",
+            "B. Do hoảng loạn tâm lý, nạn nhân có xu hướng bám chặt và dìm bất cứ vật gì nổi xuống để cố ngoi lên",
+            "C. Do nạn nhân bị chuột rút chân tay cứng đờ va đập vào chiến sĩ",
+            "D. Nạn nhân luôn tỉnh táo bơi tránh xa chiến sĩ cứu hộ"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN039",
+        "cauHoi": "Hồ móng ngựa hình thành từ vết tích của cái gì?",
+        "luaChon": [
+            "A. Do núi lửa phun trào tạo vết lõm móng ngựa",
+            "B. Các khúc sông cũ trên dòng chảy bị mất đi khi sông đổi dòng",
+            "C. Hoạt động đào đắp nhân tạo của con người",
+            "D. Băng hà bào mòn tạo địa hình"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN040",
+        "cauHoi": "Hồ băng hà được hình thành do nguyên nhân nào?",
+        "luaChon": [
+            "A. Gió thổi cát tạo thung lũng tích tụ nước",
+            "B. Động đất gây sụt lún lòng đất",
+            "C. Băng hà di chuyển bào mòn mặt đất, đào sâu chỗ đất đá mềm để lại vũng nước lớn",
+            "D. Dung nham núi lửa nguội đi tạo thành"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN041",
+        "cauHoi": "Hồ kiến tạo hình thành chủ yếu do nguyên nhân nào?",
+        "luaChon": [
+            "A. Do động đất gây sụt lún đất và di chuyển các mảng kiến tạo",
+            "B. Do băng tuyết tan chảy tạo thành dòng chảy",
+            "C. Do con người ngăn đập xây thủy điện",
+            "D. Do uốn khúc dòng sông cũ để lại"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN042",
+        "cauHoi": "Hồ ở vùng hoang mạc hình thành do cát trũng có đặc điểm gì?",
+        "luaChon": [
+            "A. Thường rất rộng và sâu hàng chục mét",
+            "B. Là hồ nước mặn di tích đại dương",
+            "C. Các hồ này thường rất nông",
+            "D. Luôn cạn kiệt vào mùa mưa"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN043",
+        "cauHoi": "Bản chất của giếng khoan so với giếng đào là gì?",
+        "luaChon": [
+            "A. Được tạo ra bằng cách xới đất thủ công diện tích lớn",
+            "B. Dùng thiết bị chuyên dụng khoan sâu xuống lòng đất để lấy nước ngầm",
+            "C. Chỉ chứa nước mưa chảy tràn",
+            "D. Không bao giờ cạn nước vào mùa khô"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN044",
+        "cauHoi": "Ngộ độc Oxy đối với thợ lặn thường xảy ra khi áp suất riêng phần Oxy vượt quá bao nhiêu?",
+        "luaChon": [
+            "A. Vượt quá 0.5 atm",
+            "B. Vượt quá 1.0 atm",
+            "C. Vượt quá 1.4 atm",
+            "D. Vượt quá 2.1 atm"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN045",
+        "cauHoi": "Khi ngộ độc Oxy xảy ra ở thợ lặn, cơn co giật toàn thể hoặc ngất thường dẫn đến hậu quả nghiêm trọng nào dưới nước?",
+        "luaChon": [
+            "A. Say Nitơ tăng mạnh",
+            "B. Chết đuối",
+            "C. Bị trôi sông nhanh hơn",
+            "D. Thiết bị lặn tự động nổi lên"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN046",
+        "cauHoi": "Ở độ sâu nào thợ lặn thở khí nén có nguy cơ bắt đầu bị ảnh hưởng bởi hiệu ứng gây tê của khí Nitơ?",
+        "luaChon": [
+            "A. Độ sâu > 10m",
+            "B. Độ sâu > 20m",
+            "C. Độ sâu > 30m",
+            "D. Độ sâu > 91m"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN047",
+        "cauHoi": "Hội chứng say Nitơ (sự phấn khích của đáy nước sâu) gây ra các triệu chứng tương tự như tình trạng nào?",
+        "luaChon": [
+            "A. Say nóng do thời tiết",
+            "B. Ngộ độc rượu",
+            "C. Thiếu oxy não",
+            "D. Chuột rút cơ"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN048",
+        "cauHoi": "Ở độ sâu lặn khí nén lớn hơn bao nhiêu mét có thể xuất hiện ảo giác và mất ý thức do say Nitơ?",
+        "luaChon": [
+            "A. Độ sâu > 30m",
+            "B. Độ sâu > 50m",
+            "C. Độ sâu > 91m",
+            "D. Độ sâu > 150m"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN049",
+        "cauHoi": "Tại sao Heli (Helium) được dùng để thay thế Nitơ pha loãng Oxy khi thực hiện các cuộc lặn sâu?",
+        "luaChon": [
+            "A. Vì Heli giúp thợ lặn thở nhẹ nhàng hơn",
+            "B. Vì Heli không có tính chất gây mê giống như Nitơ",
+            "C. Vì Heli làm giảm nhiệt độ của bình khí lặn",
+            "D. Vì Heli giúp tăng khả năng nghe dưới nước"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN050",
+        "cauHoi": "Lặn quá sâu (> 180m) hít thở hỗn hợp Heli/Oxy tinh khiết lại có nguy cơ gây ra hội chứng nguy hiểm nào?",
+        "luaChon": [
+            "A. Hội chứng thần kinh áp suất cao (HPNS)",
+            "B. Ngộ độc khí Cacbonic (CO2)",
+            "C. Ngộ độc khí Cacbon Monoxit (CO)",
+            "D. Ngộ độc Oxy cấp tính"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN051",
+        "cauHoi": "Sự ngộ độc khí Carbon Dioxide (CO2) ở thợ lặn chủ yếu xuất phát từ những nguyên nhân nào?",
+        "luaChon": [
+            "A. Hô hấp không đầy đủ (giảm thông khí), bộ đồ chật, mất sức quá mức, thiết bị lọc CO2 bị hỏng",
+            "B. Máy nén khí nạp lộn khí CO2 từ ống xả động cơ",
+            "C. Do áp suất nước làm phân hủy khí Oxy thành CO2",
+            "D. Do thợ lặn hít thở quá chậm"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN052",
+        "cauHoi": "Triệu chứng ngộ độc khí CO2 mức độ nặng ở thợ lặn bao gồm những gì?",
+        "luaChon": [
+            "A. Đau mỏi khớp chân tay",
+            "B. Buồn nôn, chóng mặt, thở nhanh, đỏ mặt, co giật và mất ý thức",
+            "C. Thị lực hình ống và giảm thính lực",
+            "D. Cảm giác nóng lạnh thất thường"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN053",
+        "cauHoi": "Ngộ độc khí CO (Carbon Monoxide) ở thợ lặn xảy ra do nguyên nhân phổ biến nào trong quá trình nạp khí?",
+        "luaChon": [
+            "A. Van nạp máy nén khí đặt quá gần ống thoát khí thải động cơ hoặc dầu bôi trơn máy nén quá nhiệt bùng cháy tạo ra CO",
+            "B. Sử dụng bình chứa khí bị rỉ sét bên trong",
+            "C. Do bình chứa khí nạp quá căng làm sinh khí CO",
+            "D. Do thợ lặn lặn ở vùng nước bị ô nhiễm rác thải hữu cơ"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN054",
+        "cauHoi": "Các triệu chứng đặc trưng của ngộ độc khí CO nghiêm trọng ở thợ lặn bao gồm:",
+        "luaChon": [
+            "A. Run tay chân biên độ nhỏ",
+            "B. Buồn nôn, nhức đầu, yếu cơ, động tác vụng về, co giật, ngất hoặc hôn mê",
+            "C. Đỏ da toàn thân và ngứa ngáy",
+            "D. Đau tức ngực dữ dội"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN055",
+        "cauHoi": "Hội chứng thần kinh áp lực cao (HPNS) thường xuất hiện ở độ sâu lặn nào?",
+        "luaChon": [
+            "A. Ở độ sâu ≥ 30m",
+            "B. Ở độ sâu ≥ 91m",
+            "C. Ở độ sâu ≥ 180m",
+            "D. Ở độ sâu ≥ 500m"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN056",
+        "cauHoi": "Các bất thường về thần kinh cơ của HPNS khi thợ lặn bị nén nhanh bao gồm triệu chứng nào?",
+        "luaChon": [
+            "A. Buồn nôn, nôn mửa, run cơ biên độ nhỏ, mất định hướng, chóng mặt, ngủ gà, co thắt dạ dày",
+            "B. Tăng thị lực và thính lực đột ngột",
+            "C. Tê liệt hoàn toàn nửa thân dưới",
+            "D. Đau dữ dội các khớp xương lớn"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN057",
+        "cauHoi": "Chỉ huy hoạt động CNCH dưới nước cần thu thập thông tin nào trước tiên khi đến hiện trường?",
+        "luaChon": [
+            "A. Danh tính và tiểu sử gia đình nạn nhân",
+            "B. Xác định thông tin sự cố, vị trí, số lượng và tình trạng người bị nạn để đưa ra phương án",
+            "C. Sơ đồ toàn bộ hệ thống giao thông đường thủy quốc gia",
+            "D. Dự báo thời tiết của cả tuần tiếp theo"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN058",
+        "cauHoi": "Khi thành lập Ban chỉ huy và Ban tham mưu CNCH tại hiện trường?",
+        "luaChon": [
+            "A. Khi sự cố nhỏ, chỉ có 1 nạn nhân còn tỉnh gần bờ",
+            "B. Khi hiện trường diễn biến phức tạp, nhiều người bị nạn, mắc kẹt trong tàu chìm, mất tích, cần huy động nhiều lực lượng phối hợp",
+            "C. Luôn thành lập trong mọi trường hợp bất kể quy mô sự cố",
+            "D. Chỉ thành lập khi có yêu cầu từ chính quyền trung ương"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN059",
+        "cauHoi": "Trinh sát hiện trường sự cố tai nạn dưới nước có vai trò gì?",
+        "luaChon": [
+            "A. Để trục vớt tàu thuyền ngay lập tức không cần chỉ huy",
+            "B. Làm sáng tỏ tình hình diễn biến và các điều kiện hiện trường giúp chỉ huy đưa ra quyết định chính xác",
+            "C. Thay thế hoàn toàn Ban chỉ huy CNCH",
+            "D. Chỉ để ghi hình làm tư liệu báo cáo sau này"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN060",
+        "cauHoi": "Khi trinh sát hiện trường sự cố dưới nước, tổ trinh sát cần tập trung làm rõ những nội dung gì?",
+        "luaChon": [
+            "A. Tình hình sự cố (quy mô, dòng chảy, độ sâu, chướng ngại...) và tình hình người bị nạn (vị trí, số lượng, sức khỏe...)",
+            "B. Danh sách hành khách mua vé của chuyến tàu bị nạn",
+            "C. Bản vẽ thiết kế chi tiết cơ khí của vỏ tàu thủy",
+            "D. Giá trị kinh tế của hàng hóa trên tàu bị chìm"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN061",
+        "cauHoi": "Việc triển khai khoanh vùng hiện trường tai nạn dưới nước phải được tiến hành khi nào?",
+        "luaChon": [
+            "A. Sau khi đã kết thúc toàn bộ hoạt động cứu nạn",
+            "B. Tiến hành ngay khi lực lượng CNCH tiếp cận đến hiện trường sự cố",
+            "C. Chỉ tiến hành khi có sự cố tràn dầu xảy ra",
+            "D. Khi nạn nhân đã được bàn giao cho cơ quan y tế"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN062",
+        "cauHoi": "Trong khoanh vùng hiện trường tai nạn dưới nước, \"Vùng 1\" được quy định thế nào?",
+        "luaChon": [
+            "A. Khu vực tập kết phương tiện lặn dự phòng và hậu cần hỗ trợ",
+            "B. Nơi đặt Ban chỉ chỉ huy và các lực lượng phối hợp bảo vệ an ninh trật tự",
+            "C. Khu vực có người bị nạn dưới nước, chỉ dành riêng cho chiến sĩ CNCH trực tiếp làm việc",
+            "D. Khu vực cách ly an toàn cho người nhà nạn nhân đứng đợi"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN063",
+        "cauHoi": "Trong khoanh vùng hiện trường tai nạn dưới nước, \"Vùng 2\" có vai trò gì?",
+        "luaChon": [
+            "A. Là vùng trực tiếp lặn tìm kiếm người bị nạn dưới nước",
+            "B. Là vùng hỗ trợ cho vùng 1, dùng để tập kết lực lượng, phương tiện CNCH chuyên dụng",
+            "C. Là vùng dành riêng cho Ban chỉ huy và chỉ đạo chiến đấu",
+            "D. Là khu vực phong tỏa giao thông đường bộ trên bờ"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN064",
+        "cauHoi": "Trong khoanh vùng hiện trường tai nạn dưới nước, \"Vùng 3\" là nơi hoạt động của lực lượng nào?",
+        "luaChon": [
+            "A. Các chiến sĩ lặn tìm kiếm nạn nhân",
+            "B. Lực lượng y tế túc trực cấp cứu",
+            "C. Ban chỉ huy, Ban tham mưu và các lực lượng phối hợp, hỗ trợ giữ gìn an ninh, trật tự",
+            "D. Nơi tập kết cano và xuồng cứu nạn"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN065",
+        "cauHoi": "Khi xác định vị trí người bị nạn ở nơi có dòng chảy (sông, suối), chỉ huy cần chú ý điều gì?",
+        "luaChon": [
+            "A. Quan sát hướng chảy và vận tốc dòng chảy để tính toán khả năng nạn nhân bị cuốn trôi đi xa bờ",
+            "B. Chỉ tìm kiếm xung quanh vị trí rơi ban đầu trong phạm vi 5 mét",
+            "C. Đợi khi nước đứng dòng mới bắt đầu tìm kiếm",
+            "D. Cho thợ lặn bơi ngược dòng nước chảy xiết nhất"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN066",
+        "cauHoi": "Chỉ huy hoạt động CNCH quyết định tiếp cận người bị nạn qua mấy phương pháp chính?",
+        "luaChon": [
+            "A. 1 phương pháp",
+            "B. 2 phương pháp (Trực tiếp và Gián tiếp)",
+            "C. 3 phương pháp",
+            "D. 4 phương pháp"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN067",
+        "cauHoi": "Phương pháp tiếp cận người bị nạn trực tiếp được thực hiện như thế nào?",
+        "luaChon": [
+            "A. Quăng phao tròn hoặc ném dây từ xa cho nạn nhân tự bám vào",
+            "B. Sử dụng phương tiện thủy đưa CBCS tiếp cận trực tiếp, bơi dìu hoặc triển khai đội hình lặn cứu nạn nhân bị chìm",
+            "C. Phát loa hướng dẫn nạn nhân tự bơi vào bờ an toàn",
+            "D. Sử dụng thiết bị cẩu nâng nạn nhân từ xa"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN068",
+        "cauHoi": "Phương pháp tiếp cận người bị nạn gián tiếp được áp dụng bằng cách nào?",
+        "luaChon": [
+            "A. Cho chiến sĩ nhảy trực tiếp xuống nước ôm nạn nhân",
+            "B. Cử chiến sĩ dùng cây sào, ném phao tròn, áo phao buộc dây để nạn nhân bám vào kéo vào bờ (khi nạn nhân còn tỉnh)",
+            "C. Kéo còi báo động để nạn nhân định hướng bơi theo",
+            "D. Sử dụng thảm cứng bịt các lối đi xung quanh nạn nhân"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN069",
+        "cauHoi": "Khi tiếp cận nạn nhân dưới nước, nguyên tắc cốt lõi của lực lượng CNCH là gì?",
+        "luaChon": [
+            "A. Động viên tinh thần, bảo đảm an toàn, ổn định vị trí nạn nhân và CBCS (dây CNCH, phao, áo phao, thiết bị thở...)",
+            "B. Lôi kéo nạn nhân thật nhanh bất chấp chấn thương của họ",
+            "C. Chỉ cứu những nạn nhân còn tỉnh táo kêu cứu to",
+            "D. Yêu cầu nạn nhân tự đeo bình khí lặn của chiến sĩ"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN070",
+        "cauHoi": "Lực lượng Công an địa phương phối hợp thực hiện nhiệm vụ gì tại hiện trường sự cố?",
+        "luaChon": [
+            "A. Trực tiếp lặn tìm kiếm nạn nhân dưới nước sâu",
+            "B. Triển khai công tác bảo vệ, chốt chặn, giữ gìn an ninh trật tự trong và ngoài khu vực xảy ra sự cố",
+            "C. Sơ cấp cứu và hồi sức tim phổi cho nạn nhân",
+            "D. Điều khiển ca nô tìm kiếm cứu nạn chuyên dụng"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN071",
+        "cauHoi": "Trách nhiệm của lực lượng Y tế địa phương khi nhận được yêu cầu chi viện CNCH dưới nước là gì?",
+        "luaChon": [
+            "A. Điều động xuồng máy chữa cháy ra hiện trường",
+            "B. Nhanh chóng cử xe cứu thương và lực lượng bác sĩ tới hiện trường sơ cấp cứu và di chuyển nạn nhân đến cơ sở y tế",
+            "C. Thiết lập các vùng cách ly an toàn xung quanh nguồn nước",
+            "D. Điều phối giao thông đường thủy trên sông"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN072",
+        "cauHoi": "Để phòng ngừa tai nạn thứ cấp cho thợ lặn dưới nước, quy định an toàn bắt buộc khi lặn là gì?",
+        "luaChon": [
+            "A. Không cần sử dụng dây cứu nạn khi nước trong",
+            "B. Phải trang bị đủ thiết bị bảo hộ (phao, bình khí, đồ lặn...) và quy định tín hiệu dây giữa thợ lặn dưới nước với người trên bờ",
+            "C. Thợ lặn tự ý di chuyển tự do tìm kiếm theo ý mình",
+            "D. Chỉ lặn đơn lẻ từng người một để tiết kiệm khí thở"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN073",
+        "cauHoi": "Theo Bài 17, khái niệm \"Bãi tắm\" trong khu du lịch, khu vui chơi giải trí được định nghĩa là gì?",
+        "luaChon": [
+            "A. Bãi cát rộng, bằng phẳng ven biển hoặc ven sông, suối, hồ dùng làm nơi tắm công cộng và nghỉ ngơi",
+            "B. Bãi đá nhấp nhô sát mép nước sâu",
+            "C. Khu vực biển sâu cách bờ trên 5 hải lý dành cho tàu bè neo đậu",
+            "D. Hồ nước ngọt nhân tạo nông dưới 1 mét"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN074",
+        "cauHoi": "Nguyên nhân khách quan gây nguy hiểm và khó khăn lớn nhất cho công tác CNCH tại bãi tắm khu du lịch vào ban đêm là gì?",
+        "luaChon": [
+            "A. Dòng nước chảy nhanh gấp đôi ban ngày",
+            "B. Các loại cá dữ hoạt động mạnh hơn",
+            "C. Độ chiếu sáng kém, tầm nhìn hạn chế, rất khó đánh giá các yếu tố nguy hiểm và xác định vị trí nạn nhân",
+            "D. Sóng biển dâng cao liên tục"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN075",
+        "cauHoi": "Theo Bài 17, một tổ trinh sát hiện trường tai nạn dưới nước tại bãi tắm tối thiểu gồm bao nhiêu thành viên?",
+        "luaChon": [
+            "A. Gồm 2 chiến sĩ cứu nạn chuyên nghiệp",
+            "B. Từ 03 người trở lên và có thêm 01 thành viên là nhân viên hoặc người am hiểu địa hình nơi xảy ra tai nạn",
+            "C. Chỉ cần 1 chỉ huy trinh sát bằng ống nhòm từ trên bờ",
+            "D. Từ 5 chiến sĩ lặn chuyên nghiệp"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN076",
+        "cauHoi": "Thiết bị chuyên dụng nào có thể huy động phục vụ trinh sát bãi tắm rộng lớn trong khu du lịch?",
+        "luaChon": [
+            "A. Ca nô, tàu cứu nạn, ống nhòm, thiết bị bay không người lái drone mang camera, mặt nạ phòng độc cách ly",
+            "B. Máy xúc, máy ủi đất cát ven bờ",
+            "C. Bình oxy nén công suất lớn đặt trên bờ",
+            "D. Thiết bị định vị tàu ngầm sonar quân sự"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN077",
+        "cauHoi": "Đối với nạn nhân đuối nước bất tỉnh sau khi đưa lên khu vực an toàn, hành động nào cần thực hiện tiếp theo?",
+        "luaChon": [
+            "A. Để nạn nhân tự hồi phục tự nhiên",
+            "B. Tiến hành ngay các biện pháp sơ cấp cứu ban đầu (CPR, hà hơi thổi ngạt...) trước khi bàn giao cho nhân viên y tế",
+            "C. Cho nạn nhân uống nước nóng lập tức",
+            "D. Di chuyển nạn nhân đi bộ quãng đường dài tìm bệnh viện"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN078",
+        "cauHoi": "Tại sao cần phải tiến hành giữ ấm cơ thể cho người bị nạn dưới nước ngay sau khi họ được giải cứu?",
+        "luaChon": [
+            "A. Để tránh tình trạng thân nhiệt bị giảm mạnh gây nguy cơ suy tim, đột quỵ do tiếp xúc lâu với nước lạnh",
+            "B. Để tăng huyết áp của nạn nhân lên mức tối đa",
+            "C. Để làm khô nhanh quần áo của nạn nhân",
+            "D. Theo quy định bắt buộc không có lý do y khoa"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN079",
+        "cauHoi": "Trường hợp có nhiều người bị nạn đuối nước cùng lúc, nguyên tắc phân loại và tiếp cận cứu nạn là gì?",
+        "luaChon": [
+            "A. Ưu tiên cứu người ở gần bờ nhất trước để đảm bảo an toàn cho chiến sĩ",
+            "B. Tiếp cận đưa người bị nạn đang trong tình trạng nguy hiểm hơn ra trước, hướng dẫn người còn tỉnh táo tự di chuyển ra vùng an toàn",
+            "C. Cứu người có chức vụ cao nhất trước",
+            "D. Đợi xuồng cứu nạn chuyên dụng đến rồi mới cứu đồng loạt"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN080",
+        "cauHoi": "Nguy cơ \"tai nạn thứ cấp\" trong hoạt động CNCH dưới nước được hiểu là gì?",
+        "luaChon": [
+            "A. Nạn nhân bị đuối nước lần thứ hai sau khi đã lên bờ",
+            "B. Tai nạn xảy ra thêm cho chính lực lượng cứu nạn, phương tiện cứu nạn hoặc làm trầm trọng thêm chấn thương của nạn nhân",
+            "C. Sự cố va chạm giữa hai phương tiện thủy trên đường đi cứu hộ",
+            "D. Sự thay đổi bất thường của thời tiết sau khi kết thúc CNCH"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN081",
+        "cauHoi": "Tàu thủy được định nghĩa thế nào trong tài liệu Chiến thuật CNCH giao thông đường thủy?",
+        "luaChon": [
+            "A. Là một công trình kỹ thuật nổi, có thể chuyển dịch trên mặt nước hoặc ngầm dưới nước theo hướng đã định",
+            "B. Là phương tiện di chuyển thô sơ bằng sức người trên sông",
+            "C. Là công trình cố định trên mặt nước phục vụ sinh hoạt",
+            "D. Là thiết bị bay tầm thấp trên mặt nước sông biển"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN082",
+        "cauHoi": "Tàu thủy thường phân biệt với thuyền chủ yếu dựa trên những yếu tố nào?",
+        "luaChon": [
+            "A. Màu sắc trang trí và xuất xứ của động cơ",
+            "B. Kích thước và khả năng hoạt động độc lập trong một thời gian kéo dài",
+            "C. Số lượng phao cứu sinh được trang bị",
+            "D. Số lượng cánh buồm sử dụng"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN083",
+        "cauHoi": "Theo vật liệu đóng tàu, loại tàu thủy nào phổ biến nhất hiện nay?",
+        "luaChon": [
+            "A. Tàu vỏ gỗ",
+            "B. Tàu vỏ bê tông lưới thép",
+            "C. Tàu vỏ sắt (thép)",
+            "D. Tàu vỏ nhựa tổng hợp"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CNCHDN084",
+        "cauHoi": "Đặc điểm cấu tạo phần lớn vỏ các loại tàu thủy bằng sắt (thép) là gì?",
+        "luaChon": [
+            "A. Làm bằng các tấm thép dày khoảng 1 cm hàn lại với nhau, bám trên kết cấu khung chịu lực thép cỡ lớn",
+            "B. Làm bằng các tấm tôn mỏng dưới 1 mm bắt vít",
+            "C. Là các khối thép đặc đúc nguyên khối",
+            "D. Gồm các lớp gỗ ép chặt bên trong lớp tôn mỏng"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN085",
+        "cauHoi": "Cấu tạo phần vỏ các loại tàu thủy sắt từ tàu ven biển đến tàu viễn dương thường có mấy lớp?",
+        "luaChon": [
+            "A. Hầu hết là vỏ tàu có một lớp",
+            "B. Phần vỏ tàu thường là có hai lớp, số ít ở tàu nhỏ có một lớp",
+            "C. Luôn có cấu tạo 3 lớp vỏ cách nhiệt",
+            "D. Vỏ tàu bằng cao su bơm hơi bảo vệ"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN086",
+        "cauHoi": "Phương tiện thủy được phân loại là \"Tàu khách\" khi chở từ bao nhiêu hành khách trở lên?",
+        "luaChon": [
+            "A. Từ 5 hành khách trở lên",
+            "B. Từ 12 hành khách trở lên",
+            "C. Từ 30 hành khách trở lên",
+            "D. Từ 100 hành khách trở lên"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN087",
+        "cauHoi": "Những đối tượng nào không được tính vào số lượng \"hành khách\" trên tàu khách để phân loại tàu?",
+        "luaChon": [
+            "A. Thuyền trưởng, thuyền viên, những người làm việc trên tàu và trẻ em dưới 01 tuổi",
+            "B. Người có mang theo phao cứu sinh cá nhân",
+            "C. Toàn bộ hành khách mang quốc tịch nước ngoài",
+            "D. Cán bộ chiến sĩ của lực lượng kiểm thủy"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN088",
+        "cauHoi": "Đặc điểm cấu tạo của tàu hàng so với tàu khách là gì?",
+        "luaChon": [
+            "A. Không trang bị cabin và phòng ăn cho thuyền viên",
+            "B. Ngoài không gian ăn ở của thủy thủ và máy móc, toàn bộ không gian còn lại dùng để chở hàng",
+            "C. Tàu hàng luôn có vận tốc lớn hơn tàu khách nhiều lần",
+            "D. Vỏ tàu hàng luôn làm bằng gỗ nguyên khối"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN089",
+        "cauHoi": "Tại sao sự cố tàu bị chìm toàn bộ lại gây khó khăn phức tạp lớn cho chiến sĩ CNCH tìm kiếm nạn nhân mắc kẹt bên trong?",
+        "luaChon": [
+            "A. Hạn chế tầm nhìn nghiêm trọng do đục nước và thiếu sáng",
+            "B. Ảnh hưởng của dòng xoáy, cấu kiện tàu biến dạng và vật dụng sinh hoạt trôi nổi cản lối đi",
+            "C. Việc định hướng di chuyển trong các khoang chìm vô cùng phức tạp",
+            "D. Tất cả các phương án trên"
+        ],
+        "dapan": 4
+    },
+    {
+        "ID": "CNCHDN090",
+        "cauHoi": "Tại sao cơ hội sống sót của nạn nhân mắc kẹt trên tàu chìm một phần lại cao hơn tàu chìm toàn bộ?",
+        "luaChon": [
+            "A. Vì tàu chìm một phần không bị dòng nước cuốn đi",
+            "B. Vì bên trong các khoang chưa chìm vẫn còn khoảng không gian chứa không khí cho nạn nhân thở",
+            "C. Vì nạn nhân có thể dễ dàng tự bơi ra ngoài qua cửa boong",
+            "D. Vì nhiệt độ nước trên tàu chìm một phần ấm hơn"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN091",
+        "cauHoi": "Tại sao đám cháy xảy ra trên tàu thủy sắt lại có xu hướng cháy lan và truyền nhiệt sang các khoang bên cạnh rất nhanh?",
+        "luaChon": [
+            "A. Do các khoang ngăn cách bằng kim loại có khả năng dẫn nhiệt rất tốt",
+            "B. Do trên tàu sắt chứa nhiều gỗ thông",
+            "C. Do gió thổi mạnh qua các khe hở vỏ tàu",
+            "D. Do nước biển xung quanh tàu sắt dẫn nhiệt tốt hơn"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN092",
+        "cauHoi": "Nguy hiểm lớn nhất đối với sự cố tràn xăng dầu từ tàu ra mặt nước đối với khu vực xung quanh là gì?",
+        "luaChon": [
+            "A. Xăng dầu bay hơi gây mùi khó chịu cho chiến sĩ",
+            "B. Xăng dầu dễ bay hơi và tạo màng dễ cháy lan trên mặt nước, đe dọa các phương tiện cứu nạn",
+            "C. Làm nước sông biến thành màu đen khó nhìn",
+            "D. Làm tăng độ dốc của dòng nước chảy"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN093",
+        "cauHoi": "Khi cháy xảy ra ở khu vực dưới thân tàu thủy, khói và nhiệt độ có đặc điểm di chuyển như thế nào?",
+        "luaChon": [
+            "A. Nhanh chóng thoát hết ra ngoài qua các ống khói boong",
+            "B. Khói và nhiệt độ bị giữ lại trong các khoang và lối đi nhỏ hẹp của thân tàu",
+            "C. Tự động dập tắt do thiếu Oxy dưới đáy tàu",
+            "D. Chỉ tập trung tại phòng máy chính"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN094",
+        "cauHoi": "Khi chữa cháy và CNCH dưới thân tàu thủy bị cháy, các chiến sĩ tìm kiếm nạn nhân bắt buộc phải mang trang bị gì để bảo vệ?",
+        "luaChon": [
+            "A. Mang đủ đồ bảo hộ cá nhân (quần áo chịu nhiệt, thiết bị phòng độc, đèn pin, phá dỡ, liên lạc) và lăng phun nước đa tác dụng vòi B làm mát đẩy khói",
+            "B. Chỉ cần đeo kính bơi và mang dây cứu nạn",
+            "C. Mang theo bình bọt chữa cháy xách tay loại nhỏ",
+            "D. Sử dụng ống thở lặn thông thường để tránh khói"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN095",
+        "cauHoi": "Trong sự cố tàu bị chìm nước tràn vào lỗ thủng vỏ tàu, lực lượng CNCH xử lý chống chìm tạm thời bằng cách nào?",
+        "luaChon": [
+            "A. Bơm thêm cát vào tàu để cân bằng",
+            "B. Sử dụng các thảm cứng, thảm mềm chuyên dụng bịt lỗ thủng và dùng máy bơm khiêng tay để hút nước tràn ra ngoài",
+            "C. Cho tàu nghiêng hẳn sang bên không bị thủng",
+            "D. Dùng dây cáp cẩu vỏ tàu lên mặt nước lập tức"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN096",
+        "cauHoi": "Sự cố nguy hiểm nhất khi tàu thủy bị mắc kẹt vào các công trình cầu là gì?",
+        "luaChon": [
+            "A. Tàu bị trôi tự do ra biển",
+            "B. Tàu dịch chuyển làm hỏng thêm kết cấu cầu và gây nguy hiểm cho người, phương tiện giao thông trên cầu và dưới nước",
+            "C. Tàu bị bốc cháy do va chạm cơ học",
+            "D. Nước tràn vào làm chìm tàu ngay lập tức"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN097",
+        "cauHoi": "Biện pháp ban đầu cực kỳ quan trọng khi xử lý tàu kẹt vào công trình cầu là gì?",
+        "luaChon": [
+            "A. Dùng cáp neo chặt tàu vào các điểm cố định trên bờ để ngăn tàu dịch chuyển tiến lùi",
+            "B. Cho tàu nổ máy lùi hết công suất để thoát ra ngay",
+            "C. Bơm toàn bộ nước trong khoang tàu ra để tàu nổi lên cao hơn",
+            "D. Dùng thiết bị hàn cắt cắt rời cabin tàu ngay lập tức"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN098",
+        "cauHoi": "Để giải cứu tàu kẹt gầm cầu bằng cách hạ độ cao tàu so với mặt nước và dầm cầu, giải pháp kỹ thuật là gì?",
+        "luaChon": [
+            "A. Chờ đợi mực nước sông tự động rút xuống mức thấp",
+            "B. Bơm một lượng nước nhất định vào trong tàu thủy để tàu chìm bớt xuống một khoảng an toàn",
+            "C. Dùng kích thủy lực nâng toàn bộ nhịp cầu lên",
+            "D. Rút bớt dầu nhiên liệu của tàu ra ngoài"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CNCHDN099",
+        "cauHoi": "Khi CNCH sự cố tràn hóa chất độc hại từ tàu chở hàng, ranh giới vùng hóa chất loang cần được xác định để làm gì?",
+        "luaChon": [
+            "A. Để tổ chức khoanh vùng đảm bảo an toàn cho CBCS, chuẩn bị thu hồi và xử lý hóa chất độc hại",
+            "B. Để thông báo cho các tàu bè vào neo đậu chung",
+            "C. Để tiến hành đốt tiêu hủy hóa chất ngay trên mặt nước",
+            "D. Để đo độ sâu của lòng sông khu vực đó"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CNCHDN100",
+        "cauHoi": "Địa hình khúc sông chảy bị gấp khúc lâu ngày sẽ tác động như thế nào đến hai bờ sông?",
+        "luaChon": [
+            "A. Làm cả hai bờ sông cùng bị bồi đắp cát mịn",
+            "B. Làm cả hai bờ sông cùng bị sạt lở và xoáy mòn",
+            "C. Một bên bờ sông bị sạt lở xoáy mòn (bờ lở) và bờ đối diện được bồi đắp (bãi bồi)",
+            "D. Không gây ra sự thay đổi nào đối với lòng sông và hai bờ"
+        ],
+        "dapan": 3
+    }
+]

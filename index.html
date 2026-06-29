@@ -3,136 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Trắc Nghiệm</title>
+    <title>Trang Trắc Nghiệm Nghiệp Vụ PCCC & CNCH</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Tailwind CSS v4 CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style>
-        #timer-container {
-            display: none;
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            background: #d32f2f;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 8px;
-            font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            z-index: 1000;
-            text-align: center;
-        }
-        .timer-note {
-            font-size: 0.75em;
-            display: block;
-            margin-top: 2px;
-            font-weight: normal;
-        }
-        #start-btn-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .btn-note {
-            display: block;
-            font-size: 0.9em;
-            color: #666;
-            margin-top: 8px;
-            font-style: italic;
-        }
-    </style>
 </head> 
-<body class="font-sans bg-gray-150">
+<body class="font-sans min-h-screen flex flex-col relative select-none">
 
-    <div id="headerTrangChu" class="w-[420px] md:w-80/100 border border-2 rounded-md  text-center p-4 mx-auto my-6">
-        <h2 class="text-lg font-semibold">CÔNG AN TỈNH QUẢNG NINH</h2>
-        <h1 class="text-xl font-bold">PHÒNG CẢNH SÁT PCCC VÀ CNCH</h1>
+    <!-- Dải khẩn cấp ở đầu trang -->
+    <div id="emergency-strip" class="emergency-strip"></div>
+
+    <!-- Nút bật tắt Chế độ Sáng/Tối -->
+    <div class="fixed top-4 left-4 z-[999]">
+        <button id="theme-toggle" class="p-2.5 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-slate-800 text-gray-700 dark:text-gray-200 cursor-pointer shadow-md hover:scale-105 transition-transform" title="Đổi chế độ Sáng/Tối">
+            <!-- Sun Icon (Chế độ tối đang bật -> bấm để sang sáng) -->
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.46 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zm1.41 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+            <!-- Moon Icon (Chế độ sáng đang bật -> bấm để sang tối) -->
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        </button>
     </div>
-    <div id="tieuDe" class="text-center font-semibold text-2xl mb-8">
-        <h2>BỘ ĐỀ KIỂM TRA <br>NGHIỆP VỤ CHỮA CHÁY VÀ CNCH</h2></div>
-    <!-- Bộ đếm thời gian nổi -->
-    <div id="timer-container">
-        <span id="timer-display">00:00</span>
-        <span class="timer-note">(Hệ thống tự nộp khi hết giờ)</span>
+
+    <!-- Bộ đếm thời gian nổi ở góc phải -->
+    <div id="timer-container" class="hidden fixed top-4 right-4 bg-red-800 text-white px-5 py-3 rounded shadow-lg z-[999] border-l-4 border-red-500 font-mono text-center">
+        <div class="text-xs tracking-wider uppercase opacity-80 mb-1">Thời gian còn lại</div>
+        <div id="timer-display" class="text-2xl font-black">20:00</div>
+        <div id="live-stats" class="mt-2 text-xs border-t border-red-700/50 pt-1.5 font-sans space-y-1">
+            <div id="stat-progress">Đã trả lời: 0/20</div>
+            <div id="encouragement-msg" class="italic opacity-90 font-medium">Chúc đồng chí thi tốt!</div>
+        </div>
     </div>
 
-    <div id="nhapThongtin" class="space-x-3 border border-2 rounded-md p-6 w-[420px] md:w-80/100 mx-auto my-3">
-        <h2 class="text-center font-medium text-xl">Thông tin cá nhân</h2>
-        <form id="infoForm" class="font-semibold md:w-70/100 mx-auto mt-4">
-            <label for="name">Tên:</label><br>
-            <input type="text" id="name" class="border w-100/100 px-2"><br><br>
-
-            <label for="cccd">Nhập CCCD</label><br>
-            <input type="tel" id="cccd" class="border w-100/100 px-2" pattern="[0-9]*" inputmode="numeric" 
-                   oninput="this.value = this.value.replace(/[^0-9]/g, '')" required><br><br>
-
-            <label for="ngaycap">Ngày cấp:</label><br>
-            <input type="text" id="ngaycap" class="border w-100/100 px-2"><br><br>
-
-            <label for="phone">SĐT (Chỉ nhập số):</label><br>
-            <input type="tel" id="phone" class="border w-100/100 px-2" pattern="[0-9]*" inputmode="numeric" 
-                   oninput="this.value = this.value.replace(/[^0-9]/g, '')" required><br><br>
-
-            <label for="chucvu">Chức vụ:</label><br>
-            <select id="chucvu" class="border w-100/100" required>
-                <option value="" class="text-center">--Chọn chức vụ--</option>
-                <option value="Lãnh đạo Phòng">Lãnh đạo Phòng</option>
-                <option value="Chỉ huy Đội">Chỉ huy Đội</option>
-                <option value="Cán bộ">Cán bộ</option>
-                <option value="CSNV">CSNV</option>            
-                <option value="khác">Khác</option>
-            </select><br><br>
-
-            <label for="donvi">Đơn vị:</label><br>
-            <select id="donvi" class="border w-100/100" required>
-                <option value="" class="text-center">--Chọn đơn vị--</option>
-                <option value="Đội Cảnh sát PCCC và CNCH trên sông, biển">Đội Cảnh sát PCCC và CNCH trên sông, biển</option>
-                <option value="Đội Chữa cháy và CNCH KV1">Đội Chữa cháy và CNCH KV1</option>
-                <option value="Đội Chữa cháy và CNCH KV2">Đội Chữa cháy và CNCH KV2</option>
-                <option value="Đội Chữa cháy và CNCH KV3">Đội Chữa cháy và CNCH KV3</option>
-                <option value="Đội Chữa cháy và CNCH KV4">Đội Chữa cháy và CNCH KV4</option>
-                <option value="Đội Chữa cháy và CNCH KV5">Đội Chữa cháy và CNCH KV5</option>
-                <option value="Đội Chữa cháy và CNCH KV6">Đội Chữa cháy và CNCH KV6</option>
-                <option value="Đội Chữa cháy và CNCH KV7">Đội Chữa cháy và CNCH KV7</option>
-                <option value="Đội Chữa cháy và CNCH KV8">Đội Chữa cháy và CNCH KV8</option>
-                <option value="Đội Chữa cháy và CNCH KV9">Đội Chữa cháy và CNCH KV9</option>
-                <option value="Đội Chữa cháy và CNCH KV10">Đội Chữa cháy và CNCH KV10</option>
-                <option value="Đội Công tác Chữa cháy và CNCH">Đội Công tác Chữa cháy và CNCH</option>                
-                <option value="khác">Khác</option>
-            </select><br><br>
-
-            <div id="start-btn-container">
-                <button type="button" id="start-btn" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 text-white">Làm bài</button>
-                <span class="btn-note">(Bạn có 30 phút để làm bài, nếu hết 30 phút hệ thống sẽ tự nộp)</span>
-                <span class="btn-note">CHIẾN THUẬT CHỮA CHÁY NHÀ CAO TẦNG, SIÊU CAO TẦNG</span>
+    <div class="flex-grow container mx-auto px-4 py-8 max-w-5xl">
+        <!-- TIÊU ĐỀ TRANG CHỦ -->
+        <div id="headerTrangChu" class="border-2 border-dashed rounded p-5 text-center my-6 max-w-lg mx-auto bg-[var(--bg-card)] border-[var(--border-color)] transition-all">
+            <div class="flex items-center justify-center space-x-4 mb-2">
+                <img id="logoImg" src="logoPccc.png" alt="Logo PCCC" class="h-16 w-auto transition-transform hover:rotate-6">
+                <div class="text-left">
+                    <h2 class="text-sm font-black tracking-wide opacity-80 uppercase">Công an tỉnh Quảng Ninh</h2>
+                    <h1 class="text-base font-extrabold tracking-tight text-[var(--brand-color)] uppercase">Phòng Cảnh sát PCCC và CNCH</h1>
+                </div>
             </div>
-        </form>
-    </div>
+        </div>
 
-    <div id="boDeRandom" style="display: none;">
-        <h1 id="tieuDe_boDeRandom" class="text-center text-2xl font-semibold p-6">Đề Trắc nghiệm</h1>
-        <div id="question-container"></div>
-        <!-- <h2>II. Tự luận</h2> -->
-        <div id="essay-container"></div>
-        <div class="text-center">        
-            <button id="submit-btn" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 m-6 text-white">Nộp bài</button>
+        <div id="tieuDe" class="text-center font-black text-2xl md:text-3xl tracking-tight mb-8">
+            <h2>BỘ ĐỀ KIỂM TRA NGHIỆP VỤ<br><span class="text-[var(--brand-color)] text-lg md:text-xl font-bold">CHIẾN THUẬT CHỮA CHÁY VÀ CỨU NẠN CỨU HỘ</span></h2>
+        </div>
+
+        <!-- MÀN HÌNH NHẬP THÔNG TIN CÁ NHÂN -->
+        <div id="nhapThongtin" class="border rounded p-6 md:p-8 max-w-lg mx-auto bg-[var(--bg-card)] border-[var(--border-color)] transition-all shadow-md">
+            <h3 class="text-center font-bold text-xl mb-6 uppercase tracking-wider text-[var(--brand-color)]">Thông tin cá nhân</h3>
+            
+            <form id="infoForm" class="space-y-4">
+                <div>
+                    <label for="name" class="block font-bold text-sm mb-1">Họ và tên:</label>
+                    <input type="text" id="name" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" required placeholder="Nhập đầy đủ họ tên">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="cccd" class="block font-bold text-sm mb-1">Số CCCD:</label>
+                        <input type="tel" id="cccd" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" pattern="[0-9]*" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required placeholder="Nhập số CCCD">
+                    </div>
+                    <div>
+                        <label for="ngaycap" class="block font-bold text-sm mb-1">Ngày cấp:</label>
+                        <input type="text" id="ngaycap" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" placeholder="Ngày/Tháng/Năm">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="phone" class="block font-bold text-sm mb-1">Số điện thoại liên hệ (Chỉ nhập số):</label>
+                    <input type="tel" id="phone" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" pattern="[0-9]*" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required placeholder="Nhập số điện thoại">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="chucvu" class="block font-bold text-sm mb-1">Chức vụ:</label>
+                        <select id="chucvu" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" required>
+                            <option value="" class="text-center">--Chọn chức vụ--</option>
+                            <option value="Lãnh đạo Phòng">Lãnh đạo Phòng</option>
+                            <option value="Chỉ huy Đội">Chỉ huy Đội</option>
+                            <option value="Cán bộ">Cán bộ</option>
+                            <option value="CSNV">CSNV</option>            
+                            <option value="khác">Khác</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="donvi" class="block font-bold text-sm mb-1">Đơn vị:</label>
+                        <select id="donvi" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" required>
+                            <option value="" class="text-center">--Chọn đơn vị--</option>
+                            <option value="Đội Cảnh sát PCCC và CNCH trên sông, biển">Đội Cảnh sát PCCC và CNCH trên sông, biển</option>
+                            <option value="Đội Chữa cháy và CNCH KV1">Đội Chữa cháy và CNCH KV1</option>
+                            <option value="Đội Chữa cháy và CNCH KV2">Đội Chữa cháy và CNCH KV2</option>
+                            <option value="Đội Chữa cháy và CNCH KV3">Đội Chữa cháy và CNCH KV3</option>
+                            <option value="Đội Chữa cháy và CNCH KV4">Đội Chữa cháy và CNCH KV4</option>
+                            <option value="Đội Chữa cháy và CNCH KV5">Đội Chữa cháy và CNCH KV5</option>
+                            <option value="Đội Chữa cháy và CNCH KV6">Đội Chữa cháy và CNCH KV6</option>
+                            <option value="Đội Chữa cháy và CNCH KV7">Đội Chữa cháy và CNCH KV7</option>
+                            <option value="Đội Chữa cháy và CNCH KV8">Đội Chữa cháy và CNCH KV8</option>
+                            <option value="Đội Chữa cháy và CNCH KV9">Đội Chữa cháy và CNCH KV9</option>
+                            <option value="Đội Chữa cháy và CNCH KV10">Đội Chữa cháy và CNCH KV10</option>
+                            <option value="Đội Công tác Chữa cháy và CNCH">Đội Công tác Chữa cháy và CNCH</option>                
+                            <option value="khác">Khác</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- NỘI QUY PHÒNG THI CHỐNG GIAN LẬN -->
+                <div class="mt-6 border-t border-dashed border-red-300 dark:border-red-900 pt-4 text-xs text-red-600 dark:text-red-400">
+                    <h4 class="font-bold mb-2 text-sm uppercase tracking-wide">⚠️ Nội quy phòng thi chống gian lận:</h4>
+                    <ul class="list-disc list-inside space-y-1.5 opacity-90 leading-relaxed">
+                        <li>Nghiêm cấm thoát khỏi trình duyệt, mở tab khác hoặc ứng dụng khác trong khi thi.</li>
+                        <li>Nghiêm cấm sử dụng phím F12 hoặc tổ hợp phím kiểm tra mã nguồn (Inspect element).</li>
+                        <li>Nghiêm cấm xem mã nguồn trang thi (Ctrl + U) và in ấn trang thi (Ctrl + P).</li>
+                        <li>Nghiêm cấm sao chép, bôi đen copy nội dung bài làm dưới mọi hình thức.</li>
+                        <li>Mọi hành vi vi phạm sẽ được hệ thống tự động ghi nhận chính xác thời gian và loại lỗi để lưu trữ gửi về Google Sheets.</li>
+                    </ul>
+                </div>
+
+                <div class="text-center pt-4">
+                    <button type="button" id="start-btn" class="w-full md:w-auto px-8 py-3 btn-tactile cursor-pointer uppercase tracking-wider text-sm">Bắt đầu làm bài</button>
+                    <span class="block text-xs mt-3 opacity-70 italic font-medium btn-note">Bộ đề gồm 20 câu hỏi ngẫu nhiên. Đồng chí có 20 phút để hoàn thành bài thi.</span>
+                </div>
+            </form>
+        </div>
+
+        <!-- MÀN HÌNH LÀM BÀI TRẮC NGHIỆM (SLIDE MODE) -->
+        <div id="boDeRandom" class="hidden">
+            <h3 id="tieuDe_boDeRandom" class="text-center text-xl md:text-2xl font-black mb-6 uppercase tracking-wider text-[var(--brand-color)] border-b border-[var(--border-color)] pb-3">Đề thi Nghiệp vụ chữa cháy</h3>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+                
+                <!-- BÊN TRÁI: KHU VỰC CÂU HỎI SLIDE (Cột 3/4 trên PC) -->
+                <div class="lg:col-span-3 space-y-6">
+                    <!-- Khung câu hỏi đơn -->
+                    <div id="question-container" class="relative">
+                        <!-- Content câu hỏi sẽ được render động ở đây -->
+                    </div>
+
+                    <!-- Các nút điều hướng Slide -->
+                    <div class="flex justify-between items-center py-2 px-1">
+                        <button id="prev-btn" class="px-5 py-2.5 btn-nav cursor-pointer text-sm flex items-center space-x-1">
+                            <span>← Câu trước</span>
+                        </button>
+                        
+                        <div id="question-counter-display" class="font-bold text-sm opacity-80 bg-[var(--bg-card)] px-4 py-2 border border-[var(--border-color)] rounded">
+                            Câu 1 / 20
+                        </div>
+
+                        <button id="next-btn" class="px-5 py-2.5 btn-nav cursor-pointer text-sm flex items-center space-x-1">
+                            <span>Câu tiếp theo →</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- BÊN PHẢI: BẢNG ĐIỀU HƯỚNG CÂU HỎI (Cột 1/4 trên PC) -->
+                <div class="lg:col-span-1 space-y-6 sticky top-24">
+                    <div class="border rounded p-5 bg-[var(--bg-card)] border-[var(--border-color)] transition-all shadow-sm">
+                        <h4 class="font-bold text-center text-xs tracking-wider uppercase opacity-85 mb-4 border-b border-[var(--border-color)] pb-2">Danh sách câu hỏi</h4>
+                        
+                        <!-- Lưới 20 nút số câu hỏi -->
+                        <div id="navigation-grid" class="grid grid-cols-5 gap-2 justify-items-center mb-6">
+                            <!-- JS tự động tạo các ô số từ 1 đến 20 ở đây -->
+                        </div>
+
+                        <div class="border-t border-[var(--border-color)] pt-4">
+                            <button id="submit-btn" class="w-full py-3 btn-tactile cursor-pointer uppercase tracking-wider text-xs">Nộp bài thi</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- MÀN HÌNH XÁC NHẬN NỘP BÀI -->
+        <div id="confirmation-message" class="hidden border rounded-lg p-6 max-w-md mx-auto my-12 bg-[var(--bg-card)] border-red-500 shadow-xl text-center">
+            <div class="text-red-600 dark:text-red-500 mb-4">
+                <svg class="w-16 h-16 mx-auto animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+            </div>
+            <p id="confirmation-text" class="font-bold text-lg mb-6 leading-relaxed">Đồng chí đã hoàn thành: 0/20 câu. Đồng chí có chắc chắn muốn nộp bài?</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-3">
+                <button id="confirm-submit" class="px-6 py-2.5 btn-tactile cursor-pointer text-sm">Xác nhận nộp bài</button>
+                <button id="resume-btn" class="px-6 py-2.5 btn-nav cursor-pointer text-sm">Làm bài tiếp</button>
+            </div>
+        </div>
+
+        <!-- MÀN HÌNH KẾT QUẢ / CẢM ƠN -->
+        <div id="thank-you-message" class="hidden text-center max-w-lg mx-auto py-8">
+            <!-- Content kết quả điểm số Circular sẽ được render động ở đây -->
         </div>
     </div>
 
-    <div id="confirmation-message" style="display: none; border: 2px solid #333; padding: 20px; background: #fff; margin-top: 20px; border-radius: 8px;">
-        <p id="confirmation-text" style="font-weight: bold; color: #d32f2f; font-size: 1.1em;"></p>
-        <div style="margin-top: 15px;">
-            <button id="confirm-submit" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 m-2 text-white">Xác nhận nộp bài</button>
-            <button id="resume-btn" class="outline-2 outline-offset-2 outline-rose-500 bg-rose-500 p-2 m-6 text-white">Làm bài tiếp</button>
+    <!-- MÀN HÌNH KHÓA BẢO MẬT CHỐNG GIAN LẬN -->
+    <div id="secure-blackout">
+        <div class="bg-slate-900 border-2 border-red-600 p-8 rounded-lg max-w-md mx-4 shadow-2xl">
+            <h2 class="text-2xl font-black text-red-500 mb-4 uppercase tracking-wide">⚠️ Phát hiện vi phạm nội quy!</h2>
+            <!-- Dòng 1: Lần đầu tiên mới hiện dòng này, JS sẽ điều khiển ẩn/hiện -->
+            <p id="blackout-text-1" class="text-gray-300 mb-4 font-medium leading-relaxed">
+                Bạn đã thực hiện hành vi vi phạm, hành vi này sẽ được lưu lại.
+            </p>
+            <!-- Dòng 2: Luôn hiện số lần vi phạm -->
+            <p id="blackout-text-2" class="text-3xl font-black text-white mb-6 uppercase tracking-wider">
+                Số lần vi phạm <span id="violation-count-display" class="text-red-500 font-mono">0</span>
+            </p>
+            <div class="border-t border-slate-800 pt-5">
+                <button id="close-blackout-btn" class="bg-red-600 hover:bg-red-500 text-white font-bold py-2.5 px-8 rounded transition-all cursor-pointer shadow-md hover:scale-105 active:scale-95">
+                    Quay lại làm bài
+                </button>
+            </div>
         </div>
     </div>
 
-    <div id="thank-you-message" style="display: none; text-align: center; padding: 50px;">
-        <h2>Cảm ơn đồng chí đã hoàn thành bài thi!</h2>
-        <p>Kết quả sẽ được tập hợp và thông báo sau.</p>
-        <button id="close-btn">Về trang chủ</button>
-    </div>
-
+    <!-- Script điều khiển chính -->
     <script src="script.js"></script>
-    <!-- <script src="alert.js"></script> -->
 
 </body>
 </html>
