@@ -39,7 +39,7 @@
             <div class="flex items-center justify-center space-x-4 mb-2">
                 <img id="logoImg" src="logoPccc.png" alt="Logo PCCC" class="h-16 w-auto transition-transform hover:rotate-6">
                 <div class="text-left">
-                    <h2 class="text-sm font-black tracking-wide opacity-80 uppercase">Công an tỉnh Quảng Ninh</h2>
+                    <h2 class="text-sm font-black tracking-wide opacity-80 uppercase">Công an Thành phố Quảng Ninh</h2>
                     <h1 class="text-base font-extrabold tracking-tight text-[var(--brand-color)] uppercase">Phòng Cảnh sát PCCC và CNCH</h1>
                 </div>
             </div>
@@ -59,16 +59,6 @@
                     <input type="text" id="name" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" required placeholder="Nhập đầy đủ họ tên">
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                        <label for="cccd" class="block font-bold text-sm mb-1">Số CCCD:</label>
-                        <input type="tel" id="cccd" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" pattern="[0-9]*" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required placeholder="Nhập số CCCD">
-                    </div>
-                    <div>
-                        <label for="ngaycap" class="block font-bold text-sm mb-1">Ngày cấp:</label>
-                        <input type="text" id="ngaycap" class="w-full border rounded px-3 py-2 bg-[var(--bg-primary)] border-[var(--border-color)] focus:outline-none focus:border-[var(--brand-color)]" placeholder="Ngày/Tháng/Năm">
-                    </div>
-                </div>
 
                 <div>
                     <label for="phone" class="block font-bold text-sm mb-1">Số điện thoại liên hệ (Chỉ nhập số):</label>
@@ -108,17 +98,6 @@
                     </div>
                 </div>
 
-                <!-- NỘI QUY PHÒNG THI CHỐNG GIAN LẬN -->
-                <div class="mt-6 border-t border-dashed border-red-300 dark:border-red-900 pt-4 text-xs text-red-600 dark:text-red-400">
-                    <h4 class="font-bold mb-2 text-sm uppercase tracking-wide">⚠️ Nội quy phòng thi chống gian lận:</h4>
-                    <ul class="list-disc list-inside space-y-1.5 opacity-90 leading-relaxed">
-                        <li>Nghiêm cấm thoát khỏi trình duyệt, mở tab khác hoặc ứng dụng khác trong khi thi.</li>
-                        <li>Nghiêm cấm sử dụng phím F12 hoặc tổ hợp phím kiểm tra mã nguồn (Inspect element).</li>
-                        <li>Nghiêm cấm xem mã nguồn trang thi (Ctrl + U) và in ấn trang thi (Ctrl + P).</li>
-                        <li>Nghiêm cấm sao chép, bôi đen copy nội dung bài làm dưới mọi hình thức.</li>
-                        <li>Mọi hành vi vi phạm sẽ được hệ thống tự động ghi nhận chính xác thời gian và loại lỗi để lưu trữ gửi về Google Sheets.</li>
-                    </ul>
-                </div>
 
                 <div class="text-center pt-4">
                     <button type="button" id="start-btn" class="w-full md:w-auto px-8 py-3 btn-tactile cursor-pointer uppercase tracking-wider text-sm">Bắt đầu làm bài</button>
@@ -193,25 +172,6 @@
         </div>
     </div>
 
-    <!-- MÀN HÌNH KHÓA BẢO MẬT CHỐNG GIAN LẬN -->
-    <div id="secure-blackout">
-        <div class="bg-slate-900 border-2 border-red-600 p-8 rounded-lg max-w-md mx-4 shadow-2xl">
-            <h2 class="text-2xl font-black text-red-500 mb-4 uppercase tracking-wide">⚠️ Phát hiện vi phạm nội quy!</h2>
-            <!-- Dòng 1: Lần đầu tiên mới hiện dòng này, JS sẽ điều khiển ẩn/hiện -->
-            <p id="blackout-text-1" class="text-gray-300 mb-4 font-medium leading-relaxed">
-                Bạn đã thực hiện hành vi vi phạm, hành vi này sẽ được lưu lại.
-            </p>
-            <!-- Dòng 2: Luôn hiện số lần vi phạm -->
-            <p id="blackout-text-2" class="text-3xl font-black text-white mb-6 uppercase tracking-wider">
-                Số lần vi phạm <span id="violation-count-display" class="text-red-500 font-mono">0</span>
-            </p>
-            <div class="border-t border-slate-800 pt-5">
-                <button id="close-blackout-btn" class="bg-red-600 hover:bg-red-500 text-white font-bold py-2.5 px-8 rounded transition-all cursor-pointer shadow-md hover:scale-105 active:scale-95">
-                    Quay lại làm bài
-                </button>
-            </div>
-        </div>
-    </div>
 
     <!-- Script điều khiển chính -->
     <script src="script.js"></script>

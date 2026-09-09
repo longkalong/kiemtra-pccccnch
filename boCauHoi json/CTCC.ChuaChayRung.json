@@ -1,0 +1,552 @@
+[
+    {
+        "ID": "CCCR001",
+        "cauHoi": "Theo Luật Lâm nghiệp và tài liệu Bài 5, diện tích liên vùng của rừng được xác định tối thiểu từ bao nhiêu ha trở lên?",
+        "luaChon": [
+            "A. Từ 0,1 ha trở lên",
+            "B. Từ 0,3 ha trở lên",
+            "C. Từ 0,5 ha trở lên",
+            "D. Từ 1,0 ha trở lên"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR002",
+        "cauHoi": "Theo định nghĩa về rừng, độ tàn che của các loài cây thân gỗ, tre, nứa phải đạt từ bao nhiêu trở lên?",
+        "luaChon": [
+            "A. Từ 0,1 trở lên",
+            "B. Từ 0,2 trở lên",
+            "C. Từ 0,3 trở lên",
+            "D. Từ 0,5 trở lên"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR003",
+        "cauHoi": "Theo mục đích sử dụng, rừng ở Việt Nam được phân thành những loại nào?",
+        "luaChon": [
+            "A. Rừng nguyên sinh, rừng thứ sinh và rừng tái sinh",
+            "B. Rừng phòng hộ, rừng sản xuất và rừng đặc dụng",
+            "C. Rừng ngập mặn, rừng khộp và rừng ôn đới",
+            "D. Rừng tự nhiên và rừng trồng"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR004",
+        "cauHoi": "Trong cơ cấu phân loại rừng theo mục đích sử dụng tại Việt Nam, loại rừng nào chiếm tỷ lệ diện tích lớn nhất (khoảng 46,6%)?",
+        "luaChon": [
+            "A. Rừng sản xuất",
+            "B. Rừng đặc dụng",
+            "C. Rừng phòng hộ",
+            "D. Rừng ngập mặn"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR005",
+        "cauHoi": "Rừng được sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, hạn chế thiên tai, điều hòa khí hậu là loại rừng nào?",
+        "luaChon": [
+            "A. Rừng phòng hộ",
+            "B. Rừng đặc dụng",
+            "C. Rừng sản xuất",
+            "D. Rừng kinh tế"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR006",
+        "cauHoi": "Rừng được thành lập với mục đích chủ yếu để bảo tồn thiên nhiên, mẫu chuẩn hệ sinh thái, nguồn gen, nghiên cứu khoa học, di tích lịch sử là loại rừng nào?",
+        "luaChon": [
+            "A. Rừng phòng hộ",
+            "B. Rừng đặc dụng (chiếm khoảng 12,5%)",
+            "C. Rừng sản xuất (chiếm khoảng 40,9%)",
+            "D. Rừng đệm"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR007",
+        "cauHoi": "Nếu phân loại theo nguồn gốc hình thành, rừng gồm các loại nào?",
+        "luaChon": [
+            "A. Rừng tự nhiên và rừng trồng",
+            "B. Rừng lá kim và rừng lá rộng",
+            "C. Rừng đồng bằng và rừng núi cao",
+            "D. Rừng cây thân gỗ và rừng tre nứa"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR008",
+        "cauHoi": "Rừng nguyên sinh là loại rừng có đặc điểm gì?",
+        "luaChon": [
+            "A. Rừng do con người trồng mới hoàn toàn",
+            "B. Rừng chưa hoặc ít bị tác động bởi con người, thiên tai; cấu trúc còn tương đối ổn định",
+            "C. Rừng đã bị tác động làm cấu trúc rừng thay đổi hoàn toàn",
+            "D. Rừng tái sinh sau khi đã khai thác gỗ"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR009",
+        "cauHoi": "Rừng thứ sinh được hiểu là gì?",
+        "luaChon": [
+            "A. Rừng trồng lại trên đất nông nghiệp",
+            "B. Rừng chưa từng chịu bất kỳ tác động nào của thiên nhiên",
+            "C. Rừng đã bị tác động bởi con người hoặc thiên tai tới mức làm cấu trúc rừng bị thay đổi",
+            "D. Rừng ngập mặn ven biển"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR10",
+        "cauHoi": "Tính đến ngày 31/12/2024, hệ số che phủ rừng của Việt Nam đạt bao nhiêu phần trăm?",
+        "luaChon": [
+            "A. 38,5%",
+            "B. 40,2%",
+            "C. 42,03%",
+            "D. 45,6%"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR011",
+        "cauHoi": "Hiện nay, diện tích rừng tự nhiên chiếm khoảng bao nhiêu phần trăm tổng diện tích rừng của cả nước?",
+        "luaChon": [
+            "A. Khoảng 50%",
+            "B. Khoảng 60%",
+            "C. Khoảng 70%",
+            "D. Khoảng 85%"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR012",
+        "cauHoi": "Hệ sinh thái rừng ôn đới núi cao ở nước ta phân bố nhiều nhất ở khu vực nào?",
+        "luaChon": [
+            "A. Vùng núi Hoàng Liên Sơn",
+            "B. Cao nguyên Lâm Viên",
+            "C. Dãy núi Trường Sơn Bắc",
+            "D. Đỉnh Bạch Mã"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR013",
+        "cauHoi": "Theo số liệu thống kê về tài nguyên rừng, Việt Nam có khoảng bao nhiêu diện tích rừng thuộc diện dễ cháy?",
+        "luaChon": [
+            "A. Khoảng 2 triệu ha",
+            "B. Khoảng 4 triệu ha",
+            "C. Khoảng 6 triệu ha",
+            "D. Khoảng 10 triệu ha"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR014",
+        "cauHoi": "Những loại rừng nào sau đây được xếp vào nhóm rừng có nguy cơ dễ cháy cao ở Việt Nam?",
+        "luaChon": [
+            "A. Rừng thông, rừng tre nứa, rừng bạch đàn, rừng khộp, rừng tràm, rừng phi lao",
+            "B. Rừng ngập mặn ven biển",
+            "C. Rừng mưa nhiệt đới thường xanh ẩm ướt",
+            "D. Rừng rêu trên núi cao"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR015",
+        "cauHoi": "Mùa gió nào thổi khô, nóng làm tăng nguy cơ cháy rừng nghiêm trọng tại miền Trung và một số địa phương?",
+        "luaChon": [
+            "A. Gió mùa Đông Bắc",
+            "B. Gió Tây Nam khô, nóng (gió Lào)",
+            "C. Gió mùa Đông Nam ẩm",
+            "D. Gió chướng"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR016",
+        "cauHoi": "Vào mùa cao điểm khô hạn, cấp dự báo nguy cơ cháy rừng nào là cấp 'cực kỳ nguy hiểm'?",
+        "luaChon": [
+            "A. Cấp III",
+            "B. Cấp IV",
+            "C. Cấp V",
+            "D. Cấp VI"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR017",
+        "cauHoi": "Nhóm nguyên nhân chủ yếu gây ra phần lớn các vụ cháy rừng ở nước ta hiện nay là gì?",
+        "luaChon": [
+            "A. Do sét đánh trong mùa mưa bão",
+            "B. Do hiện tượng tự bốc cháy của thảm mục rừng già",
+            "C. Do các hoạt động bất cẩn của con người (đốt nương làm rẫy, dùng lửa đun nấu, săn bắt ong, đốt dọn thực bì...)",
+            "D. Do núi lửa hoạt động"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR018",
+        "cauHoi": "Về đặc điểm, các đám cháy rừng được phân thành mấy loại chính?",
+        "luaChon": [
+            "A. 2 loại chính",
+            "B. 3 loại chính (cháy trên bề mặt, cháy trên tán lá, cháy dưới mặt đất)",
+            "C. 4 loại chính",
+            "D. 5 loại chính"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR019",
+        "cauHoi": "Đám cháy trên bề mặt (cháy ở phía dưới tán cây) có đặc điểm cháy chủ yếu ở những vật liệu nào?",
+        "luaChon": [
+            "A. Cháy ở các tầng thảm mục nằm sâu từ 0,5 - 1 m",
+            "B. Cháy ở tán lá cây cao từ 10m trở lên",
+            "C. Cháy ở các cành cây khô, cây bụi, cỏ khô, lá cây khô nằm trên mặt đất",
+            "D. Cháy phần rễ ngầm của cây gỗ lớn"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR020",
+        "cauHoi": "Dưới tác động của gió, sự lan truyền cháy ở cuối chiều gió diễn ra như thế nào so với đầu chiều gió?",
+        "luaChon": [
+            "A. Chậm hơn 2 lần",
+            "B. Nhanh gấp từ 6 đến 10 lần",
+            "C. Tốc độ lan truyền ngang nhau",
+            "D. Chỉ nhanh gấp 1,5 lần"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR021",
+        "cauHoi": "Theo phân loại đám cháy trên bề mặt, dạng đám cháy 'Yếu' có vận tốc cháy lan và chiều cao ngọn lửa là bao nhiêu?",
+        "luaChon": [
+            "A. Vận tốc <= 1,0 m/phút; chiều cao ngọn lửa <= 0,5 m",
+            "B. Vận tốc 1,0 - 3,0 m/phút; chiều cao ngọn lửa 0,5 - 1,5 m",
+            "C. Vận tốc > 3,0 m/phút; chiều cao ngọn lửa > 1,5 m",
+            "D. Vận tốc > 5,0 m/phút; chiều cao ngọn lửa > 2,0 m"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR022",
+        "cauHoi": "Đám cháy trên bề mặt dạng 'Trung bình' có vận tốc cháy lan và chiều cao ngọn lửa nằm trong khoảng nào?",
+        "luaChon": [
+            "A. Vận tốc <= 1,0 m/phút; chiều cao ngọn lửa <= 0,5 m",
+            "B. Vận tốc 1,0 - 3,0 m/phút; chiều cao ngọn lửa 0,5 - 1,5 m",
+            "C. Vận tốc 3,0 - 5,0 m/phút; chiều cao ngọn lửa 1,5 - 2,5 m",
+            "D. Vận tốc > 5,0 m/phút; chiều cao ngọn lửa > 3,0 m"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR023",
+        "cauHoi": "Đám cháy trên bề mặt dạng 'Mạnh' có vận tốc cháy lan và chiều cao ngọn lửa đạt mức nào?",
+        "luaChon": [
+            "A. Vận tốc > 1,0 m/phút; chiều cao ngọn lửa > 0,5 m",
+            "B. Vận tốc > 2,0 m/phút; chiều cao ngọn lửa > 1,0 m",
+            "C. Vận tốc > 3,0 m/phút; chiều cao ngọn lửa > 1,5 m",
+            "D. Vận tốc > 10 m/phút; chiều cao ngọn lửa > 5,0 m"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR024",
+        "cauHoi": "Theo quy luật phát triển địa hình, hướng phát triển tự nhiên của đám cháy rừng thường như thế nào?",
+        "luaChon": [
+            "A. Cháy lan từ trên đỉnh núi xuống thung lũng",
+            "B. Cháy phát triển từ dưới lên trên, từ chỗ thấp lên chỗ cao do dòng nhiệt đối lưu và đốt nóng vật liệu phía trên",
+            "C. Luôn đứng yên một chỗ tại vùng thấp",
+            "D. Chỉ cháy lan ngang theo đường chân núi"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR025",
+        "cauHoi": "Khái niệm 'cháy song hành' trong cháy rừng được hiểu là gì?",
+        "luaChon": [
+            "A. Hai đám cháy xảy ra ở hai khu rừng cách xa nhau",
+            "B. Đám cháy trên tán lá xảy ra đồng thời cùng với đám cháy trên bề mặt đất",
+            "C. Đám cháy ngầm dưới đất kết hợp với cháy rễ cây",
+            "D. Cháy do người đốt kết hợp với sét đánh"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR026",
+        "cauHoi": "Cháy song hành thường dễ xảy ra nhất ở loại rừng nào?",
+        "luaChon": [
+            "A. Rừng hỗn giao tre nứa ngập nước",
+            "B. Rừng thuần trồng cây có dầu hoặc nhựa dễ cháy (thông, bạch đàn, cao su, tràm...) hoặc rừng có độ dốc lớn từ 15° - 30°",
+            "C. Rừng ngập mặn đước, vẹt",
+            "D. Trảng cỏ xanh tươi mới mọc"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR027",
+        "cauHoi": "Theo Bảng phân loại vận tốc cháy lan trên tán lá, dạng đám cháy 'Mạnh' có tốc độ cháy lan là bao nhiêu?",
+        "luaChon": [
+            "A. Dưới 3,0 m/phút",
+            "B. Từ 3,0 đến 100 m/phút",
+            "C. Trên 100 m/phút",
+            "D. Trên 500 m/phút"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR028",
+        "cauHoi": "Trong điều kiện có gió lớn, mặt lửa của đám cháy trên tán lá có thể phát triển với vận tốc tối đa lên tới bao nhiêu?",
+        "luaChon": [
+            "A. Lên đến 50 m/phút",
+            "B. Lên đến 150 m/phút",
+            "C. Lên đến 400 m/phút",
+            "D. Lên đến 1000 m/phút"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR029",
+        "cauHoi": "Tại sao đám cháy trên tán lá thường có đặc điểm phát triển ngắt quãng, không liên tục?",
+        "luaChon": [
+            "A. Do cây rừng tự tiết chất chống cháy",
+            "B. Do gió lớn bốc tàn lửa, mảng lửa lớn bay xa gây nên các đám cháy mới cách xa nơi đang cháy ở cuối hướng gió",
+            "C. Do thiếu oxy trên tầng cao",
+            "D. Do tán lá cây rừng quá ẩm ướt"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR030",
+        "cauHoi": "Đám cháy dưới mặt đất (cháy ngầm) là ngọn lửa cháy ở vị trí nào trong rừng?",
+        "luaChon": [
+            "A. Cháy ở các tầng thảm mục tích tụ cành khô, lá mục, rễ cây chết nằm sâu từ 0,5 - 1 m, thậm chí vài mét",
+            "B. Cháy ở gốc cây sát mặt đất",
+            "C. Cháy cỏ khô trên mặt đất",
+            "D. Cháy trong các hang đá ẩm thấp"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR031",
+        "cauHoi": "Đặc trưng nhận biết của đám cháy ngầm dưới mặt đất là gì?",
+        "luaChon": [
+            "A. Ngọn lửa bốc cao hàng chục mét và phát ra tiếng nổ lớn",
+            "B. Cháy chậm, âm ỉ không thành ngọn lửa hoặc cháy nhỏ rồi tắt khi có gió, ít khói và rất khó nhận biết",
+            "C. Vận tốc cháy lan cực kỳ nhanh theo tán cây",
+            "D. Thải ra lượng khói đen khổng lồ che phủ bầu trời"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR032",
+        "cauHoi": "Vận tốc cháy lan của đám cháy ngầm dưới đất thường đạt ở mức độ nào?",
+        "luaChon": [
+            "A. Đạt hàng trăm mét mỗi giờ",
+            "B. Chỉ đạt vài mét trong một ngày đêm",
+            "C. Nhanh hơn đám cháy trên bề mặt",
+            "D. Luôn cố định không bao giờ lan rộng"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR033",
+        "cauHoi": "Công tác chữa cháy rừng phải tuân thủ nghiêm ngặt phương châm nào?",
+        "luaChon": [
+            "A. Phương châm 'Ba sẵn sàng'",
+            "B. Phương châm 'Bốn tại chỗ' (Chỉ huy tại chỗ, lực lượng tại chỗ, phương tiện tại chỗ, hậu cần tại chỗ)",
+            "C. Phương châm 'Nhanh chóng - Táo bạo - Bất ngờ'",
+            "D. Phương châm 'Chữa cháy từ xa'"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR034",
+        "cauHoi": "Theo quy định tại Điều 103 Luật Lâm nghiệp năm 2017, lực lượng nào là tổ chức chuyên ngành về PCCC rừng?",
+        "luaChon": [
+            "A. Lực lượng Cảnh sát Giao thông đường thủy",
+            "B. Kiểm lâm",
+            "C. Dân quân tự vệ địa phương",
+            "D. Lực lượng bảo vệ dân phố"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR035",
+        "cauHoi": "Theo Điều 49 Nghị định số 156/2018/NĐ-CP, chủ rừng là tổ chức có trách nhiệm gì?",
+        "luaChon": [
+            "A. Thành lập, quản lý hoạt động của đội phòng cháy và chữa cháy rừng; bảo đảm kinh phí, trang bị phương tiện",
+            "B. Trực tiếp điều động lực lượng quân đội trên toàn quốc",
+            "C. Ban hành văn bản quy phạm pháp luật về PCCC",
+            "D. Thu hồi toàn bộ diện tích rừng khi có nguy cơ cháy"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR036",
+        "cauHoi": "Khi phát hiện cháy rừng, người phát hiện phải bằng mọi cách báo cháy ngay cho ai theo Điều 51 Nghị định 156/2018/NĐ-CP?",
+        "luaChon": [
+            "A. Chủ rừng, đội PCCC rừng gần nhất, cơ quan Kiểm lâm, Cảnh sát PCCC&CNCH, hoặc chính quyền địa phương, Công an, Quân đội nơi gần nhất",
+            "B. Báo cho cơ quan khí tượng thủy văn",
+            "C. Chờ hết cháy mới báo cho cơ quan lâm nghiệp",
+            "D. Báo cho báo chí địa phương"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR037",
+        "cauHoi": "Phương pháp dập tắt đám cháy rừng thường được chia thành mấy loại cơ bản?",
+        "luaChon": [
+            "A. 1 loại duy nhất",
+            "B. 2 loại: Phương pháp chữa cháy trực tiếp và phương pháp chữa cháy gián tiếp",
+            "C. 3 loại: Trên không, trên mặt đất và dưới nước",
+            "D. 4 loại tương ứng với 4 cấp độ nguy hiểm"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR038",
+        "cauHoi": "Phương pháp chữa cháy trực tiếp được áp dụng hiệu quả trong điều kiện nào?",
+        "luaChon": [
+            "A. Đám cháy có cường độ cháy thấp, không mãnh liệt, dễ tiếp cận",
+            "B. Đám cháy có diện tích rộng lớn trên 100 ha",
+            "C. Đám cháy đang lan trên tán lá với tốc độ 400 m/phút",
+            "D. Khi đang có bão lớn và lốc xoáy"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR039",
+        "cauHoi": "Khi cường độ và tốc độ cháy lan nhanh (khoảng 0,4 km/giờ), việc áp dụng phương pháp chữa cháy trực tiếp nên thực hiện vào thời điểm nào?",
+        "luaChon": [
+            "A. Vào lúc giữa trưa khi trời nắng gắt nhất",
+            "B. Vào lúc chiều tối, khi đó nhiệt độ hạ thấp và tốc độ gió giảm xuống",
+            "C. Vào sáng sớm khi có sương mù dày",
+            "D. Không bao giờ được chữa cháy lúc chiều tối"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR040",
+        "cauHoi": "Khi bố trí đội hình chữa cháy trực tiếp, lực lượng chữa cháy cần tập trung vào vị trí nào để chặn đứng đám cháy?",
+        "luaChon": [
+            "A. Hướng gió lây lan (đầu hướng gió lan truyền ngọn lửa)",
+            "B. Phía sau lưng đám cháy nơi lửa đã tắt",
+            "C. Ở giữa tâm đám cháy đang cháy ngùn ngụt",
+            "D. Nơi có nhiều cây to nhất"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR041",
+        "cauHoi": "Phương pháp chữa cháy gián tiếp được áp dụng trong trường hợp nào sau đây?",
+        "luaChon": [
+            "A. Đám cháy nhỏ dưới 100 m²",
+            "B. Đám cháy lớn, cường độ cháy cao, tốc độ cháy lan nhanh, diện tích cháy > 1 ha và diện tích rừng còn lại cần bảo vệ rất lớn",
+            "C. Đám cháy cỏ khô rải rác gần ven đường",
+            "D. Khi rừng đang có mưa phùn"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR042",
+        "cauHoi": "Bề rộng thông thường của băng khống chế lửa (băng cản lửa) làm thủ công phía trước đám cháy là bao nhiêu?",
+        "luaChon": [
+            "A. Từ 2 - 5 m",
+            "B. Từ 15 - 20 m, thậm chí đến 30 m (ít nhất bằng 1,5 lần chiều cao ngọn lửa)",
+            "C. Cố định 50 m trong mọi trường hợp",
+            "D. Dưới 1 m"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR043",
+        "cauHoi": "Khi thi công băng khống chế lửa bằng phương tiện cơ giới (máy ủi, máy cày), địa hình áp dụng phù hợp nhất là gì?",
+        "luaChon": [
+            "A. Địa hình tương đối bằng phẳng hoặc có độ dốc dưới 10°",
+            "B. Vách đá cheo leo dốc trên 45°",
+            "C. Đầm lầy ngập nước sâu",
+            "D. Khe suối hiểm trở"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR044",
+        "cauHoi": "Khi thi công băng cản lửa bằng cơ giới ở địa hình dốc dưới 10°, chiều rộng tối thiểu của băng ít nhất phải đạt bao nhiêu?",
+        "luaChon": [
+            "A. Ít nhất 2 m",
+            "B. Ít nhất 5 m",
+            "C. Ít nhất 10 m",
+            "D. Ít nhất 30 m"
+        ],
+        "dapan": 3
+    },
+    {
+        "ID": "CCCR045",
+        "cauHoi": "Để ngăn chặn đám cháy ngầm dưới đất lan rộng, kích thước rãnh đào ngăn cháy ngầm cần đạt tiêu chuẩn nào?",
+        "luaChon": [
+            "A. Đào sâu ngang mặt đất, rộng 1m",
+            "B. Đào sâu hơn lớp than bùn từ 20 - 50 cm, rộng từ 6 - 10 m",
+            "C. Đào sâu 5 mét, rộng 20 mét",
+            "D. Đào nông 10 cm, rộng 2 mét"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR046",
+        "cauHoi": "Biện pháp 'đốt chặn' (đốt trước tạo khoảng cách ngăn lửa) được hiểu và thực hiện như thế nào?",
+        "luaChon": [
+            "A. Đốt xung quanh toàn bộ khu rừng",
+            "B. Dọn sạch vật liệu cháy theo tuyến phía trước và chủ động dùng lửa đốt một tuyến lửa hẹp có kiểm soát để lửa cháy ngược về phía đám cháy chính",
+            "C. Đốt từ trên ngọn cây đốt xuống",
+            "D. Đổ xăng đốt ngẫu nhiên tại thung lũng"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR047",
+        "cauHoi": "Bề rộng của tuyến lửa đốt chặn có kiểm soát chạy dọc phía trước đám cháy thông thường từ bao nhiêu?",
+        "luaChon": [
+            "A. Rộng từ 5 - 10 m",
+            "B. Rộng từ 25 - 40 m",
+            "C. Rộng từ 70 - 100 m",
+            "D. Rộng trên 200 m"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR048",
+        "cauHoi": "Công thức xác định khoảng cách L từ vị trí làm đai cản lửa đến đầu đám cháy là L = Vl . t, trong đó Vl và t là gì?",
+        "luaChon": [
+            "A. Vl là thể tích đám cháy, t là nhiệt độ đám cháy",
+            "B. Vl là vận tốc cháy lan của đám cháy (m/h), t là thời gian cần thiết để làm tuyến cản lửa (h)",
+            "C. Vl là chiều rộng ngọn lửa, t là sức gió",
+            "D. Vl là lượng nước chữa cháy, t là số người tham gia"
+        ],
+        "dapan": 2
+    },
+    {
+        "ID": "CCCR049",
+        "cauHoi": "Trong các phương tiện cơ giới chữa cháy rừng, loại xe kéo bánh bơm của Liên Bang Nga được đề cập trong bài học gồm những loại nào?",
+        "luaChon": [
+            "A. LKT-80, MTZ-52",
+            "B. TDT-40, TDT-55",
+            "C. C-100, C-80",
+            "D. ĐT-75, ĐT-54"
+        ],
+        "dapan": 1
+    },
+    {
+        "ID": "CCCR050",
+        "cauHoi": "Do công tác chữa cháy rừng thường diễn ra gay gắt và kéo dài nhiều giờ, chỉ huy chữa cháy cần có giải pháp gì để đảm bảo sức khỏe cho CBCS?",
+        "luaChon": [
+            "A. Yêu cầu toàn bộ lực lượng chiến đấu liên tục không nghỉ",
+            "B. Lập kế hoạch thay phiên, thay ca lực lượng chữa cháy và bảo đảm công tác hậu cần (nước uống, thực phẩm, bông băng, thuốc bỏng...)",
+            "C. Rút toàn bộ lực lượng về đơn vị chờ đám cháy tự tắt",
+            "D. Chỉ sử dụng lực lượng quần chúng tại chỗ thay thế hoàn toàn"
+        ],
+        "dapan": 2
+    }
+]

@@ -27,8 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
         soLuongCauHoi: 20,
         danhSachFileJson: [
             '/boCauHoi json/thongTu372025.json',
+            '/boCauHoi json/CTCC.ChuaChayRung.json',
+            '/boCauHoi json/KTCN.III.SCC.json'
             // '/boCauHoi json/CTCC.B7.NhaCaoTang.json',
-            '/boCauHoi json/CTCC.CNCHDuoiNuoc.json'
+            // '/boCauHoi json/CTCC.CNCHDuoiNuoc.json'
         ],
         scriptURL: 'https://script.google.com/macros/s/AKfycbyIjWx_nRjepq4BY_NxPWCHqTI2vaYzEVU1J5w9CF5Kqajth6EcunghuNqXdZ6V61fA/exec',
         cauKhichLe: [
@@ -54,10 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let isExamStarted = false;
     let isSubmitted = false;
 
-    // Chống gian lận
-    let violationCount = 0;
-    let violationsLog = [];
-    let lastViolationTime = 0;
 
     // ==========================================
     // CHẾ ĐỘ SÁNG / TỐI (THEME MODE)
@@ -318,9 +316,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const phone = document.getElementById('phone').value.trim();
         const chucvu = document.getElementById('chucvu').value;
         const donvi = document.getElementById('donvi').value;
-        const cccd = document.getElementById('cccd').value.trim();
 
-        if (!name || !phone || !donvi || !chucvu || !cccd) { 
+        if (!name || !phone || !donvi || !chucvu) { 
             alert("Vui lòng nhập đầy đủ thông tin cá nhân trước khi làm bài!"); 
             return; 
         }
@@ -328,8 +325,6 @@ document.addEventListener('DOMContentLoaded', function() {
         startTime = new Date().toLocaleString('vi-VN');
         isExamStarted = true;
         isSubmitted = false;
-        violationCount = 0;
-        violationsLog = [];
         
         nhapThongtinDiv.style.display = 'none';
         boDeRandomDiv.style.display = 'block';
@@ -363,116 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1000);
     }
 
-    // ==========================================
-    // CHỐNG GIAN LẬN (ANTIPROCESS LOGIC)
-    // ==========================================
-    const blackoutDiv = document.getElementById('secure-blackout');
-    const blackoutText1 = document.getElementById('blackout-text-1');
-    const violationCountDisplay = document.getElementById('violation-count-display');
-    const closeBlackoutBtn = document.getElementById('close-blackout-btn');
 
-    function triggerViolation(actionName) {
-        if (!isExamStarted || isSubmitted) return;
-        
-        // Chống lặp sự kiện trong khoảng thời gian ngắn (1.5 giây)
-        const now = Date.now();
-        if (now - lastViolationTime < 1500) return;
-        lastViolationTime = now;
-        
-        violationCount++;
-        const timeStr = new Date().toLocaleTimeString('vi-VN');
-        violationsLog.push(`${violationsLog.length + 1}. ${actionName} (${timeStr})`);
-        
-        // Cập nhật số lần hiển thị
-        violationCountDisplay.textContent = violationCount;
-        
-        // Điều khiển hiển thị cảnh báo theo yêu cầu:
-        // Lần 1: Hiện đầy đủ 2 dòng thông báo
-        // Lần >=2 trở đi: Chỉ hiển thị dòng "Số lần vi phạm" (ẩn dòng giải thích 1)
-        if (violationCount === 1) {
-            blackoutText1.style.display = 'block';
-        } else {
-            blackoutText1.style.display = 'none';
-        }
-        
-        // Hiển thị màn hình đen khóa bảo mật
-        blackoutDiv.style.display = 'flex';
-    }
-
-    closeBlackoutBtn.addEventListener('click', function() {
-        blackoutDiv.style.display = 'none';
-    });
-
-    // Phát hiện đổi tab / chuyển màn hình
-    document.addEventListener('visibilitychange', function() {
-        if (document.hidden) {
-            triggerViolation("Rời khỏi màn hình làm bài");
-        }
-    });
-
-    // Phát hiện mất tiêu điểm (Window blur - Alt+Tab, Screenshot tools, click ngoài trình duyệt)
-    window.addEventListener('blur', function() {
-        if (!document.hidden) {
-            triggerViolation("Mất tiêu điểm màn hình thi");
-        }
-    });
-
-    // Chặn chuột phải
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-        triggerViolation("Nhấp chuột phải");
-    });
-
-    // Chặn sao chép (selectstart)
-    document.addEventListener('selectstart', function(e) {
-        if (isExamStarted && !isSubmitted) {
-            e.preventDefault();
-        }
-    });
-
-    // Chặn các phím tắt
-    document.addEventListener('keydown', function(e) {
-        if (!isExamStarted || isSubmitted) return;
-
-        // 1. Chặn F12
-        if (e.key === "F12") {
-            e.preventDefault();
-            triggerViolation("Mở Inspect F12");
-        }
-
-        // 2. Chặn Ctrl + Shift + I hoặc Cmd + Shift + I (Mở Inspect)
-        if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === "i") {
-            e.preventDefault();
-            triggerViolation("Mở công cụ kiểm tra");
-        }
-
-        // 3. Chặn Ctrl + U hoặc Cmd + U (Xem nguồn trang)
-        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "u") {
-            e.preventDefault();
-            triggerViolation("Xem nguồn trang");
-        }
-
-        // 4. Chặn Ctrl + P hoặc Cmd + P (In ấn)
-        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "p") {
-            e.preventDefault();
-            triggerViolation("In ấn trang thi");
-        }
-
-        // 5. Chặn Ctrl + C hoặc Cmd + C (Sao chép)
-        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "c") {
-            e.preventDefault();
-            triggerViolation("Sao chép câu hỏi");
-        }
-
-        // 6. Phát hiện các tổ hợp chụp màn hình (PrintScreen, Shift + Win/Cmd + S)
-        if (e.key === "PrintScreen" || (e.shiftKey && (e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "s")) {
-            triggerViolation("Chụp ảnh màn hình");
-        }
-        if (e.shiftKey && e.key.toLowerCase() === "s") {
-            e.preventDefault();
-            triggerViolation("Chụp ảnh màn hình");
-        }
-    });
 
     // ==========================================
     // NỘP BÀI THI & XỬ LÝ KẾT QUẢ
@@ -522,8 +408,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Đóng gói dữ liệu gửi về Google Sheets
         const data = {
             name: document.getElementById('name').value,
-            cccd: "'" + document.getElementById('cccd').value,
-            ngaycap: "'" + document.getElementById('ngaycap').value,
+            cccd: "",
+            ngaycap: "",
             phone: "'" + document.getElementById('phone').value,
             chucvu: document.getElementById('chucvu').value,
             donvi: document.getElementById('donvi').value,
@@ -533,9 +419,8 @@ document.addEventListener('DOMContentLoaded', function() {
             score: `${correctCount}/${total}`,
             grade: grade,
             details_array: JSON.stringify(detailsArray),
-            // Gửi thêm 2 cột chống gian lận
-            hanh_vi_vi_pham: violationsLog.join(" | ") || "Không phát hiện vi phạm",
-            so_lan_vi_pham: violationCount
+            hanh_vi_vi_pham: "",
+            so_lan_vi_pham: 0
         };
 
         try {
@@ -597,10 +482,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                     <div class="space-y-2 text-sm">
                         <p class="font-medium"><strong class="opacity-80">Thí sinh:</strong> ${data.name}</p>
-                        <p class="font-medium"><strong class="opacity-80">Số CCCD:</strong> ${document.getElementById('cccd').value}</p>
                         <p class="font-medium"><strong class="opacity-80">Chức vụ:</strong> ${data.chucvu}</p>
                         <p class="font-medium"><strong class="opacity-80">Đơn vị:</strong> ${data.donvi}</p>
-                        <p class="font-medium"><strong class="opacity-80">Số lần vi phạm quy chế:</strong> <span class="font-bold px-2 py-0.5 rounded text-xs ${violationCount > 0 ? 'bg-red-100 text-red-700 dark:bg-red-950/20 dark:text-red-400' : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950/20 dark:text-emerald-400'}">${violationCount} lần</span></p>
                     </div>
                     
                     <!-- Biểu đồ điểm tròn -->
